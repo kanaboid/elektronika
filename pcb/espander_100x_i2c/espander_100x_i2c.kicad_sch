@@ -5,6 +5,169 @@
 	(uuid "824ceec5-564f-405b-8bea-e5a9f7aa2926")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_Expansion:MCP23017_ML"
 			(pin_names
 				(offset 1.016)
@@ -843,6 +1006,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 35.56 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ee1d353-df18-484b-b62b-e7a07885a34a")
+	)
+	(junction
+		(at 38.1 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9610d85-abca-4769-9608-e7f4738bcae6")
+	)
 	(wire
 		(pts
 			(xy 88.9 30.48) (xy 92.71 30.48)
@@ -855,6 +1030,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 33.02) (xy 41.91 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075a8a02-c5b2-4a49-86af-c6993999f797")
+	)
+	(wire
+		(pts
 			(xy 86.36 20.32) (xy 35.56 20.32)
 		)
 		(stroke
@@ -862,6 +1047,26 @@
 			(type default)
 		)
 		(uuid "165b475a-baca-4be5-86c3-489c2cd9d26c")
+	)
+	(wire
+		(pts
+			(xy 19.05 25.4) (xy 29.21 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246cd424-76e3-4fb3-b2cd-4d3c2369011a")
+	)
+	(wire
+		(pts
+			(xy 30.48 30.48) (xy 38.1 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a6452ce-f81b-492f-86a8-f684564ba397")
 	)
 	(wire
 		(pts
@@ -885,6 +1090,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 22.86) (xy 59.69 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "462263c6-ef4a-47a7-9f4b-91301f863ed8")
+	)
+	(wire
+		(pts
 			(xy 55.88 16.51) (xy 110.49 16.51)
 		)
 		(stroke
@@ -892,6 +1107,36 @@
 			(type default)
 		)
 		(uuid "4889a4eb-81a5-4d3d-a8a2-157f78be84e8")
+	)
+	(wire
+		(pts
+			(xy 19.05 22.86) (xy 30.48 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b42a2ef-2fbe-4631-beae-16699158039e")
+	)
+	(wire
+		(pts
+			(xy 59.69 22.86) (xy 59.69 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5096ae42-6969-4359-8533-28e2ffcb3ede")
+	)
+	(wire
+		(pts
+			(xy 29.21 25.4) (xy 29.21 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d5f22b2-d24a-49f7-8489-51a1396f0628")
 	)
 	(wire
 		(pts
@@ -915,7 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 33.02) (xy 38.1 33.02)
+			(xy 35.56 33.02) (xy 41.91 33.02)
 		)
 		(stroke
 			(width 0)
@@ -935,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 33.02) (xy 86.36 33.02)
+			(xy 86.36 33.02) (xy 92.71 33.02)
 		)
 		(stroke
 			(width 0)
@@ -953,6 +1198,26 @@
 		)
 		(uuid "b64f4e35-4125-4714-b705-8760ecf3b4c3")
 	)
+	(bus
+		(pts
+			(xy 30.48 88.9) (xy 62.23 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0c033fe-d749-4e1c-a5c3-2dadf1b477ca")
+	)
+	(wire
+		(pts
+			(xy 29.21 33.02) (xy 35.56 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da64f6bb-a0d7-4375-9e81-5841e2ba0311")
+	)
 	(wire
 		(pts
 			(xy 38.1 19.05) (xy 88.9 19.05)
@@ -962,6 +1227,46 @@
 			(type default)
 		)
 		(uuid "eeff9cef-ffa1-4a4a-a0eb-025583e9958f")
+	)
+	(wire
+		(pts
+			(xy 30.48 22.86) (xy 30.48 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d324b3-f4b3-43a8-b3a8-2b6472d7b1da")
+	)
+	(wire
+		(pts
+			(xy 40.64 31.75) (xy 41.91 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3cb759e-2b43-4e3f-be40-fe5f4ea8b137")
+	)
+	(wire
+		(pts
+			(xy 40.64 30.48) (xy 40.64 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f418a6f6-ffaf-4b25-8926-2f9c58572080")
+	)
+	(wire
+		(pts
+			(xy 38.1 30.48) (xy 40.64 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f46a9cad-c732-43c4-a767-1f0a06a76f4d")
 	)
 	(symbol
 		(lib_id "power:+5VD")
@@ -1315,6 +1620,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 13.97 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70d426ab-da10-420f-a6de-c67725aa2928")
+		(property "Reference" "J1"
+			(at 15.24 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 15.24 22.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
+			(at 13.97 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 13.97 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 13.97 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a656238f-0052-4b2f-b907-3e42fce3ce8b")
+		)
+		(pin "1"
+			(uuid "6ed8fcb5-869e-4922-ab22-12c86c469d5a")
+		)
+		(instances
+			(project ""
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 93.98 111.76 0)
 		(unit 1)
@@ -1382,7 +1757,7 @@
 	)
 	(symbol
 		(lib_id "Interface_Expansion:MCP23017_ML")
-		(at 55.88 50.8 0)
+		(at 59.69 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1391,7 +1766,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca557225-6d0d-4a5d-b004-e3091fcd7a02")
 		(property "Reference" "U1"
-			(at 58.0233 22.86 0)
+			(at 61.8333 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1400,7 +1775,7 @@
 			)
 		)
 		(property "Value" "MCP23017_ML"
-			(at 58.0233 25.4 0)
+			(at 61.8333 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1784,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
-			(at 60.96 76.2 0)
+			(at 64.77 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1794,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
-			(at 60.96 78.74 0)
+			(at 64.77 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1804,7 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA/B7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017), QFN-28"
-			(at 55.88 50.8 0)
+			(at 59.69 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
