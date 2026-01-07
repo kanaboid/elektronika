@@ -3,33 +3,51 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "824ceec5-564f-405b-8bea-e5a9f7aa2926")
-	(paper "A4")
+	(paper "A0")
 	(lib_symbols
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "1_tme:DG127A-5.08-06P-14-00AH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "DG127A-5.08-06P-14-00AH"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "DG127A50806P1400AH"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -38,101 +56,126 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Height" "19.41"
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
+			(property "TME Electronic Components Part Number" ""
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "TME Electronic Components Price/Stock" ""
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Degson"
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_Pin_1_1"
+			(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DG127A-5.08-06P-14-00AH_1_1"
 				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
+					(start 5.08 2.54)
+					(end 15.24 -7.62)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -148,16 +191,34 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -168,7 +229,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_Expansion:MCP23017_ML"
+		(symbol "Interface_Expansion:MCP23017_SP"
 			(pin_names
 				(offset 1.016)
 			)
@@ -183,7 +244,7 @@
 					)
 				)
 			)
-			(property "Value" "MCP23017_ML"
+			(property "Value" "MCP23017_SP"
 				(at 0 0 0)
 				(effects
 					(font
@@ -191,7 +252,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
+			(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
 				(at 5.08 -25.4 0)
 				(effects
 					(font
@@ -211,7 +272,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA/B7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017), QFN-28"
+			(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
 				(at 0 0 0)
 				(effects
 					(font
@@ -229,7 +290,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "QFN*6x6mm*P0.65mm*"
+			(property "ki_fp_filters" "DIP*W7.62mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -238,7 +299,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MCP23017_ML_0_1"
+			(symbol "MCP23017_SP_0_1"
 				(rectangle
 					(start -12.7 22.86)
 					(end 12.7 -22.86)
@@ -251,7 +312,7 @@
 					)
 				)
 			)
-			(symbol "MCP23017_ML_1_1"
+			(symbol "MCP23017_SP_1_1"
 				(pin bidirectional line
 					(at -17.78 20.32 0)
 					(length 5.08)
@@ -262,7 +323,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -280,7 +341,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -298,7 +359,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -316,7 +377,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "20"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -334,7 +395,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -352,7 +413,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -370,7 +431,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -388,7 +449,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -407,7 +468,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -426,25 +487,7 @@
 							)
 						)
 					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -27.94 90)
-					(length 5.08)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -462,7 +505,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -480,7 +523,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -498,7 +541,7 @@
 							)
 						)
 					)
-					(number "25"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -516,7 +559,7 @@
 							)
 						)
 					)
-					(number "26"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -534,7 +577,7 @@
 							)
 						)
 					)
-					(number "27"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -552,7 +595,7 @@
 							)
 						)
 					)
-					(number "28"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -570,7 +613,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -588,7 +631,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -606,7 +649,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -624,7 +667,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -642,7 +685,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -660,7 +703,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -678,7 +721,7 @@
 							)
 						)
 					)
-					(number "19"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -696,7 +739,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -714,7 +757,7 @@
 							)
 						)
 					)
-					(number "21"
+					(number "25"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -732,7 +775,7 @@
 							)
 						)
 					)
-					(number "22"
+					(number "26"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -750,7 +793,7 @@
 							)
 						)
 					)
-					(number "23"
+					(number "27"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -768,7 +811,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1007,270 +1050,2401 @@
 		)
 	)
 	(junction
-		(at 35.56 33.02)
+		(at 139.7 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5ee1d353-df18-484b-b62b-e7a07885a34a")
+		(uuid "22a5b713-5fd2-4806-a192-35dbf00a21a1")
 	)
 	(junction
-		(at 38.1 30.48)
+		(at 200.66 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e9610d85-abca-4769-9608-e7f4738bcae6")
+		(uuid "2e2c02e5-b930-4c78-a579-ad1c0624925b")
+	)
+	(junction
+		(at 290.83 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35a2a5e9-ea83-4f94-888a-e89e002bb274")
+	)
+	(junction
+		(at 229.87 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "507d7371-58ed-4985-93b3-a824c38c4823")
+	)
+	(junction
+		(at 336.55 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51a7ef47-6c86-4137-9eec-495e97d8ac70")
+	)
+	(junction
+		(at 137.16 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d7c1795-313d-48ce-a011-84f26c7ad234")
+	)
+	(junction
+		(at 180.34 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "64aaf328-aa1b-48d6-9a93-4ad26d00d4b2")
+	)
+	(junction
+		(at 182.88 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "768ec8ae-234c-4c1a-b7ba-752bb323fe76")
+	)
+	(junction
+		(at 157.48 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78b1d34e-78bb-4842-8078-a6819045d25f")
+	)
+	(junction
+		(at 290.83 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a9116e8-ea4d-468c-85be-bdfcd6e881e3")
+	)
+	(junction
+		(at 316.23 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "933abade-10a6-482c-a645-e3ff98438b75")
+	)
+	(junction
+		(at 157.48 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94f3632c-7ad0-4125-ac12-fb80d249995f")
+	)
+	(junction
+		(at 247.65 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9d43dae-796b-4d58-9449-468ef1baadb6")
+	)
+	(junction
+		(at 247.65 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b85f1c65-7c4e-4a20-803c-e10d58b29451")
+	)
+	(junction
+		(at 227.33 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c679b688-2dd3-43c1-9d7e-2724badf6533")
+	)
+	(junction
+		(at 336.55 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c96362fc-a914-43e9-b2af-6d3046fe671d")
+	)
+	(junction
+		(at 200.66 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2efe43f-5394-48a3-b69f-a72b149723f3")
+	)
+	(junction
+		(at 273.05 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7458ac5-11ef-4277-bdea-dd1419d8fc4a")
+	)
+	(junction
+		(at 318.77 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea100f6f-5fe2-4609-9a3d-4521cb605a7c")
+	)
+	(junction
+		(at 270.51 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc3552ba-6144-434c-a8c9-b9b962a8824c")
 	)
 	(wire
 		(pts
-			(xy 88.9 30.48) (xy 92.71 30.48)
+			(xy 93.98 91.44) (xy 91.44 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "071231da-1d9d-4a75-9815-3cc5691558c0")
+		(uuid "0260951c-f6d3-4b4e-89bc-51a8ebd43ac7")
 	)
 	(wire
 		(pts
-			(xy 41.91 33.02) (xy 41.91 34.29)
+			(xy 180.34 91.44) (xy 180.34 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "075a8a02-c5b2-4a49-86af-c6993999f797")
+		(uuid "035f1e0d-ce1e-4811-812d-38f2a5cad5c2")
 	)
 	(wire
 		(pts
-			(xy 86.36 20.32) (xy 35.56 20.32)
+			(xy 336.55 138.43) (xy 381 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "165b475a-baca-4be5-86c3-489c2cd9d26c")
+		(uuid "03fde6bc-7bbb-4ba4-a7d6-c4afbb1c6bd8")
 	)
 	(wire
 		(pts
-			(xy 19.05 25.4) (xy 29.21 25.4)
+			(xy 88.9 179.07) (xy 104.14 179.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "246cd424-76e3-4fb3-b2cd-4d3c2369011a")
+		(uuid "065374a0-948a-4800-af0b-75046caacc81")
 	)
 	(wire
 		(pts
-			(xy 30.48 30.48) (xy 38.1 30.48)
+			(xy 85.09 184.15) (xy 104.14 184.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a6452ce-f81b-492f-86a8-f684564ba397")
+		(uuid "0c9a7cfb-2928-4d3f-b9a4-4b039eb0dcec")
 	)
 	(wire
 		(pts
-			(xy 110.49 16.51) (xy 110.49 22.86)
+			(xy 125.73 54.61) (xy 125.73 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2cbea697-bbb3-44a4-8d95-ea7feb9f0987")
+		(uuid "0cca34c6-1d06-4572-b59a-fc5a0806e7e4")
 	)
 	(wire
 		(pts
-			(xy 35.56 20.32) (xy 35.56 33.02)
+			(xy 360.68 93.98) (xy 360.68 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fe46425-5d9b-42bd-ae93-e6023e59a24a")
+		(uuid "0f0e754c-b3a3-4f08-af6c-080bb80f6665")
 	)
 	(wire
 		(pts
-			(xy 55.88 22.86) (xy 59.69 22.86)
+			(xy 111.76 137.16) (xy 157.48 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "462263c6-ef4a-47a7-9f4b-91301f863ed8")
+		(uuid "168622f1-3e3b-494e-ac0d-6f982b636752")
 	)
 	(wire
 		(pts
-			(xy 55.88 16.51) (xy 110.49 16.51)
+			(xy 91.44 181.61) (xy 104.14 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4889a4eb-81a5-4d3d-a8a2-157f78be84e8")
+		(uuid "1aba65e2-15ec-4a70-a622-f106b18ad83d")
 	)
 	(wire
 		(pts
-			(xy 19.05 22.86) (xy 30.48 22.86)
+			(xy 104.14 48.26) (xy 104.14 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b42a2ef-2fbe-4631-beae-16699158039e")
+		(uuid "1ef55fcc-cdda-46f9-afb3-960b1e2365c2")
 	)
 	(wire
 		(pts
-			(xy 59.69 22.86) (xy 59.69 24.13)
+			(xy 114.3 91.44) (xy 114.3 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5096ae42-6969-4359-8533-28e2ffcb3ede")
-	)
-	(wire
-		(pts
-			(xy 29.21 25.4) (xy 29.21 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d5f22b2-d24a-49f7-8489-51a1396f0628")
-	)
-	(wire
-		(pts
-			(xy 86.36 33.02) (xy 86.36 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61ddd868-378d-443d-8b3f-933e2e7a7e9b")
-	)
-	(wire
-		(pts
-			(xy 55.88 22.86) (xy 55.88 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "890ee34f-52aa-483a-87f5-54aebc17c76f")
-	)
-	(wire
-		(pts
-			(xy 35.56 33.02) (xy 41.91 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b33060e-e2ee-4900-a3d4-355c1adead22")
-	)
-	(wire
-		(pts
-			(xy 38.1 30.48) (xy 38.1 19.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea42be9-bdd2-4c98-8765-429d7f3f420b")
-	)
-	(wire
-		(pts
-			(xy 86.36 33.02) (xy 92.71 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac269b87-a0f4-4d05-a456-f7c2271a0e9b")
-	)
-	(wire
-		(pts
-			(xy 88.9 19.05) (xy 88.9 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b64f4e35-4125-4714-b705-8760ecf3b4c3")
+		(uuid "21854b16-9380-4a56-843a-ce88bdc4d730")
 	)
 	(bus
 		(pts
-			(xy 30.48 88.9) (xy 62.23 88.9)
+			(xy 400.05 68.58) (xy 400.05 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0c033fe-d749-4e1c-a5c3-2dadf1b477ca")
+		(uuid "22ebc86d-9f38-43c0-9ff8-eebd010be6b2")
 	)
 	(wire
 		(pts
-			(xy 29.21 33.02) (xy 35.56 33.02)
+			(xy 93.98 88.9) (xy 90.17 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da64f6bb-a0d7-4375-9e81-5841e2ba0311")
+		(uuid "2bf6439b-3f8d-4222-bf80-79f022f971de")
 	)
 	(wire
 		(pts
-			(xy 38.1 19.05) (xy 88.9 19.05)
+			(xy 227.33 76.2) (xy 270.51 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eeff9cef-ffa1-4a4a-a0eb-025583e9958f")
+		(uuid "3016182f-92aa-4554-882f-b9a96c0d456a")
 	)
 	(wire
 		(pts
-			(xy 30.48 22.86) (xy 30.48 30.48)
+			(xy 113.03 48.26) (xy 104.14 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1d324b3-f4b3-43a8-b3a8-2b6472d7b1da")
+		(uuid "372a6ba7-e615-457d-ac52-76ba5952a146")
 	)
 	(wire
 		(pts
-			(xy 40.64 31.75) (xy 41.91 31.75)
+			(xy 318.77 73.66) (xy 273.05 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f3cb759e-2b43-4e3f-be40-fe5f4ea8b137")
+		(uuid "387b9cee-b67b-4cef-a4d5-13de67a75cd4")
 	)
 	(wire
 		(pts
-			(xy 40.64 30.48) (xy 40.64 31.75)
+			(xy 336.55 83.82) (xy 336.55 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f418a6f6-ffaf-4b25-8926-2f9c58572080")
+		(uuid "3a3c6899-7470-4ac8-8550-d2e42f5dd3da")
 	)
 	(wire
 		(pts
-			(xy 38.1 30.48) (xy 40.64 30.48)
+			(xy 360.68 77.47) (xy 316.23 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f46a9cad-c732-43c4-a767-1f0a06a76f4d")
+		(uuid "3c127793-77fa-4307-8101-709999fd1708")
+	)
+	(wire
+		(pts
+			(xy 133.35 179.07) (xy 124.46 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8954f2-259c-4372-b367-2a0c99bb8643")
+	)
+	(wire
+		(pts
+			(xy 124.46 50.8) (xy 124.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4735086a-2851-45eb-b8ea-d89f35dc28db")
+	)
+	(wire
+		(pts
+			(xy 85.09 101.6) (xy 85.09 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490cb70b-de27-4008-a237-08fe28ed9a4d")
+	)
+	(wire
+		(pts
+			(xy 316.23 77.47) (xy 316.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4affdb2a-3fe4-4dc8-a7ed-e94a6e9d2aca")
+	)
+	(wire
+		(pts
+			(xy 157.48 137.16) (xy 200.66 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa2a41a-b413-4cc2-8d5f-8c2b4e84dd18")
+	)
+	(wire
+		(pts
+			(xy 116.84 99.06) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d8892d-b65d-4e4e-9cb4-797984b04a87")
+	)
+	(wire
+		(pts
+			(xy 129.54 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56c89fcb-4321-49c0-8487-cb662df8a15f")
+	)
+	(wire
+		(pts
+			(xy 91.44 76.2) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5899a9a5-0fa3-4800-bf11-cfec37c4129b")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 139.7 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfd89f9-e752-4d4e-aa48-b53bbc737273")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.14) (xy 130.81 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ea3f7ed-d508-42f5-b678-aa17475026c5")
+	)
+	(wire
+		(pts
+			(xy 113.03 119.38) (xy 113.03 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60dfea37-828b-4a39-9d74-ea79fbe3d87c")
+	)
+	(wire
+		(pts
+			(xy 132.08 181.61) (xy 124.46 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61ebb939-aa1a-4dca-8bea-be8ca5f19cec")
+	)
+	(wire
+		(pts
+			(xy 290.83 82.55) (xy 336.55 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62b02599-0fab-4c9c-8c2e-9154ccaef86c")
+	)
+	(wire
+		(pts
+			(xy 129.54 119.38) (xy 113.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6304dbcb-f9dc-4df4-ad72-b716a6e7167b")
+	)
+	(wire
+		(pts
+			(xy 133.35 88.9) (xy 133.35 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a93d19-0a9a-47db-8266-9c9f3f3517f9")
+	)
+	(wire
+		(pts
+			(xy 129.54 93.98) (xy 132.08 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7f1fe5-16a4-40d8-b675-f099a13dff8f")
+	)
+	(bus
+		(pts
+			(xy 397.51 67.31) (xy 397.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9e8b53-4c1a-46ee-a5d1-63a94c897b5c")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 182.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f14817b-6270-4afc-b4d1-3921f82d6584")
+	)
+	(wire
+		(pts
+			(xy 129.54 101.6) (xy 85.09 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f749f66-6452-430c-ba7a-6718d9968da1")
+	)
+	(wire
+		(pts
+			(xy 129.54 104.14) (xy 130.81 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffc3f5a-89e8-4022-9a07-a7afd3d585e6")
+	)
+	(wire
+		(pts
+			(xy 182.88 73.66) (xy 182.88 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7563fef7-6c66-4b54-9f44-fd80027da3f1")
+	)
+	(wire
+		(pts
+			(xy 110.49 116.84) (xy 110.49 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76bf8fe7-8dfc-4aba-b4e8-ee3e8eee17ac")
+	)
+	(wire
+		(pts
+			(xy 180.34 76.2) (xy 137.16 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e9535e-6568-467c-874b-f594d85e7c0c")
+	)
+	(wire
+		(pts
+			(xy 247.65 82.55) (xy 290.83 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d7e52a-ef56-4af2-9275-e9cae72637eb")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78fbe93f-3343-4f9e-8f6a-61ba75a02042")
+	)
+	(wire
+		(pts
+			(xy 91.44 99.06) (xy 91.44 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a32ba18-b18b-496e-bd65-c28ee1912300")
+	)
+	(wire
+		(pts
+			(xy 125.73 43.18) (xy 124.46 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b934ec9-af23-44cc-9120-69d041c1e23e")
+	)
+	(wire
+		(pts
+			(xy 200.66 137.16) (xy 200.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be26499-00b6-4e49-992f-7c77528ce216")
+	)
+	(wire
+		(pts
+			(xy 318.77 92.71) (xy 316.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c582392-c2dc-4b04-b577-2f168b6e5db2")
+	)
+	(wire
+		(pts
+			(xy 99.06 43.18) (xy 104.14 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c58b9f9-e977-4e85-99f8-036548a0f82c")
+	)
+	(wire
+		(pts
+			(xy 91.44 91.44) (xy 91.44 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85d236e1-3a18-4555-97f4-88303df71516")
+	)
+	(wire
+		(pts
+			(xy 363.22 73.66) (xy 318.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c8c6a9-4940-452e-89da-9db01255682e")
+	)
+	(wire
+		(pts
+			(xy 227.33 92.71) (xy 227.33 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8804ddda-34a3-4ca9-940d-9f7015541af4")
+	)
+	(wire
+		(pts
+			(xy 129.54 111.76) (xy 107.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "886ed51d-7c32-482b-8929-97e7923a6bd1")
+	)
+	(wire
+		(pts
+			(xy 200.66 81.28) (xy 247.65 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8980cf85-c6a3-469a-84a7-59f04e8072ea")
+	)
+	(wire
+		(pts
+			(xy 106.68 54.61) (xy 96.52 54.61)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8a7eaa8d-b3b1-4897-9b14-b2bfdf7ec2e4")
+	)
+	(wire
+		(pts
+			(xy 363.22 93.98) (xy 360.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e6b2eae-4d8c-4fa5-9fbd-49bcfa662ce4")
+	)
+	(wire
+		(pts
+			(xy 109.22 114.3) (xy 109.22 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f8a65d7-e45b-48f1-9f19-048d7c97bbd6")
+	)
+	(wire
+		(pts
+			(xy 318.77 90.17) (xy 318.77 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9087bb2a-2d2e-4bbe-9764-c5424a0a81c2")
+	)
+	(wire
+		(pts
+			(xy 247.65 81.28) (xy 247.65 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913ebec4-8ed2-4aab-8348-efead52b3b4f")
+	)
+	(wire
+		(pts
+			(xy 270.51 76.2) (xy 270.51 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91577d6c-4815-44b3-b4d7-8c2fe7343ac4")
+	)
+	(wire
+		(pts
+			(xy 129.54 96.52) (xy 116.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9719dc2c-e11a-499f-b487-18f9e0f44613")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.9) (xy 133.35 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8e3b3f-5a4c-4120-8b22-c2c9053e7630")
+	)
+	(wire
+		(pts
+			(xy 88.9 96.52) (xy 88.9 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48f1619-4dad-43fc-82fc-87523768aa51")
+	)
+	(wire
+		(pts
+			(xy 227.33 76.2) (xy 180.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76c6534-1703-476a-848b-ee406801a484")
+	)
+	(wire
+		(pts
+			(xy 96.52 40.64) (xy 104.14 40.64)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a7a3fedc-f3b0-43f9-98f7-5d101c6c6a10")
+	)
+	(wire
+		(pts
+			(xy 139.7 73.66) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d178fb-91e4-409a-b722-b14a638de5bd")
+	)
+	(wire
+		(pts
+			(xy 381 138.43) (xy 381 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85d457a-e7fd-45d3-8537-89331ccaa8c3")
+	)
+	(wire
+		(pts
+			(xy 99.06 53.34) (xy 99.06 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac47440d-5050-4b8a-94e4-3d079cb6b8b3")
+	)
+	(wire
+		(pts
+			(xy 107.95 111.76) (xy 107.95 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4a7783-3e6e-44c1-b816-6dffd0e739b6")
+	)
+	(wire
+		(pts
+			(xy 229.87 73.66) (xy 182.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b172a481-1c42-47c5-bac3-a5ca51291690")
+	)
+	(wire
+		(pts
+			(xy 90.17 88.9) (xy 90.17 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38a15ba-d12d-47ea-a466-8a14d5c5d78e")
+	)
+	(wire
+		(pts
+			(xy 273.05 73.66) (xy 229.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6310532-bb13-44a1-b9f9-6331442c00e7")
+	)
+	(wire
+		(pts
+			(xy 316.23 76.2) (xy 270.51 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7754c61-921c-4264-89bf-e479698b4942")
+	)
+	(wire
+		(pts
+			(xy 182.88 91.44) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97b8957-c534-4e89-b52c-4cad3b00dd0b")
+	)
+	(wire
+		(pts
+			(xy 134.62 99.06) (xy 134.62 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc03be61-3b1a-4349-b92f-a178bcd33cea")
+	)
+	(wire
+		(pts
+			(xy 273.05 90.17) (xy 273.05 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bff8a2f9-e59d-4bfe-8b25-8bbeef62b4d5")
+	)
+	(wire
+		(pts
+			(xy 363.22 91.44) (xy 363.22 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c083ea1c-d2a4-4da3-9acb-4ca0e69fa3c3")
+	)
+	(wire
+		(pts
+			(xy 129.54 114.3) (xy 109.22 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c119770f-6c39-40b0-a864-b807777ee4c2")
+	)
+	(wire
+		(pts
+			(xy 316.23 76.2) (xy 316.23 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c552d22e-85d6-43ed-af46-43fba582b635")
+	)
+	(wire
+		(pts
+			(xy 229.87 90.17) (xy 229.87 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c637d8c1-f60c-49c8-91ce-2d05e2ef8e6b")
+	)
+	(wire
+		(pts
+			(xy 110.49 50.8) (xy 124.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b80da1-1cb7-4579-a2cc-e1fbf1171ed1")
+	)
+	(wire
+		(pts
+			(xy 229.87 92.71) (xy 227.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8c91b77-7965-4057-a1f0-a363975b92e8")
+	)
+	(wire
+		(pts
+			(xy 247.65 138.43) (xy 290.83 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9d89bf5-42e8-40ef-8095-357e989d632f")
+	)
+	(wire
+		(pts
+			(xy 116.84 96.52) (xy 116.84 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd3a1aa-5de4-4e76-b012-ff691fad0877")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 106.68 54.61)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "d9e44e6c-9c8f-46b4-8321-b175de395ee9")
+	)
+	(wire
+		(pts
+			(xy 129.54 106.68) (xy 106.68 106.68)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "dac69d1e-8409-48e5-b213-fce96271d311")
+	)
+	(wire
+		(pts
+			(xy 270.51 92.71) (xy 273.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db1dfb4b-7a59-4b84-9608-82d823f9c6d8")
+	)
+	(wire
+		(pts
+			(xy 129.54 99.06) (xy 134.62 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc2f5872-22c1-4c8b-a382-f8bea0359e26")
+	)
+	(wire
+		(pts
+			(xy 132.08 93.98) (xy 132.08 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd386956-f671-4ef6-be1f-ab7433e11e7b")
+	)
+	(wire
+		(pts
+			(xy 124.46 40.64) (xy 130.81 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df558afd-371c-49ab-8073-08e934fa2949")
+	)
+	(wire
+		(pts
+			(xy 96.52 40.64) (xy 96.52 54.61)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e08f0f53-ad83-40be-8176-871dcc476969")
+	)
+	(wire
+		(pts
+			(xy 90.17 73.66) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43e0ae4-49a5-4c8d-8ac4-087ba1a41b0f")
+	)
+	(wire
+		(pts
+			(xy 107.95 54.61) (xy 125.73 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4870bce-27db-4ff7-bdcf-399ca168c37d")
+	)
+	(wire
+		(pts
+			(xy 114.3 96.52) (xy 88.9 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70f39d7-4b68-4acd-92d5-00ebf1780f69")
+	)
+	(wire
+		(pts
+			(xy 109.22 53.34) (xy 99.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d08c8b-6cde-419c-906f-878133fe922b")
+	)
+	(wire
+		(pts
+			(xy 157.48 81.28) (xy 200.66 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99144a5-895f-4cb2-a495-a9c32f4b930c")
+	)
+	(wire
+		(pts
+			(xy 247.65 138.43) (xy 200.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb866c2c-9af3-46f0-8636-053d582868d5")
+	)
+	(wire
+		(pts
+			(xy 111.76 81.28) (xy 157.48 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03f24ce-c476-4085-8563-e5daf5647813")
+	)
+	(wire
+		(pts
+			(xy 134.62 184.15) (xy 124.46 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b1a8c8-b91e-4659-92a4-8f5bcdbdbf44")
+	)
+	(wire
+		(pts
+			(xy 129.54 116.84) (xy 110.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64c11ba-05c3-4bf1-8535-156a55b9a5d9")
+	)
+	(wire
+		(pts
+			(xy 290.83 138.43) (xy 336.55 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a306f0-5c2a-42a0-bfa6-a9fffb8a2d5c")
+	)
+	(wire
+		(pts
+			(xy 381 83.82) (xy 336.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4c2bc2-f5b1-467d-8aa5-92df03e17edb")
+	)
+	(label ""
+		(at 96.52 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a3a6a68-68e7-4e3c-babe-a1e84efca671")
+		(property "sygnalowa" ""
+			(at 96.52 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:MCP23017_SP")
+		(at 200.66 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "062228b8-53e5-47b8-9a9d-6fa2b2c031db")
+		(property "Reference" "U3"
+			(at 202.8033 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP23017_SP"
+			(at 202.8033 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(at 205.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+			(at 205.74 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 200.66 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "b713f4b5-9db8-422f-bf34-065acac2e17e")
+		)
+		(pin "6"
+			(uuid "4e294ecc-2ee5-4a9a-87a7-4a436240d6a2")
+		)
+		(pin "12"
+			(uuid "a323bb15-4980-49a9-ae67-da1edb395505")
+		)
+		(pin "11"
+			(uuid "43296ac3-56b0-4c76-8ad1-22b994769d51")
+		)
+		(pin "13"
+			(uuid "5647116f-a24d-458e-a055-2255546d091a")
+		)
+		(pin "16"
+			(uuid "12636e2e-7b9e-4d50-a7bf-7459bd1e471c")
+		)
+		(pin "15"
+			(uuid "c0c08cd8-260b-4cbe-86a0-9e85a1d07351")
+		)
+		(pin "20"
+			(uuid "74ccb232-9d4b-4ba2-b8b1-dab0c187fef5")
+		)
+		(pin "2"
+			(uuid "5442bf8f-0819-4640-bc02-6be4db8525db")
+		)
+		(pin "4"
+			(uuid "d06f7096-11de-4627-bca9-8a40335fcd5a")
+		)
+		(pin "5"
+			(uuid "6c83c02b-01f5-482a-9d45-fa735c0423af")
+		)
+		(pin "14"
+			(uuid "0ab412b2-b11b-4629-8a53-a91f4c4216ab")
+		)
+		(pin "22"
+			(uuid "42ca74ee-ef8e-454f-bcc9-98119ccff27f")
+		)
+		(pin "18"
+			(uuid "d63909cb-0f1d-4e86-b6e6-5d95571995db")
+		)
+		(pin "17"
+			(uuid "84e49dd6-a1ca-4975-a6a7-b3439e92888a")
+		)
+		(pin "19"
+			(uuid "f8a99059-bcf5-4e34-bba5-701e68958f77")
+		)
+		(pin "9"
+			(uuid "3998e1b0-472d-452b-8d58-19233ad6e710")
+		)
+		(pin "1"
+			(uuid "b50f2126-5f5b-4c3e-afa3-96ba52d6f282")
+		)
+		(pin "3"
+			(uuid "a87324ee-de55-4923-87e8-700cc844d51a")
+		)
+		(pin "7"
+			(uuid "595800aa-e9a2-434a-bf3c-463e50771f23")
+		)
+		(pin "24"
+			(uuid "2d6a43e1-cd94-4547-9220-b51ca2ae4e28")
+		)
+		(pin "26"
+			(uuid "b33418da-6c42-4953-b653-3e5c3ee2d688")
+		)
+		(pin "27"
+			(uuid "1ea2aff1-c98d-44ad-89a3-d5192de5d6fe")
+		)
+		(pin "28"
+			(uuid "0c9ce693-de4a-447b-a4be-b5fde8623208")
+		)
+		(pin "21"
+			(uuid "4e6f30dc-fd58-4d6b-ab50-3cfbf98c30d7")
+		)
+		(pin "25"
+			(uuid "459fe93c-fbd3-4330-b108-9737dfcc3f77")
+		)
+		(pin "23"
+			(uuid "623362dd-25e5-4d87-907f-4bb700700a22")
+		)
+		(pin "8"
+			(uuid "841fd08c-e7f1-4e5c-b020-a4f6d472ad0d")
+		)
+		(instances
+			(project ""
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 132.08 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07d32086-1363-48cb-91db-6eed62dd4eb9")
+		(property "Reference" "J12"
+			(at 142.24 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 142.24 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 148.59 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 148.59 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 132.08 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 148.59 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 148.59 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 148.59 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 148.59 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 148.59 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "233a1fb3-d8b4-46d3-8603-48b58324283e")
+		)
+		(pin "5"
+			(uuid "67e11426-85bd-428f-a392-cdeb90ea7db8")
+		)
+		(pin "6"
+			(uuid "d3ca7054-c014-4e41-91e0-f3bf7381eac2")
+		)
+		(pin "1"
+			(uuid "bb14e446-3409-4d12-a4ce-b66527e9eb02")
+		)
+		(pin "4"
+			(uuid "4f82ecc0-9d66-4440-9812-0ed5ce11738d")
+		)
+		(pin "2"
+			(uuid "c2bb3821-ead1-4cbf-ad6a-a07174b9157f")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 271.78 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2652b54c-ee3b-4cb1-95b5-06561c40e03a")
+		(property "Reference" "J17"
+			(at 281.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 281.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 288.29 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 288.29 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 271.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 288.29 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 288.29 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 288.29 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 288.29 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 288.29 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0cb7cefe-eb28-437b-b454-820a6719f00a")
+		)
+		(pin "5"
+			(uuid "afc29cba-7dad-49aa-9bcd-08e1a38d86d6")
+		)
+		(pin "6"
+			(uuid "773edb08-de9d-47c1-b2ad-b67a1a84bf28")
+		)
+		(pin "1"
+			(uuid "4c3d4e25-0ed1-4940-a5a2-1e55ca305fd5")
+		)
+		(pin "4"
+			(uuid "01fe3fe0-1c5a-4a81-81dd-1c6f1c2c05a2")
+		)
+		(pin "2"
+			(uuid "b99c9a34-3b69-4807-972f-866358a516ea")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 104.14 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c92f2af-602a-4a52-b8fb-9828541d3016")
+		(property "Reference" "J11"
+			(at 114.3 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 114.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 120.65 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 120.65 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 104.14 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 120.65 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 120.65 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 120.65 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 120.65 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 120.65 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "84f20728-24e5-4595-b946-4d20581888be")
+		)
+		(pin "5"
+			(uuid "8b2657a5-9e01-4f23-a777-4c0449fe8e46")
+		)
+		(pin "6"
+			(uuid "29a6a97f-a76c-4284-92cf-f0aae957bda7")
+		)
+		(pin "1"
+			(uuid "a4a5a81d-fbab-448c-930b-5d431a4d9ac7")
+		)
+		(pin "4"
+			(uuid "cfae38e3-2bed-4fd6-a2bf-2af05f6f14e3")
+		)
+		(pin "2"
+			(uuid "8419c708-6fe3-4c9b-949c-d2e8efd827f4")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:MCP23017_SP")
+		(at 247.65 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33f23247-d4b2-4263-88c8-0db077d6ac1b")
+		(property "Reference" "U4"
+			(at 249.7933 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP23017_SP"
+			(at 249.7933 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(at 252.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+			(at 252.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 247.65 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "d6608c8e-22dc-408a-a4a0-5e54618e91dd")
+		)
+		(pin "6"
+			(uuid "a6514587-b7bd-4d73-9d73-372a5eed7689")
+		)
+		(pin "12"
+			(uuid "bf12c935-07a3-4814-9227-2610b5b9596c")
+		)
+		(pin "11"
+			(uuid "d0555e44-c276-4a6c-9e92-79d0d199154c")
+		)
+		(pin "13"
+			(uuid "2e6e0c9d-3341-48b0-ab8c-50f92d711c15")
+		)
+		(pin "16"
+			(uuid "4de5c4ad-1998-4cf2-a2c9-abadf73430eb")
+		)
+		(pin "15"
+			(uuid "87ece2fe-8684-4ae7-88b2-43c42df19072")
+		)
+		(pin "20"
+			(uuid "a59a2bfd-9b4a-417c-be3f-81a84925e80e")
+		)
+		(pin "2"
+			(uuid "bcc5df2f-a118-479b-af71-b29b96ea0725")
+		)
+		(pin "4"
+			(uuid "d6a81e99-64e1-46e3-aee9-7341f6e1ca99")
+		)
+		(pin "5"
+			(uuid "2a6cf8e1-f8be-4db1-b684-344e7e9a512d")
+		)
+		(pin "14"
+			(uuid "c24c5ae7-52c4-4874-a370-d3cb13d19e3e")
+		)
+		(pin "22"
+			(uuid "08c61eee-e4ae-4177-8cbf-e11ca8d90bb0")
+		)
+		(pin "18"
+			(uuid "bc187aec-a4a5-4f51-8db4-ab3ff6008901")
+		)
+		(pin "17"
+			(uuid "49c5fefd-663b-4d1c-b5a1-60eedd40e0b0")
+		)
+		(pin "19"
+			(uuid "e2d0f15b-55d3-4b93-8dfa-d580dcd72341")
+		)
+		(pin "9"
+			(uuid "32ca5911-d686-4348-8185-152ed9572349")
+		)
+		(pin "1"
+			(uuid "a60040f9-784b-43df-804f-8f3a88a1bca2")
+		)
+		(pin "3"
+			(uuid "50ac7791-f90b-4694-845c-c39576b72fac")
+		)
+		(pin "7"
+			(uuid "3fa4d363-bc1b-47c2-a97b-7bd8a7409e86")
+		)
+		(pin "24"
+			(uuid "43817885-7c8a-426d-b552-b2134dce2bf8")
+		)
+		(pin "26"
+			(uuid "d9530bc6-8bfa-4d3e-ad51-3781e717a310")
+		)
+		(pin "27"
+			(uuid "07627806-6700-4761-b077-9cc5b59036b7")
+		)
+		(pin "28"
+			(uuid "efaa4637-507d-474d-aa93-8ad812ea07f5")
+		)
+		(pin "21"
+			(uuid "b8426eac-2caf-4d24-b982-ea649ef5c8c8")
+		)
+		(pin "25"
+			(uuid "405b0310-eced-49d9-9d08-2d373d91df3f")
+		)
+		(pin "23"
+			(uuid "97fa358d-0dbf-4840-a684-a062d54d3f69")
+		)
+		(pin "8"
+			(uuid "9ac28e99-4ba6-4ac9-ab98-9c039dd2a0d7")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 330.2 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34826b81-7366-4349-a4fd-53e5c0f673c6")
+		(property "Reference" "J19"
+			(at 340.36 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 340.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 346.71 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 346.71 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 330.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 346.71 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 346.71 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 346.71 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 346.71 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 346.71 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b72bffe4-b082-4e4c-8343-a2e3e5cdda16")
+		)
+		(pin "5"
+			(uuid "48fd90c6-3632-4224-bdbd-f3b2046c3d7e")
+		)
+		(pin "6"
+			(uuid "5adf7d86-cd93-405e-b399-0374573ff900")
+		)
+		(pin "1"
+			(uuid "e8ccb525-d8d8-4fde-84ad-630341b32a47")
+		)
+		(pin "4"
+			(uuid "b68dd371-ed2e-494b-b9a8-d3e2713b9562")
+		)
+		(pin "2"
+			(uuid "4b0590b8-44a3-4bb2-83cb-38f67a355fcf")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 168.91 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ba05eed-aa37-462f-a153-4269c32dac8b")
+		(property "Reference" "J3"
+			(at 179.07 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 179.07 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 185.42 273.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 185.42 373.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 168.91 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 185.42 573.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 185.42 673.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 185.42 773.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 185.42 873.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 185.42 973.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "365e81f6-8f2a-4b79-9606-2b3f01e5bf9e")
+		)
+		(pin "5"
+			(uuid "1dea0624-e2fd-4f80-8480-8a8c97cea39e")
+		)
+		(pin "6"
+			(uuid "0e4aeb17-d89c-4bda-b566-d71caeceae74")
+		)
+		(pin "1"
+			(uuid "45c2a405-9011-4b7b-b4c1-bb82501b67de")
+		)
+		(pin "4"
+			(uuid "37c89a34-cfa6-4568-a2e2-f4d4e6ab8a99")
+		)
+		(pin "2"
+			(uuid "619d8627-ce97-45ae-9bd4-16e111663ad5")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 138.43 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fb2acd9-fc1d-401d-bcad-16d62c3ab051")
+		(property "Reference" "J2"
+			(at 148.59 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 148.59 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 154.94 273.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 154.94 373.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 138.43 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 154.94 573.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 154.94 673.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 154.94 773.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 154.94 873.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 154.94 973.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "35b3e1b9-45ea-4709-8b8f-c608d4c9463c")
+		)
+		(pin "5"
+			(uuid "d0018631-0915-4a96-a91f-01d4623a4a85")
+		)
+		(pin "6"
+			(uuid "e6ff379e-385c-407c-a841-76c5693f0797")
+		)
+		(pin "1"
+			(uuid "7c7a8932-6d41-4ae7-8708-751e399fa276")
+		)
+		(pin "4"
+			(uuid "4391a128-49c8-4637-ad58-ad206369ddc8")
+		)
+		(pin "2"
+			(uuid "5f184c10-a0bc-4864-8af9-458c1366cba3")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:MCP23017_SP")
+		(at 290.83 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4130da41-e19c-4aa8-a545-bfa1eef89d87")
+		(property "Reference" "U5"
+			(at 292.9733 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP23017_SP"
+			(at 292.9733 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(at 295.91 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+			(at 295.91 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 290.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "0b272e27-fb06-4cb0-91bc-6db2258fc132")
+		)
+		(pin "6"
+			(uuid "1e4c7e2c-fd60-4eff-8e2f-7e0901dea6e7")
+		)
+		(pin "12"
+			(uuid "a81765f6-a068-486c-a70c-a0b1a08ea29f")
+		)
+		(pin "11"
+			(uuid "a9ad6d2b-f754-4db5-b9dd-152d66c4a06c")
+		)
+		(pin "13"
+			(uuid "448bf289-5ca6-41ac-8df5-5ba7a9f6b129")
+		)
+		(pin "16"
+			(uuid "ed62d12c-a56c-4642-8b06-551dfed67dec")
+		)
+		(pin "15"
+			(uuid "36e31d08-af16-4b3d-b5b9-55c685a0a92d")
+		)
+		(pin "20"
+			(uuid "d2139ace-d345-45bf-a4c6-30aebb67ecd1")
+		)
+		(pin "2"
+			(uuid "8023d917-d108-4261-83cf-8d119a44f74e")
+		)
+		(pin "4"
+			(uuid "135ab052-4ca9-4ab8-a839-6c07816e4ad1")
+		)
+		(pin "5"
+			(uuid "1d04f1b7-fbed-4094-a111-2d7496ee4db5")
+		)
+		(pin "14"
+			(uuid "0a4f6170-459d-4c88-80d7-eab8dd89acd0")
+		)
+		(pin "22"
+			(uuid "582555f8-e89e-4fde-b44c-6e8db488dbc5")
+		)
+		(pin "18"
+			(uuid "8f0ff687-1159-49c2-b7d1-02a33cc1b1c0")
+		)
+		(pin "17"
+			(uuid "4471db21-447a-48d9-ad86-d1ec45b02c84")
+		)
+		(pin "19"
+			(uuid "a529c2b2-b904-4acb-a6d7-324066c6fb64")
+		)
+		(pin "9"
+			(uuid "270cd4ac-062a-4b1f-b283-f36610da780e")
+		)
+		(pin "1"
+			(uuid "a8732b9d-5d9a-41fa-abed-ba2c28433094")
+		)
+		(pin "3"
+			(uuid "9c0ece9f-ff4d-4e38-96a0-1155a89e3e61")
+		)
+		(pin "7"
+			(uuid "896a9de4-19b9-4d6a-9563-e937b614454e")
+		)
+		(pin "24"
+			(uuid "75e1f4ac-15ec-4557-ae48-5aa8634507c8")
+		)
+		(pin "26"
+			(uuid "9d8d01a8-282d-4abb-bf1d-3f6ebf190d15")
+		)
+		(pin "27"
+			(uuid "9f942754-25d5-4c4b-9d3d-348a8a5b2537")
+		)
+		(pin "28"
+			(uuid "4a16c06e-276f-4d26-a713-6afdc9f0b94a")
+		)
+		(pin "21"
+			(uuid "3b63b3c9-094e-4c61-a7e5-2e7c122524bf")
+		)
+		(pin "25"
+			(uuid "0bfb6c2c-2d45-46db-8dd3-9a8a962a00a2")
+		)
+		(pin "23"
+			(uuid "87e42e65-f077-47d3-9e32-ea46834a80cc")
+		)
+		(pin "8"
+			(uuid "2352cff7-a7ed-40af-a006-b24b05943576")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5VD")
-		(at 87.63 111.76 0)
+		(at -16.51 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1279,7 +3453,7 @@
 		(fields_autoplaced yes)
 		(uuid "439b396b-59ee-41f3-8081-b9d684ad295a")
 		(property "Reference" "#PWR03"
-			(at 87.63 115.57 0)
+			(at -16.51 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1288,7 +3462,7 @@
 			)
 		)
 		(property "Value" "+5VD"
-			(at 87.63 106.68 0)
+			(at -16.51 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1296,7 +3470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 111.76 0)
+			(at -16.51 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1305,7 +3479,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 111.76 0)
+			(at -16.51 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1314,7 +3488,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 87.63 111.76 0)
+			(at -16.51 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,8 +3509,140 @@
 		)
 	)
 	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 308.61 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "442ca339-a042-4a18-bd87-8f291a105ef6")
+		(property "Reference" "J8"
+			(at 318.77 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 318.77 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 325.12 273.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 325.12 373.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 308.61 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 325.12 573.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 325.12 673.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 325.12 773.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 325.12 873.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 325.12 973.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0f44df21-196c-408e-abe7-a261776c203a")
+		)
+		(pin "5"
+			(uuid "c7d5ba1b-f582-464c-a2d5-dc54735040ee")
+		)
+		(pin "6"
+			(uuid "da340208-5db3-4e1e-b94f-c08cda2abf7e")
+		)
+		(pin "1"
+			(uuid "852bdcd6-4d48-47a4-bdbc-5093359564d4")
+		)
+		(pin "4"
+			(uuid "24034041-a146-4116-85e0-046bbc0eadf5")
+		)
+		(pin "2"
+			(uuid "f195262c-ce84-45ad-9a14-a70ca774d806")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 58.42 113.03 0)
+		(at -45.72 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1345,7 +3651,7 @@
 		(fields_autoplaced yes)
 		(uuid "4901b214-2e9a-41d9-86f4-42ed3214af72")
 		(property "Reference" "#PWR02"
-			(at 58.42 119.38 0)
+			(at -45.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1354,7 +3660,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 118.11 0)
+			(at -45.72 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,7 +3668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 113.03 0)
+			(at -45.72 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,7 +3677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 113.03 0)
+			(at -45.72 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,7 +3686,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 113.03 0)
+			(at -45.72 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,17 +3707,149 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_Expansion:MCP23017_ML")
-		(at 110.49 50.8 0)
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 104.14 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "56d7fd95-f031-43b2-bb12-334756790b2c")
-		(property "Reference" "U2"
-			(at 112.6333 22.86 0)
+		(uuid "495ecb42-1d8f-4167-8ba7-be991e4d8996")
+		(property "Reference" "J1"
+			(at 114.3 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 114.3 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 120.65 273.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 120.65 373.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 104.14 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 120.65 573.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 120.65 673.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 120.65 773.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 120.65 873.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 120.65 973.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "286f2b25-c14e-4b18-8dbe-b8eb1f55bd9b")
+		)
+		(pin "5"
+			(uuid "fcce504d-1c3a-407f-8aab-632b8f9e107c")
+		)
+		(pin "6"
+			(uuid "4d9463c8-53c5-4101-8e10-ec902c12c956")
+		)
+		(pin "1"
+			(uuid "8c504661-ed78-4809-b8dc-cdc5600209e1")
+		)
+		(pin "4"
+			(uuid "eee3e05e-cc6f-48aa-8202-c3b88710e0a0")
+		)
+		(pin "2"
+			(uuid "6a621bf1-10aa-4c39-9591-b35192e42af4")
+		)
+		(instances
+			(project ""
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:MCP23017_SP")
+		(at 111.76 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f2d97be-f9cd-44f3-b0b7-db5458de4e52")
+		(property "Reference" "U1"
+			(at 113.9033 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,8 +3857,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MCP23017_ML"
-			(at 112.6333 25.4 0)
+		(property "Value" "MCP23017_SP"
+			(at 113.9033 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,8 +3866,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
-			(at 115.57 76.2 0)
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(at 116.84 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +3877,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
-			(at 115.57 78.74 0)
+			(at 116.84 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,8 +3886,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA/B7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017), QFN-28"
-			(at 110.49 50.8 0)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 111.76 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,95 +3895,374 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6d93724a-d9cb-41ec-b729-08e795a7781d")
-		)
-		(pin "21"
-			(uuid "3ba6dcdf-d56c-421e-b636-a68f8760dc00")
-		)
-		(pin "3"
-			(uuid "66f9627f-07a3-4e09-b737-352e3772f4f0")
-		)
-		(pin "17"
-			(uuid "749d6bda-b505-45c5-980a-675ef3c56fe0")
-		)
-		(pin "28"
-			(uuid "3eb4f2cf-5153-469b-8922-7416f312a8d8")
-		)
-		(pin "5"
-			(uuid "575e1b55-d5fa-4acf-9b99-6cf2634f5708")
-		)
-		(pin "27"
-			(uuid "96075a09-a115-444b-bb79-d8a162469be0")
-		)
-		(pin "2"
-			(uuid "de6623f3-3711-4a8a-8a1d-aeaf1c1a5dcf")
-		)
-		(pin "22"
-			(uuid "0675c008-fa22-4f41-9af2-621704de6e3c")
-		)
-		(pin "23"
-			(uuid "83e43166-761f-4832-aa3d-a5653f66f520")
-		)
-		(pin "4"
-			(uuid "79d37950-cf5d-475f-8992-6e094f156e1f")
-		)
-		(pin "19"
-			(uuid "82c617cc-39ac-4bcd-8e25-4c33b9fabefb")
-		)
-		(pin "18"
-			(uuid "cf7f8ffb-8d89-46e4-be18-34d53ab8bb9e")
-		)
-		(pin "25"
-			(uuid "65b91360-5434-41e2-af33-814c0111eb51")
-		)
-		(pin "26"
-			(uuid "5d856348-39a2-4525-a98c-3013d62e7691")
+		(pin "10"
+			(uuid "5febf0b6-f0a5-41bc-b16b-be0e1eb119a0")
 		)
 		(pin "6"
-			(uuid "cb2af90c-406c-40d6-a586-e81b406e3bfb")
-		)
-		(pin "20"
-			(uuid "ccf277ef-d8b8-449d-8e20-a503c9e35c9b")
-		)
-		(pin "24"
-			(uuid "2b674b95-47ed-4827-a865-11a9b14f5f32")
-		)
-		(pin "13"
-			(uuid "fed278b7-d727-41cf-8a93-74f90abf08be")
-		)
-		(pin "11"
-			(uuid "3b96528c-5870-4dcf-8249-656b1acf261d")
-		)
-		(pin "15"
-			(uuid "39ac6178-0a5c-4144-b6a9-2e20c2462f3f")
-		)
-		(pin "9"
-			(uuid "c8c4594a-bb1b-4f2f-bb00-b8af24ede7d1")
-		)
-		(pin "14"
-			(uuid "65b888cc-2c2a-4d5c-bea9-85269e5d4d80")
-		)
-		(pin "8"
-			(uuid "8248e8f6-e41c-4666-833a-42c86a20af50")
-		)
-		(pin "16"
-			(uuid "c9a933ef-5a1f-44a0-a8d3-e151aea13690")
+			(uuid "f96848c0-e996-43cb-9886-f06173e89280")
 		)
 		(pin "12"
-			(uuid "f78ddd71-9968-490b-b43d-b27623d9ad18")
+			(uuid "d9de8682-5965-4109-9ebe-23829b0c1c0e")
+		)
+		(pin "11"
+			(uuid "cd317b2d-b505-426e-ab3a-d40223fee794")
+		)
+		(pin "13"
+			(uuid "62193680-b793-4708-b741-3ab38957fe93")
+		)
+		(pin "16"
+			(uuid "976ab117-5a56-46cb-a4e2-16c7bfe7dbb5")
+		)
+		(pin "15"
+			(uuid "02cdd3a1-a65c-43cd-a8f6-155e40d50c6d")
+		)
+		(pin "20"
+			(uuid "bdd22631-e6b3-4ef7-9656-20d41b75eadc")
+		)
+		(pin "2"
+			(uuid "3957c5f8-af10-4dda-b03e-41b1a44e912c")
+		)
+		(pin "4"
+			(uuid "3d1e6a7a-1ee2-406f-92ae-33ae54cb84f4")
+		)
+		(pin "5"
+			(uuid "4751fde0-6324-4138-9438-01a085cf96da")
+		)
+		(pin "14"
+			(uuid "a828d3cd-a2ae-4954-bda8-835bc64f3843")
+		)
+		(pin "22"
+			(uuid "fe8e4a18-abc3-4528-be2e-2c4f3c0b125f")
+		)
+		(pin "18"
+			(uuid "7974b794-6500-4188-9f08-70c8a035a0bf")
+		)
+		(pin "17"
+			(uuid "f11ffcdd-4bdb-4d49-99b3-8e696bfa23b4")
+		)
+		(pin "19"
+			(uuid "4dd6b390-5f68-4a9e-a35a-a5a74fc6a923")
+		)
+		(pin "9"
+			(uuid "e6abb7ec-41c3-4c4f-b6fb-9f409484188d")
+		)
+		(pin "1"
+			(uuid "7e7bd860-c05b-4e88-b41b-cc4b50bee206")
+		)
+		(pin "3"
+			(uuid "d420edc8-97c2-43de-9d37-9bf77b13e510")
 		)
 		(pin "7"
-			(uuid "3fe26cdb-b229-4e57-8159-dd1092245169")
+			(uuid "a9d685f2-b5e9-400b-ae9d-4a56cb1655c1")
 		)
-		(pin "10"
-			(uuid "c342b813-04e0-472d-aa8c-8869dd1a1381")
+		(pin "24"
+			(uuid "0ef3aa8a-28c7-41c5-b69e-84e46e350797")
 		)
-		(pin "29"
-			(uuid "4245d421-7718-474e-8ae1-f01ae900be2b")
+		(pin "26"
+			(uuid "e8ccc088-1ca6-4af0-8047-c8146d08b842")
+		)
+		(pin "27"
+			(uuid "5bed1489-2a9f-4d1d-88d5-3ff516be0194")
+		)
+		(pin "28"
+			(uuid "4f7feded-73b0-4d02-aa85-78962704c45e")
+		)
+		(pin "21"
+			(uuid "8159d29a-e624-40b4-92e0-6dcbd54ec371")
+		)
+		(pin "25"
+			(uuid "9ac22101-2ed6-4d27-b446-5edd70abec9c")
+		)
+		(pin "23"
+			(uuid "0fbd7b93-17e9-41ed-946e-f8909a33a7ad")
+		)
+		(pin "8"
+			(uuid "9dd08c2b-c182-48a4-baa9-18a98222965f")
 		)
 		(instances
-			(project ""
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 364.49 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55f2ac1e-8466-4115-8bb2-ae559ecb60e7")
+		(property "Reference" "J10"
+			(at 374.65 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 374.65 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 381 273.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 381 373.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 364.49 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 381 573.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 381 673.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 381 773.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 381 873.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 381 973.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "20ac916e-a29d-4bb9-8a36-3b3aed25567c")
+		)
+		(pin "5"
+			(uuid "af003d8e-c54d-4b55-ad7a-709090d6f914")
+		)
+		(pin "6"
+			(uuid "b878b932-6d08-4d18-94f1-8125c2a2889e")
+		)
+		(pin "1"
+			(uuid "ea8fe600-54d7-4056-a0fe-a8e41d5a791a")
+		)
+		(pin "4"
+			(uuid "e461c9ff-b134-44d4-af1c-d4b668af1008")
+		)
+		(pin "2"
+			(uuid "c5bc5df8-d26e-425b-8a4e-7d70c1d21ef9")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:MCP23017_SP")
+		(at 157.48 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58938a60-b203-4ed7-9e5a-d88649517a8e")
+		(property "Reference" "U2"
+			(at 159.6233 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP23017_SP"
+			(at 159.6233 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(at 162.56 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+			(at 162.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "5880415a-bf84-4972-aaaf-4391f966c9e0")
+		)
+		(pin "6"
+			(uuid "c9c780e5-6846-42ba-9f12-eb3088bf301a")
+		)
+		(pin "12"
+			(uuid "dfa19b6d-aae2-4f2d-9f19-34efb5b2f35a")
+		)
+		(pin "11"
+			(uuid "8a378e29-7967-42d0-b883-68f7bc83c42b")
+		)
+		(pin "13"
+			(uuid "3606843d-70ae-4913-8395-5e308a4f9017")
+		)
+		(pin "16"
+			(uuid "1dc378d2-2718-46fd-9d8b-dfa78864b3db")
+		)
+		(pin "15"
+			(uuid "646dc15b-dc47-44a3-9385-a3da8c79782f")
+		)
+		(pin "20"
+			(uuid "2768627a-9f8f-43b5-b48a-1c6adfacc230")
+		)
+		(pin "2"
+			(uuid "7826617e-56b8-46c6-8a58-74b993dc4bba")
+		)
+		(pin "4"
+			(uuid "5dc37767-aa89-434b-8bfe-a3b5574ff3c5")
+		)
+		(pin "5"
+			(uuid "b90d6ab4-8f12-43c5-90ed-8f20a31bbd88")
+		)
+		(pin "14"
+			(uuid "3668bb29-05eb-4551-b31e-1a9ff8d7796b")
+		)
+		(pin "22"
+			(uuid "e9118400-ae6d-44af-b9f2-1ca35838b780")
+		)
+		(pin "18"
+			(uuid "d01c9995-3930-4302-897e-713dd0bced10")
+		)
+		(pin "17"
+			(uuid "ae0b9f90-bc8d-44cb-8502-48c2024783da")
+		)
+		(pin "19"
+			(uuid "ab0125f0-c0cc-499d-994d-9f3110c291c2")
+		)
+		(pin "9"
+			(uuid "1eab15bd-5bbe-4009-a3aa-2a7554f6c2be")
+		)
+		(pin "1"
+			(uuid "8c6b2a3e-96e6-4b5a-8bf1-e93c937ed231")
+		)
+		(pin "3"
+			(uuid "071fdd41-dfcf-48f6-9b91-541b57a86767")
+		)
+		(pin "7"
+			(uuid "11b600fa-8b1e-4c91-9576-8de9939da68c")
+		)
+		(pin "24"
+			(uuid "296f60b3-2d7b-41e6-8b4f-5ca64b2d0bdd")
+		)
+		(pin "26"
+			(uuid "525c2ec1-3534-4686-b23b-278f3775a79b")
+		)
+		(pin "27"
+			(uuid "c93d9600-8294-4310-9a9d-802bcd47132b")
+		)
+		(pin "28"
+			(uuid "8ba7b289-d800-4ad0-9fa3-75433ba36edc")
+		)
+		(pin "21"
+			(uuid "7fdaa3b7-e0a4-4fbe-b7c8-cd5a1f16c4e3")
+		)
+		(pin "25"
+			(uuid "5ef29a9d-a9cb-45cf-bf2d-98d4f63d9a6c")
+		)
+		(pin "23"
+			(uuid "04c32392-f6e8-4591-b58d-13a824a82ab8")
+		)
+		(pin "8"
+			(uuid "4d108019-2ff6-468a-8184-fd1570860d79")
+		)
+		(instances
+			(project "espander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
 					(reference "U2")
 					(unit 1)
@@ -1554,8 +4271,290 @@
 		)
 	)
 	(symbol
+		(lib_id "Interface_Expansion:MCP23017_SP")
+		(at 336.55 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fcbb28e-52a4-40a3-88ea-9b17d8151996")
+		(property "Reference" "U6"
+			(at 338.6933 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP23017_SP"
+			(at 338.6933 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(at 341.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+			(at 341.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 336.55 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "b897ad09-4a8e-421f-b42d-4da9e623f76d")
+		)
+		(pin "6"
+			(uuid "4f752cd8-091b-4526-81d5-d95b068e6629")
+		)
+		(pin "12"
+			(uuid "e2f68a32-0ee0-4ca7-b5c3-72f1203083c2")
+		)
+		(pin "11"
+			(uuid "0d9491d4-5fdd-4c9e-90c9-f7787d1359eb")
+		)
+		(pin "13"
+			(uuid "c41d054a-1c93-4bca-b2b8-054dc5ce26c3")
+		)
+		(pin "16"
+			(uuid "896a40da-5102-428b-a72a-9741949ee791")
+		)
+		(pin "15"
+			(uuid "e44fcdfe-2701-4741-80ee-657c82b29c10")
+		)
+		(pin "20"
+			(uuid "cbd061da-0944-48bc-ac85-e2cfb800c89e")
+		)
+		(pin "2"
+			(uuid "569a8fb2-1229-4551-9788-1d4070e53af6")
+		)
+		(pin "4"
+			(uuid "b8f606b9-aa8c-4bd5-8097-1db8ac6c1a84")
+		)
+		(pin "5"
+			(uuid "0fac90b6-5155-4a96-a300-617d6a02b227")
+		)
+		(pin "14"
+			(uuid "c510b5d4-90f3-4c06-926b-222259637f9f")
+		)
+		(pin "22"
+			(uuid "917ed3cc-a756-4a64-804b-1e1e1461a165")
+		)
+		(pin "18"
+			(uuid "1cbba4b9-cb03-4f5c-9ecf-546c74263352")
+		)
+		(pin "17"
+			(uuid "f409d2ae-12c2-4ffc-ac5e-fe5ef09eabd0")
+		)
+		(pin "19"
+			(uuid "d765ec30-28ab-4842-aaa2-dd44b684fc98")
+		)
+		(pin "9"
+			(uuid "d432f0d5-293e-4a0f-8910-2c4103f95ebe")
+		)
+		(pin "1"
+			(uuid "a71b6c23-09b4-416f-9ca5-15a43feb4aaf")
+		)
+		(pin "3"
+			(uuid "43be98ce-e4f4-44d5-83d9-4465be454f98")
+		)
+		(pin "7"
+			(uuid "1069c5f9-bb76-481b-9c1e-d7c889b2baf2")
+		)
+		(pin "24"
+			(uuid "b7ce3ae7-6356-49f2-93e6-90ee105824d3")
+		)
+		(pin "26"
+			(uuid "98fb81d0-618f-48dd-85b9-1ec5f8a7e113")
+		)
+		(pin "27"
+			(uuid "9f32aa31-de33-4958-86fe-b7a70de98f2b")
+		)
+		(pin "28"
+			(uuid "ca9905a1-3e51-4b57-b746-7ce81beba21b")
+		)
+		(pin "21"
+			(uuid "8cbe142d-d45e-4aba-a6f0-06c0a5c9dcc7")
+		)
+		(pin "25"
+			(uuid "12ed7766-f4ae-4604-b0cb-7b7a3f4ac6fb")
+		)
+		(pin "23"
+			(uuid "aa85304d-9614-49d5-9815-c633b3fda3e3")
+		)
+		(pin "8"
+			(uuid "14a8a0e2-af82-449f-900b-b4ba2f040ba0")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 190.5 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c3aab21-cf4f-491c-9982-df4df6f87cd5")
+		(property "Reference" "J14"
+			(at 200.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 200.66 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 207.01 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 207.01 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 207.01 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 207.01 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 207.01 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 207.01 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 207.01 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1f9bb2cc-6825-4a3c-876f-df74841d6ac3")
+		)
+		(pin "5"
+			(uuid "b9110e4a-4001-4f1e-81f3-6515e847ae92")
+		)
+		(pin "6"
+			(uuid "535208f5-7baa-48f2-804f-98628def5c79")
+		)
+		(pin "1"
+			(uuid "40aafde0-07cd-434c-a711-147ba2bda761")
+		)
+		(pin "4"
+			(uuid "62e74588-2556-482b-bb18-ea2f180ed7cc")
+		)
+		(pin "2"
+			(uuid "1a658b57-b031-4924-9ad6-76d8f376ea38")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VD")
-		(at 52.07 113.03 0)
+		(at -52.07 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1564,7 +4563,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ef58320-0901-40d7-8a68-beae6ba1f3ec")
 		(property "Reference" "#PWR01"
-			(at 52.07 116.84 0)
+			(at -52.07 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1573,7 +4572,7 @@
 			)
 		)
 		(property "Value" "+5VD"
-			(at 52.07 107.95 0)
+			(at -52.07 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1581,7 +4580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 113.03 0)
+			(at -52.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1590,7 +4589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 113.03 0)
+			(at -52.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1599,7 +4598,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 52.07 113.03 0)
+			(at -52.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,35 +4619,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 13.97 22.86 180)
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 358.14 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "70d426ab-da10-420f-a6de-c67725aa2928")
-		(property "Reference" "J1"
-			(at 15.24 20.3199 0)
+		(uuid "710c3c06-12d4-4232-8dcc-d1d9951b4c13")
+		(property "Reference" "J20"
+			(at 368.3 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 15.24 22.8599 0)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 368.3 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
-			(at 13.97 22.86 0)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 374.65 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 374.65 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 358.14 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,34 +4673,624 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 13.97 22.86 0)
+		(property "Height" "19.41"
+			(at 374.65 435.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 13.97 22.86 0)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 374.65 535.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "a656238f-0052-4b2f-b907-3e42fce3ce8b")
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 374.65 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 374.65 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 374.65 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d72d13ba-469f-4d00-85ce-b842a3a6037c")
+		)
+		(pin "5"
+			(uuid "090d36d2-6550-4729-b561-baf40626af8a")
+		)
+		(pin "6"
+			(uuid "d5d03450-2faf-43cb-b535-b19d9c0ce801")
 		)
 		(pin "1"
-			(uuid "6ed8fcb5-869e-4922-ab22-12c86c469d5a")
+			(uuid "839d4db0-ad44-47bf-9e22-a9cb594276c8")
+		)
+		(pin "4"
+			(uuid "bf6be37a-afa0-4922-ac91-6dcb9d52f7dc")
+		)
+		(pin "2"
+			(uuid "ce5bfc56-2e0e-449a-bde7-8844f4e094ae")
 		)
 		(instances
-			(project ""
+			(project "espander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
-					(reference "J1")
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 250.19 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80409f11-d731-4fb4-82aa-c2c3681f3359")
+		(property "Reference" "J6"
+			(at 260.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 260.35 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 266.7 273.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 266.7 373.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 250.19 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 266.7 573.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 266.7 673.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 266.7 773.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 266.7 873.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 266.7 973.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "da86170e-066c-4dcf-9d19-0dc84e2cc5d7")
+		)
+		(pin "5"
+			(uuid "98e1cb9d-3861-46cb-8a7b-c50de0f2347d")
+		)
+		(pin "6"
+			(uuid "73634099-5669-46ad-a444-88da589f1cea")
+		)
+		(pin "1"
+			(uuid "28b18a5b-732d-4f22-832f-7eff0a527d56")
+		)
+		(pin "4"
+			(uuid "ef7d61df-03b2-4d8d-a34c-77abfcf4bec2")
+		)
+		(pin "2"
+			(uuid "1c3a9952-93e2-4ab6-b7e9-6a5637336ee3")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 162.56 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "856ef80c-d6b9-42d7-8e64-7ba1f237457f")
+		(property "Reference" "J13"
+			(at 172.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 172.72 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 179.07 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 179.07 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 162.56 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 179.07 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 179.07 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 179.07 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 179.07 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 179.07 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "41fb0979-7c26-4755-ac38-3801b7bbfd7a")
+		)
+		(pin "5"
+			(uuid "b101d4e3-950d-4045-9c64-f899f1e7bd1b")
+		)
+		(pin "6"
+			(uuid "eb8e6992-c2bf-413c-a8cf-b2506117f778")
+		)
+		(pin "1"
+			(uuid "e8bc0875-58b0-4987-9dc9-8463b99e5c62")
+		)
+		(pin "4"
+			(uuid "34d42f88-33bd-4194-b9d8-446941cb14ba")
+		)
+		(pin "2"
+			(uuid "0451c517-1d90-439b-833b-87271c672a83")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 196.85 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "858ebfeb-a03f-4a3b-88d2-01bbbe36b494")
+		(property "Reference" "J4"
+			(at 207.01 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 207.01 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 213.36 273.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 213.36 373.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 196.85 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 213.36 573.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 213.36 673.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 213.36 773.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 213.36 873.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 213.36 973.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bbb23bb4-39d3-438e-8f8a-affd9ef40491")
+		)
+		(pin "5"
+			(uuid "0aa04f89-0930-4d65-a0fe-d11c71750ebd")
+		)
+		(pin "6"
+			(uuid "df0c1007-4704-4974-b4df-efd4fe76efea")
+		)
+		(pin "1"
+			(uuid "bf10d89f-1143-407a-ba5f-1137b56441c3")
+		)
+		(pin "4"
+			(uuid "006997e1-34b5-485a-8158-8422d84b3e3f")
+		)
+		(pin "2"
+			(uuid "b150f7b6-7b74-4a51-a7be-561b9fb6b95b")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:MCP23017_SP")
+		(at 381 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a4877e6-69b0-4144-a73f-196e1650c0ed")
+		(property "Reference" "U7"
+			(at 383.1433 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP23017_SP"
+			(at 383.1433 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(at 386.08 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+			(at 386.08 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 381 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "73acb91b-e79b-4a3b-8903-3440a7b0a953")
+		)
+		(pin "6"
+			(uuid "94c2e696-0942-4184-83e4-309ad2da7192")
+		)
+		(pin "12"
+			(uuid "0ad120ac-dab3-4d0f-bf84-fb94811c86e5")
+		)
+		(pin "11"
+			(uuid "3995f757-6f5d-4ac3-b61a-de7b80233e75")
+		)
+		(pin "13"
+			(uuid "b179f69a-a3f6-4835-b3b0-dab02102dcd8")
+		)
+		(pin "16"
+			(uuid "dd90070e-a881-4b68-8bc9-54bda8214d18")
+		)
+		(pin "15"
+			(uuid "9ee62af1-be75-4d43-b5f5-02fc589e6055")
+		)
+		(pin "20"
+			(uuid "034728e8-9309-4816-9194-a4e6f9d8f14f")
+		)
+		(pin "2"
+			(uuid "e487eb86-4bff-4c78-ada4-2d1ba85b9abc")
+		)
+		(pin "4"
+			(uuid "f8e7b789-cd5f-4d4c-8329-1f5be37ea7a1")
+		)
+		(pin "5"
+			(uuid "f3e6de6e-68be-4cac-b99d-41f1c91b64de")
+		)
+		(pin "14"
+			(uuid "c9b5ccfd-bf72-4774-a096-5140abdd0ba0")
+		)
+		(pin "22"
+			(uuid "63a6cfd0-402d-4ce7-b4cb-98fcc49262ac")
+		)
+		(pin "18"
+			(uuid "6a4556f3-eaf3-4b07-b025-be1d9f9c7c2c")
+		)
+		(pin "17"
+			(uuid "69f6a979-adfb-4362-9b69-0e433f066ee5")
+		)
+		(pin "19"
+			(uuid "476d7a97-955c-4b20-adf6-e011473d52c4")
+		)
+		(pin "9"
+			(uuid "4115a298-bc80-41f6-b649-9fbe91a340d3")
+		)
+		(pin "1"
+			(uuid "f6a14850-fbbe-4857-9b0e-7232eb90d6f1")
+		)
+		(pin "3"
+			(uuid "f14a9187-cb5b-4670-8871-d746d99e0aee")
+		)
+		(pin "7"
+			(uuid "c550481e-98b4-426b-b528-0de89990a821")
+		)
+		(pin "24"
+			(uuid "d03a3511-b70b-46c0-a762-4b1536a547a6")
+		)
+		(pin "26"
+			(uuid "afb213b4-3bb2-4632-9c59-de5455935eeb")
+		)
+		(pin "27"
+			(uuid "d181b66a-7f23-467f-af26-49d9b2c1e674")
+		)
+		(pin "28"
+			(uuid "8cb7d83d-9e05-4713-97df-8217616bfc23")
+		)
+		(pin "21"
+			(uuid "f5b3b1a9-dc66-4ae8-919b-e233ea27a9a2")
+		)
+		(pin "25"
+			(uuid "2ed25942-2633-4ec2-8442-eaa4737b73d2")
+		)
+		(pin "23"
+			(uuid "33deb342-d416-49a1-86f5-eaf7685fcb29")
+		)
+		(pin "8"
+			(uuid "cf56f652-bc67-4b47-a45f-0d16cf9c0121")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -1691,7 +5298,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 93.98 111.76 0)
+		(at -10.16 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1700,7 +5307,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a7c53b3-7890-43cf-9889-d9416aae87dd")
 		(property "Reference" "#PWR04"
-			(at 93.98 118.11 0)
+			(at -10.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,7 +5316,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 116.84 0)
+			(at -10.16 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1717,7 +5324,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 111.76 0)
+			(at -10.16 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1726,7 +5333,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 111.76 0)
+			(at -10.16 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1735,7 +5342,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 111.76 0)
+			(at -10.16 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,55 +5363,53 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_Expansion:MCP23017_ML")
-		(at 59.69 52.07 0)
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 224.79 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ca557225-6d0d-4a5d-b004-e3091fcd7a02")
-		(property "Reference" "U1"
-			(at 61.8333 24.13 0)
+		(uuid "9e9828a8-2fb9-41af-9757-e6854dd836b7")
+		(property "Reference" "J5"
+			(at 234.95 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MCP23017_ML"
-			(at 61.8333 26.67 0)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 234.95 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
-			(at 64.77 77.47 0)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 241.3 273.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
-			(at 64.77 80.01 0)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 241.3 373.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, GPA/B7 output only (https://microchip.my.site.com/s/article/GPA7---GPB7-Cannot-Be-Used-as-Inputs-In-MCP23017), QFN-28"
-			(at 59.69 52.07 0)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 224.79 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,97 +5417,738 @@
 				(hide yes)
 			)
 		)
-		(pin "13"
-			(uuid "1e90f1b9-6016-460f-99ba-8b8a1f6a4f22")
+		(property "Height" "19.41"
+			(at 241.3 573.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "8"
-			(uuid "68590e15-0262-46e5-9637-05eaf16acaa4")
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 241.3 673.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "4"
-			(uuid "5839ab80-af4b-45bb-9be1-90c2c2526c7c")
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 241.3 773.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "18"
-			(uuid "a8dd9dd5-a4f5-4f18-9294-6db52afe36e7")
+		(property "Manufacturer_Name" "Degson"
+			(at 241.3 873.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
-		(pin "19"
-			(uuid "9242df58-08ef-409b-9db2-1bf7f3918421")
-		)
-		(pin "15"
-			(uuid "6a84d732-74d0-4ebf-bfe4-841f219daa70")
-		)
-		(pin "14"
-			(uuid "9a2958e7-3798-4aa3-97e9-dc7196c4d0e8")
-		)
-		(pin "12"
-			(uuid "0c2eadaf-f3f1-4eb7-a262-dc0e66465377")
-		)
-		(pin "29"
-			(uuid "b9426e07-bde0-406a-b076-aae35b4315ef")
-		)
-		(pin "16"
-			(uuid "bf33821c-762f-4795-b21b-8df8fac43409")
-		)
-		(pin "5"
-			(uuid "34c61a84-df23-4320-b877-225c5fd555c8")
-		)
-		(pin "6"
-			(uuid "4b7dd93e-24d2-4fa9-adfe-77bc029872e6")
-		)
-		(pin "25"
-			(uuid "74b3fd08-033f-4888-a2ea-9b2383d72296")
-		)
-		(pin "9"
-			(uuid "c18e8207-0944-4f2a-817f-f65408216866")
-		)
-		(pin "7"
-			(uuid "5f8cfad6-cbdc-48c4-b43b-cd0fed232e10")
-		)
-		(pin "27"
-			(uuid "5d742b49-dad2-49a9-b116-366b84b37ceb")
-		)
-		(pin "28"
-			(uuid "f33705ce-c36a-48f6-9408-ce2bd09a3683")
-		)
-		(pin "26"
-			(uuid "50e22f86-7b43-4308-8a9c-750800fa31bd")
-		)
-		(pin "10"
-			(uuid "7a79c142-09cc-4e15-99e0-b3984e68a354")
-		)
-		(pin "1"
-			(uuid "901cbf0c-4cd1-4283-aee7-bf2aa71c3c09")
-		)
-		(pin "2"
-			(uuid "ff988d82-3f73-4a8d-9cc8-442b58707234")
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 241.3 973.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
 		)
 		(pin "3"
-			(uuid "d7209f9d-7240-41dd-9d41-2aa41fc6d90f")
+			(uuid "5cdec573-ff11-4311-b956-a41840c7ec37")
 		)
-		(pin "11"
-			(uuid "489a427d-1d10-4c36-826e-ccc2083a2faf")
+		(pin "5"
+			(uuid "042ef5d8-5e61-4574-ada5-d2c08f57dca1")
 		)
-		(pin "17"
-			(uuid "4585eece-99a7-4db7-a5f4-66e72ebd8a9e")
+		(pin "6"
+			(uuid "71e6616e-ed8f-4068-8801-b85aa53a8466")
 		)
-		(pin "20"
-			(uuid "34e0f59d-0807-41e1-a3d4-b15dae982a84")
+		(pin "1"
+			(uuid "a7d32fbd-de0c-4840-a6fc-7180c6020865")
 		)
-		(pin "22"
-			(uuid "cc076a67-81b5-4e69-847c-a24815015724")
+		(pin "4"
+			(uuid "f3b1afd7-c81a-40da-94c8-70a3ee563df5")
 		)
-		(pin "23"
-			(uuid "9841fff0-61c5-4a97-a195-89ef2f4672d7")
-		)
-		(pin "24"
-			(uuid "744bbbd6-3047-4e1d-8d8d-d5f9133a2975")
-		)
-		(pin "21"
-			(uuid "9b9cd56a-4348-445e-8fa7-b08443c7e9f2")
+		(pin "2"
+			(uuid "0119aa12-222e-4478-957e-15d67be6df97")
 		)
 		(instances
-			(project ""
+			(project "espander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
-					(reference "U1")
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 302.26 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b36ed0c5-57cf-4908-99d3-c82c7eeeae3f")
+		(property "Reference" "J18"
+			(at 312.42 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 312.42 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 318.77 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 318.77 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 302.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 318.77 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 318.77 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 318.77 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 318.77 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 318.77 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "c4c7f84c-7bbb-406e-b193-3cbd705484aa")
+		)
+		(pin "5"
+			(uuid "efce87ca-b674-4378-84fd-89ebc55ec4b1")
+		)
+		(pin "6"
+			(uuid "5097db06-b639-4c77-804e-88cd4d9e2186")
+		)
+		(pin "1"
+			(uuid "37ff2384-9059-4f44-9cbb-f8885ec0db26")
+		)
+		(pin "4"
+			(uuid "8d489836-3325-4d6a-9870-46e837f868c7")
+		)
+		(pin "2"
+			(uuid "f6abd30d-f596-41e4-8c7e-19a12204af70")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 218.44 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9cad77b-f98c-4133-b184-574e56273d7c")
+		(property "Reference" "J15"
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 228.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 234.95 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 234.95 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 234.95 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 234.95 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 234.95 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 234.95 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 234.95 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "7fcfbfb6-e86f-4723-b0ac-77057d7b883d")
+		)
+		(pin "5"
+			(uuid "3d2be7f3-1997-44cc-b3a1-ac9bcafb0624")
+		)
+		(pin "6"
+			(uuid "9aae8c55-47fe-40dc-95b7-3dadee7d9738")
+		)
+		(pin "1"
+			(uuid "4ae7dcc1-6839-4c42-8a62-494c3fcd3de3")
+		)
+		(pin "4"
+			(uuid "2b1d30f0-d7f8-4c9d-9e30-b10532181417")
+		)
+		(pin "2"
+			(uuid "d1e04ddc-57be-4a23-9dd4-538edb2bd33c")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 243.84 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e46fe088-7c40-42c2-b265-5d2ee6f1d681")
+		(property "Reference" "J16"
+			(at 254 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 254 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 260.35 135.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 260.35 235.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 243.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 260.35 435.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 260.35 535.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 260.35 635.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 260.35 735.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 260.35 835.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "757940a7-ce27-4def-a4cb-5e857575e057")
+		)
+		(pin "5"
+			(uuid "6115e7cd-acfe-450b-9309-31c7dc8a006a")
+		)
+		(pin "6"
+			(uuid "e9d94057-aff9-4f94-8262-d5c54603434f")
+		)
+		(pin "1"
+			(uuid "605adced-3101-42d0-9535-c68f0caccbef")
+		)
+		(pin "4"
+			(uuid "1e84796a-f4d8-4893-92ae-77d898b1f1c0")
+		)
+		(pin "2"
+			(uuid "c227a35c-9b57-42c4-bbe0-f2c79c4b8422")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 278.13 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec37d5b7-36d9-4856-88bc-0675df74fc33")
+		(property "Reference" "J7"
+			(at 288.29 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 288.29 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 294.64 273.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 294.64 373.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 278.13 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 294.64 573.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 294.64 673.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 294.64 773.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 294.64 873.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 294.64 973.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "63109ea3-aa6b-42cf-b09e-b52ddd169802")
+		)
+		(pin "5"
+			(uuid "be9f1b78-5800-461a-a047-d7a1843d4d6b")
+		)
+		(pin "6"
+			(uuid "e919e60b-35bd-4a93-9fb8-956437c50ebe")
+		)
+		(pin "1"
+			(uuid "48623e84-dae8-48e7-bd7f-ac6dfead5d8b")
+		)
+		(pin "4"
+			(uuid "1b2745f4-a188-40d9-9aac-8c446aaa5e60")
+		)
+		(pin "2"
+			(uuid "7203da8e-c47f-4388-8f25-0a2787a0d05c")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 336.55 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0c9fc21-21e5-4b0b-8ea8-d12edd1b378a")
+		(property "Reference" "J9"
+			(at 346.71 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 346.71 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 353.06 273.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 353.06 373.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 336.55 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 353.06 573.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" "DG127A-5.08-06P"
+			(at 353.06 673.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" "4.78"
+			(at 353.06 773.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 353.06 873.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 353.06 973.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "699a3601-6f94-4b9d-ba3f-133e050c4b0c")
+		)
+		(pin "5"
+			(uuid "a39a062e-7a79-42a7-a843-dca6b0534ed1")
+		)
+		(pin "6"
+			(uuid "40e318a9-f499-4ba9-a2b6-ffbaee91c3fa")
+		)
+		(pin "1"
+			(uuid "2eff0f8e-9a8d-4d07-85fd-54fa66c1f0dc")
+		)
+		(pin "4"
+			(uuid "bcf7d6ee-d750-4b90-97a3-9d4052e3a385")
+		)
+		(pin "2"
+			(uuid "3bb5cd98-45a0-47d3-860f-8509a80c7e5f")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(reference "J9")
 					(unit 1)
 				)
 			)
