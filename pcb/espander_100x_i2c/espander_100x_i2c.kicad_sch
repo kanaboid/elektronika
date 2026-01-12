@@ -1979,9 +1979,53 @@
 			)
 		)
 	)
+	(global_label "U3-GPB5"
+		(shape bidirectional)
+		(at 43.18 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04487a44-f6e1-4960-8e89-62d656790e81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.4084 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U3-GPB6"
+		(shape bidirectional)
+		(at 55.88 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0cb7b41a-9eec-46a0-8166-79e4844a2791")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.6516 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "U2-GPB7"
 		(shape output)
-		(at 24.13 191.77 0)
+		(at 24.13 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1991,7 +2035,29 @@
 		)
 		(uuid "1533175f-d47d-4815-b3f0-9fc6389e75ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.2471 191.77 0)
+			(at 36.2471 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U3-GPB7"
+		(shape output)
+		(at 44.45 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ac757f6-eb6d-4d75-9232-8b74e4ad24fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.5671 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +2069,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 35.56 184.15 180)
+		(at 35.56 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2013,7 +2079,7 @@
 		)
 		(uuid "25c419ad-f99d-4d8f-bf85-e71b9b6369ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.8954 184.15 0)
+			(at 27.8954 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2025,7 +2091,7 @@
 	)
 	(global_label "SCK"
 		(shape bidirectional)
-		(at 35.56 180.34 180)
+		(at 35.56 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2035,7 +2101,7 @@
 		)
 		(uuid "d2b967af-e570-4f86-b4a3-420ba6390e0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.714 180.34 0)
+			(at 27.714 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,9 +2133,31 @@
 			)
 		)
 	)
+	(global_label "U3-GPB4"
+		(shape bidirectional)
+		(at 55.88 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dfbe86aa-f79a-4846-b00d-621a12831488")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.6516 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "U2-GPB6"
 		(shape bidirectional)
-		(at 22.86 187.96 0)
+		(at 22.86 166.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2079,7 +2167,7 @@
 		)
 		(uuid "e931f6e1-9dd6-43e0-8df0-f117e0a8beff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.0884 187.96 0)
+			(at 36.0884 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,8 +3142,8 @@
 		)
 	)
 	(sheet
-		(at 18.034 178.308)
-		(size 18.288 16.256)
+		(at 18.034 156.21)
+		(size 18.288 38.354)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3070,7 +3158,7 @@
 		)
 		(uuid "24a537b1-e78d-4d9d-9041-2847cfe4bae7")
 		(property "Sheetname" "U2"
-			(at 18.034 177.5964 0)
+			(at 18.034 155.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3096,8 +3184,134 @@
 		)
 	)
 	(sheet
-		(at 39.6494 178.5366)
-		(size 17.2466 16.1798)
+		(at 60.96 156.21)
+		(size 17.2466 38.5064)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89399d0f-8527-42f7-9857-a43fca03c974")
+		(property "Sheetname" "U5"
+			(at 60.96 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "U5.kicad_sch"
+			(at 60.96 195.301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 82.55 156.21)
+		(size 17.2466 38.5064)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8bfbd7d0-83f8-4b04-af03-9d1fd88c9002")
+		(property "Sheetname" "U6"
+			(at 82.55 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "U6.kicad_sch"
+			(at 82.55 195.301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 156.21)
+		(size 17.2466 38.5064)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9001afb0-babe-4a20-8145-9e37070672bc")
+		(property "Sheetname" "U7 - U8"
+			(at 104.14 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "U7.kicad_sch"
+			(at 104.14 195.301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.6494 156.21)
+		(size 17.2466 38.5064)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3111,8 +3325,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bcecc8eb-daf5-43c6-b239-64472c35daf3")
-		(property "Sheetname" "U3"
-			(at 39.6494 177.825 0)
+		(property "Sheetname" "U3 - U4"
+			(at 39.6494 155.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
