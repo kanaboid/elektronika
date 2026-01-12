@@ -691,6 +691,18 @@
       "/U3 - U4/U3-GPB3": [
         "GPIO"
       ],
+      "/U3 - U4/U3-GPB4": [
+        "GPIO"
+      ],
+      "/U3 - U4/U3-GPB5": [
+        "GPIO"
+      ],
+      "/U3 - U4/U3-GPB6": [
+        "GPIO"
+      ],
+      "/U3 - U4/U3-GPB7": [
+        "GPIO"
+      ],
       "/U3 - U4/U4-GPA0": [
         "GPIO"
       ],
@@ -743,18 +755,6 @@
         "GPIO"
       ],
       "U2-GPB7": [
-        "GPIO"
-      ],
-      "U3-GPB4": [
-        "GPIO"
-      ],
-      "U3-GPB5": [
-        "GPIO"
-      ],
-      "U3-GPB6": [
-        "GPIO"
-      ],
-      "U3-GPB7": [
         "GPIO"
       ]
     },
