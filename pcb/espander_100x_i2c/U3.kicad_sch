@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "59174b24-ca82-4537-8ec8-2b89ef3578a1")
+	(uuid "b0893780-371f-4663-af68-eb784d6dcd48")
 	(paper "A4")
 	(lib_symbols
 		(symbol "1_tme:DG127A-5.08-06P-14-00AH"
@@ -1229,6 +1229,26 @@
 			)
 		)
 	)
+	(label "U4-GPB5"
+		(at 233.68 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08b1f650-1671-47b7-a315-b1f351f02d66")
+		(property "Netclass" "GPIO"
+			(at 223.774 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(label "SCK"
 		(at 26.67 36.83 0)
 		(effects
@@ -1256,6 +1276,46 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(label "U4-GPA5"
+		(at 233.68 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1561ed4b-e41f-470b-ab5e-7799b6fe2629")
+		(property "Netclass" "GPIO"
+			(at 223.774 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(label "U4-GPB3"
+		(at 233.68 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "176a6cb2-54f4-4f06-8249-eba6d9b26475")
+		(property "Netclass" "GPIO"
+			(at 223.774 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -1296,26 +1356,6 @@
 					(italic yes)
 				)
 				(justify right)
-			)
-		)
-	)
-	(label "U3-GPB6"
-		(at 71.12 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "250d8871-95f1-4b2c-a83b-df301ee06830")
-		(property "Netclass" "GPIO"
-			(at 81.026 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -1376,6 +1416,46 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(label "U4-GPA3"
+		(at 233.68 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "357f5649-506d-4a28-9901-37247a6e6f0a")
+		(property "Netclass" "GPIO"
+			(at 223.774 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(label "U4-GPB1"
+		(at 233.68 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "363e5064-e05d-4f74-b36a-1efcd0638c75")
+		(property "Netclass" "GPIO"
+			(at 223.774 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -1609,17 +1689,17 @@
 			)
 		)
 	)
-	(label "U3-GPB7"
-		(at 71.12 52.07 0)
+	(label "U4-GPB0"
+		(at 254 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8512f648-4e3b-4df2-a756-fa054dbd0ba8")
+		(uuid "863fa3ff-a55c-450a-9699-f8f62944229e")
 		(property "Netclass" "GPIO"
-			(at 81.026 53.34 0)
+			(at 263.906 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1759,6 +1839,26 @@
 			)
 		)
 	)
+	(label "U4-GPA1"
+		(at 233.68 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0320e3a-bcd0-4519-b476-73b1285384d5")
+		(property "Netclass" "GPIO"
+			(at 223.52 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
 	(label "U3-GPA0"
 		(at 82.55 97.79 180)
 		(effects
@@ -1859,6 +1959,26 @@
 			)
 		)
 	)
+	(label "U4-GPB4"
+		(at 254 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc6c171f-1cbd-4755-b24b-54ea49da46de")
+		(property "Netclass" "GPIO"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "U3-GPA0"
 		(at 71.12 57.15 0)
 		(effects
@@ -1929,6 +2049,46 @@
 			)
 		)
 	)
+	(label "U4-GPA6"
+		(at 254 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d892fb38-72d8-4507-94d5-cef1913f8061")
+		(property "Netclass" "GPIO"
+			(at 263.906 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U4-GPA2"
+		(at 254 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dbb39723-31c3-4cf8-9ece-80813c061d28")
+		(property "Netclass" "GPIO"
+			(at 263.906 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "U3-GPB3"
 		(at 71.12 41.91 0)
 		(effects
@@ -1940,26 +2100,6 @@
 		(uuid "e02bc10a-516e-44a1-972e-99e37a79374e")
 		(property "Netclass" "GPIO"
 			(at 81.026 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U3-GPB5"
-		(at 71.12 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e5616e1d-46a2-4978-a37c-4c52bc8b7e59")
-		(property "Netclass" "GPIO"
-			(at 81.026 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2029,17 +2169,37 @@
 			)
 		)
 	)
-	(label "U3-GPB4"
-		(at 71.12 44.45 0)
+	(label "U4-GPB2"
+		(at 254 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "fce824a4-20fe-48d1-812b-810cae5f4af4")
+		(uuid "f33dcd10-8f04-4198-9554-29e1ae9aa376")
 		(property "Netclass" "GPIO"
-			(at 81.28 44.45 0)
+			(at 263.906 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U4-GPA4"
+		(at 254 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9df8f8f-98c8-4ee7-b993-24d73f5d10be")
+		(property "Netclass" "GPIO"
+			(at 263.906 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,6 +2253,72 @@
 			)
 		)
 	)
+	(global_label "U3-GPB7"
+		(shape bidirectional)
+		(at 71.12 52.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c255cf1-5ecc-4346-8d08-d42bcc8c290a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.3484 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U3-GPB6"
+		(shape bidirectional)
+		(at 71.12 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9531dd2e-f627-40a4-96e8-05a0ae31cb44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.3484 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U3-GPB5"
+		(shape bidirectional)
+		(at 71.12 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdf79843-9d8c-4a9c-bd74-e3cd38b374df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.3484 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCK"
 		(shape input)
 		(at 26.67 36.83 180)
@@ -2111,6 +2337,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U3-GPB4"
+		(shape bidirectional)
+		(at 71.12 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e91c58bc-a5b3-4f07-b0a4-930e7c579af1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.3484 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

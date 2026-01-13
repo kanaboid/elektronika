@@ -751,10 +751,217 @@
       "/U3 - U4/U4-GPB7": [
         "GPIO"
       ],
+      "/U5/U5-GPA0": [
+        "GPIO"
+      ],
+      "/U5/U5-GPA1": [
+        "GPIO"
+      ],
+      "/U5/U5-GPA2": [
+        "GPIO"
+      ],
+      "/U5/U5-GPA3": [
+        "GPIO"
+      ],
+      "/U5/U5-GPA4": [
+        "GPIO"
+      ],
+      "/U5/U5-GPA5": [
+        "GPIO"
+      ],
+      "/U5/U5-GPA6": [
+        "GPIO"
+      ],
+      "/U5/U5-GPA7": [
+        "GPIO"
+      ],
+      "/U5/U5-GPB0": [
+        "GPIO"
+      ],
+      "/U5/U5-GPB1": [
+        "GPIO"
+      ],
+      "/U5/U5-GPB2": [
+        "GPIO"
+      ],
+      "/U5/U5-GPB3": [
+        "GPIO"
+      ],
+      "/U5/U5-GPB4": [
+        "GPIO"
+      ],
+      "/U5/U5-GPB5": [
+        "GPIO"
+      ],
+      "/U5/U5-GPB6": [
+        "GPIO"
+      ],
+      "/U5/U5-GPB7": [
+        "GPIO"
+      ],
+      "/U6/U6-GPA0": [
+        "GPIO"
+      ],
+      "/U6/U6-GPA1": [
+        "GPIO"
+      ],
+      "/U6/U6-GPA2": [
+        "GPIO"
+      ],
+      "/U6/U6-GPA3": [
+        "GPIO"
+      ],
+      "/U6/U6-GPA4": [
+        "GPIO"
+      ],
+      "/U6/U6-GPA5": [
+        "GPIO"
+      ],
+      "/U6/U6-GPA6": [
+        "GPIO"
+      ],
+      "/U6/U6-GPA7": [
+        "GPIO"
+      ],
+      "/U6/U6-GPB0": [
+        "GPIO"
+      ],
+      "/U6/U6-GPB1": [
+        "GPIO"
+      ],
+      "/U6/U6-GPB2": [
+        "GPIO"
+      ],
+      "/U6/U6-GPB3": [
+        "GPIO"
+      ],
+      "/U6/U6-GPB4": [
+        "GPIO"
+      ],
+      "/U6/U6-GPB5": [
+        "GPIO"
+      ],
+      "/U6/U6-GPB6": [
+        "GPIO"
+      ],
+      "/U6/U6-GPB7": [
+        "GPIO"
+      ],
+      "/U6/U7-GPB7": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPA0": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPA1": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPA2": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPA3": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPA4": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPA5": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPA6": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPA7": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPB0": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPB1": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPB2": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPB3": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPB4": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPB5": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPB6": [
+        "GPIO"
+      ],
+      "/U7 - U8/U7-GPB7": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPA0": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPA1": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPA2": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPA3": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPA4": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPA5": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPA6": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPA7": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPB0": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPB1": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPB2": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPB3": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPB4": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPB5": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPB6": [
+        "GPIO"
+      ],
+      "/U7 - U8/U8-GPB7": [
+        "GPIO"
+      ],
       "U2-GPB6": [
         "GPIO"
       ],
       "U2-GPB7": [
+        "GPIO"
+      ],
+      "U7-GPB4": [
+        "GPIO"
+      ],
+      "U7-GPB5": [
+        "GPIO"
+      ],
+      "U7-GPB6": [
+        "GPIO"
+      ],
+      "U7-GPB7": [
         "GPIO"
       ]
     },
@@ -778,6 +985,18 @@
       {
         "netclass": "GPIO",
         "pattern": "GPIO"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "U3-GPB7"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "U3-GPB4"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "U3-GPB5"
       }
     ]
   },
@@ -982,6 +1201,10 @@
     [
       "9001afb0-babe-4a20-8145-9e37070672bc",
       "U7 - U8"
+    ],
+    [
+      "55ba1fbf-ba99-4dff-a5fd-f0299e9a0a1f",
+      "esp32"
     ]
   ],
   "text_variables": {}
