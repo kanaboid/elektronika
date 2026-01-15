@@ -129,7 +129,7 @@
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.0,
-        "min_microvia_diameter": 0.45,
+        "min_microvia_diameter": 0.4,
         "min_microvia_drill": 0.3,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
@@ -138,7 +138,7 @@
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.15,
         "min_via_annular_width": 0.0,
-        "min_via_diameter": 0.45,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -511,10 +511,20 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.25,
+        "name": "+24V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
         "clearance": 0.254,
         "name": "+5VD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "wire_width": 6
@@ -524,7 +534,7 @@
         "clearance": 0.254,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
         "wire_width": 6
@@ -534,7 +544,7 @@
         "clearance": 0.25,
         "name": "GPIO",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "wire_width": 6
@@ -544,7 +554,7 @@
         "clearance": 0.254,
         "name": "SCK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "wire_width": 6
@@ -554,7 +564,7 @@
         "clearance": 0.254,
         "name": "SDA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "wire_width": 6
@@ -653,6 +663,12 @@
         "GPIO"
       ],
       "/U2/U2-GPB5": [
+        "GPIO"
+      ],
+      "/U2/U2-GPB6": [
+        "GPIO"
+      ],
+      "/U2/U2-GPB7": [
         "GPIO"
       ],
       "/U3 - U4/U3-GPA0": [
@@ -946,6 +962,30 @@
       "/U7 - U8/U8-GPB7": [
         "GPIO"
       ],
+      "/ZC57_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/ZC57_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/ZC58_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/ZC58_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/ZC59_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/ZC59_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/ZC60_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/ZC60_OPEN_MOTOR": [
+        "+24V"
+      ],
       "U2-GPB6": [
         "GPIO"
       ],
@@ -1205,6 +1245,10 @@
     [
       "55ba1fbf-ba99-4dff-a5fd-f0299e9a0a1f",
       "esp32"
+    ],
+    [
+      "05f6d746-0108-4306-8dc5-30fda3a53f93",
+      "relays"
     ]
   ],
   "text_variables": {}

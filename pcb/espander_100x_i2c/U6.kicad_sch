@@ -1100,26 +1100,6 @@
 		(uuid "9b731a54-ea2b-40f3-85b6-aa31107bbb8f")
 	)
 	(label "U6-GPB2"
-		(at 154.94 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04c57722-a592-4fc8-aa99-ef19bba4011f")
-		(property "Netclass" "GPIO"
-			(at 164.846 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U6-GPB2"
 		(at 72.39 38.1 0)
 		(effects
 			(font
@@ -1136,46 +1116,6 @@
 					(italic yes)
 				)
 				(justify left)
-			)
-		)
-	)
-	(label "U6-GPA7"
-		(at 154.94 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "160f4a4c-76a8-4864-a3fa-0924aaf12e7a")
-		(property "Netclass" "GPIO"
-			(at 164.846 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U6-GPA3"
-		(at 97.79 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "17f900bb-9273-469a-90e5-328bd8bb1fa8")
-		(property "Netclass" "GPIO"
-			(at 87.884 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -1259,26 +1199,6 @@
 			)
 		)
 	)
-	(label "U6-GPB1"
-		(at 134.62 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4afec807-e0c7-4d39-92f4-6f31cd30a75b")
-		(property "Netclass" "GPIO"
-			(at 124.714 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
 	(label "U6-GPB3"
 		(at 72.39 40.64 0)
 		(effects
@@ -1319,66 +1239,6 @@
 			)
 		)
 	)
-	(label "U6-GPB5"
-		(at 134.62 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "543a8c5f-6b58-4123-8e14-b4bf959915b0")
-		(property "Netclass" "GPIO"
-			(at 124.714 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "U6-GPB0"
-		(at 154.94 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "596c0e92-3b33-4e57-9dfa-a6c0578a8b38")
-		(property "Netclass" "GPIO"
-			(at 164.846 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U6-GPB3"
-		(at 134.62 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f0851c5-4e3f-4ebb-ade5-56efc5442c78")
-		(property "Netclass" "GPIO"
-			(at 124.714 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
 	(label "U6-GPA3"
 		(at 72.39 63.5 0)
 		(effects
@@ -1390,46 +1250,6 @@
 		(uuid "630626be-dfcd-4c9b-837e-0b221716b7bc")
 		(property "Netclass" "GPIO"
 			(at 82.296 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U6-GPA1"
-		(at 134.62 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "679d305d-568b-4fdf-ad70-734f781f6947")
-		(property "Netclass" "GPIO"
-			(at 124.46 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "U6-GPA2"
-		(at 118.11 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a0ee1e9-21b2-457c-a0ed-090a844726e5")
-		(property "Netclass" "GPIO"
-			(at 128.016 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,46 +1280,6 @@
 		(uuid "6e5b9ea9-6100-45f4-80c1-f5bc1b5ce36d")
 	)
 	(label "U6-GPA4"
-		(at 134.62 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8be81914-2f25-4602-9895-6d4f9664a4fd")
-		(property "Netclass" "GPIO"
-			(at 124.714 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "U6-GPA5"
-		(at 154.94 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7b5b193-7304-47d0-a788-2eebefe94d23")
-		(property "Netclass" "GPIO"
-			(at 164.846 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U6-GPA4"
 		(at 72.39 66.04 0)
 		(effects
 			(font
@@ -1516,26 +1296,6 @@
 					(italic yes)
 				)
 				(justify left)
-			)
-		)
-	)
-	(label "U6-GPA6"
-		(at 134.62 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cc4cfc35-4616-4d6b-bb03-abee5cc509a0")
-		(property "Netclass" "GPIO"
-			(at 124.714 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -1619,26 +1379,6 @@
 			)
 		)
 	)
-	(label "U6-GPB4"
-		(at 154.94 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8d084bc-c49b-4728-925e-8b5272103e2c")
-		(property "Netclass" "GPIO"
-			(at 165.1 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "U6-GPA6"
 		(at 72.39 71.12 0)
 		(effects
@@ -1650,26 +1390,6 @@
 		(uuid "eaae27e7-ad84-4a17-bfc3-55402ec2983a")
 		(property "Netclass" "GPIO"
 			(at 82.296 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U6-GPA0"
-		(at 154.94 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f744c2a9-4639-4f09-9cc6-8ff4c75b7a5d")
-		(property "Netclass" "GPIO"
-			(at 165.1 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,50 +1443,6 @@
 			)
 		)
 	)
-	(global_label "U7-GPB5"
-		(shape input)
-		(at 97.79 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5dc0def6-0530-4eab-a185-5cc42bd18f7c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.6729 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "U7-GPB6"
-		(shape input)
-		(at 118.11 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "674d5a49-5be8-45fd-821c-3c7f7aff21fa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.2271 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "U6-GPB6"
 		(shape bidirectional)
 		(at 72.39 48.26 0)
@@ -1789,28 +1465,6 @@
 			)
 		)
 	)
-	(global_label "U7-GPB4"
-		(shape input)
-		(at 118.11 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b52f7cfb-e6a8-48aa-bf08-b1946e842ab2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.2271 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCK"
 		(shape input)
 		(at 27.94 35.56 180)
@@ -1824,28 +1478,6 @@
 		(uuid "cddc1e63-8027-413c-87a7-5f60b2d94977")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 21.2053 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "U7-GPB7"
-		(shape input)
-		(at 97.79 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f3ad5b6a-13f1-4b4d-9f42-bbaa43854bbe")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.6729 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

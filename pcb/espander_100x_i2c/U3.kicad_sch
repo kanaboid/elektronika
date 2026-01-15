@@ -1149,26 +1149,6 @@
 			)
 		)
 	)
-	(label "U3-GPA3"
-		(at 102.87 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05233870-92fb-41fb-88b1-afa091dc7fa6")
-		(property "Netclass" "GPIO"
-			(at 112.776 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "U4-GPB4"
 		(at 187.96 45.72 0)
 		(effects
@@ -1229,26 +1209,6 @@
 			)
 		)
 	)
-	(label "U4-GPB5"
-		(at 233.68 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "08b1f650-1671-47b7-a315-b1f351f02d66")
-		(property "Netclass" "GPIO"
-			(at 223.774 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
 	(label "SCK"
 		(at 26.67 36.83 0)
 		(effects
@@ -1276,86 +1236,6 @@
 					(italic yes)
 				)
 				(justify left)
-			)
-		)
-	)
-	(label "U4-GPA5"
-		(at 233.68 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1561ed4b-e41f-470b-ab5e-7799b6fe2629")
-		(property "Netclass" "GPIO"
-			(at 223.774 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "U4-GPB3"
-		(at 233.68 39.37 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "176a6cb2-54f4-4f06-8249-eba6d9b26475")
-		(property "Netclass" "GPIO"
-			(at 223.774 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "U3-GPA2"
-		(at 82.55 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1ff1b9ff-2578-47c0-981e-5f8e933d67d7")
-		(property "Netclass" "GPIO"
-			(at 72.644 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "U3-GPA4"
-		(at 82.55 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "242abaf5-701d-4517-94c5-913105c482ac")
-		(property "Netclass" "GPIO"
-			(at 72.644 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -1410,86 +1290,6 @@
 		(uuid "2d1253c6-d881-4387-8ec5-a774136e24fd")
 		(property "Netclass" "GPIO"
 			(at 81.026 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U4-GPA3"
-		(at 233.68 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "357f5649-506d-4a28-9901-37247a6e6f0a")
-		(property "Netclass" "GPIO"
-			(at 223.774 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "U4-GPB1"
-		(at 233.68 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "363e5064-e05d-4f74-b36a-1efcd0638c75")
-		(property "Netclass" "GPIO"
-			(at 223.774 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "U3-GPB1"
-		(at 29.21 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3722e275-fbb9-4da7-a557-123a114cd104")
-		(property "Netclass" "GPIO"
-			(at 19.304 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "U3-GPA7"
-		(at 49.53 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "377d70dd-722a-43b9-9a06-c21767735bff")
-		(property "Netclass" "GPIO"
-			(at 59.436 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1609,26 +1409,6 @@
 			)
 		)
 	)
-	(label "U3-GPB0"
-		(at 49.53 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "63872c53-e33a-49c4-8905-246544adb761")
-		(property "Netclass" "GPIO"
-			(at 59.436 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "U4-GPB0"
 		(at 187.96 35.56 0)
 		(effects
@@ -1689,26 +1469,6 @@
 			)
 		)
 	)
-	(label "U4-GPB0"
-		(at 254 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "863fa3ff-a55c-450a-9699-f8f62944229e")
-		(property "Netclass" "GPIO"
-			(at 263.906 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "U4-GPA6"
 		(at 187.96 73.66 0)
 		(effects
@@ -1720,26 +1480,6 @@
 		(uuid "874d795e-f55e-4566-9bc0-a3aef1d8390e")
 		(property "Netclass" "GPIO"
 			(at 197.866 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U3-GPA5"
-		(at 102.87 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b4f7cf2-d114-4a33-88fc-2af432932e3d")
-		(property "Netclass" "GPIO"
-			(at 112.776 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,86 +1579,6 @@
 			)
 		)
 	)
-	(label "U4-GPA1"
-		(at 233.68 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a0320e3a-bcd0-4519-b476-73b1285384d5")
-		(property "Netclass" "GPIO"
-			(at 223.52 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "U3-GPA0"
-		(at 82.55 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a447c2f3-2494-40ff-832c-58e37d761343")
-		(property "Netclass" "GPIO"
-			(at 72.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "U3-GPB3"
-		(at 29.21 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ac82a3e9-3cb6-439d-81bd-d6c0285d886a")
-		(property "Netclass" "GPIO"
-			(at 19.304 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "U3-GPA1"
-		(at 102.87 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "afc0d9bf-384e-41d3-9fd4-c4dec53cbcbb")
-		(property "Netclass" "GPIO"
-			(at 113.03 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "U4-GPA3"
 		(at 187.96 66.04 0)
 		(effects
@@ -1950,26 +1610,6 @@
 		(uuid "ba46252a-b1cc-46bc-ae19-e12f5449b683")
 		(property "Netclass" "GPIO"
 			(at 197.866 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U4-GPB4"
-		(at 254 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc6c171f-1cbd-4755-b24b-54ea49da46de")
-		(property "Netclass" "GPIO"
-			(at 264.16 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,46 +1689,6 @@
 			)
 		)
 	)
-	(label "U4-GPA6"
-		(at 254 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d892fb38-72d8-4507-94d5-cef1913f8061")
-		(property "Netclass" "GPIO"
-			(at 263.906 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U4-GPA2"
-		(at 254 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dbb39723-31c3-4cf8-9ece-80813c061d28")
-		(property "Netclass" "GPIO"
-			(at 263.906 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "U3-GPB3"
 		(at 71.12 41.91 0)
 		(effects
@@ -2109,26 +1709,6 @@
 			)
 		)
 	)
-	(label "U3-GPB2"
-		(at 49.53 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e6af126a-add4-405e-8087-eab878e49b25")
-		(property "Netclass" "GPIO"
-			(at 59.436 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(label "U4-GPB6"
 		(at 187.96 50.8 0)
 		(effects
@@ -2140,66 +1720,6 @@
 		(uuid "eac1eb97-5bdc-46a3-8933-361926e7c1fb")
 		(property "Netclass" "GPIO"
 			(at 197.866 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U3-GPA6"
-		(at 29.21 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed27242e-adfc-4078-8b77-6094ec4c65af")
-		(property "Netclass" "GPIO"
-			(at 19.304 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
-	)
-	(label "U4-GPB2"
-		(at 254 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f33dcd10-8f04-4198-9554-29e1ae9aa376")
-		(property "Netclass" "GPIO"
-			(at 263.906 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U4-GPA4"
-		(at 254 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9df8f8f-98c8-4ee7-b993-24d73f5d10be")
-		(property "Netclass" "GPIO"
-			(at 263.906 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
