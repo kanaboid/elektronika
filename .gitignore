@@ -1,2 +1,3 @@
 *.lck
 /pcb/footprint/
+pcb/espander_100x_i2c/#auto_saved_files#
