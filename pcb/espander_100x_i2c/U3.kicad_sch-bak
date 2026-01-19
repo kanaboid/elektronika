@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "cc097b28-cedd-4fd7-bba8-e42444bebd4a")
+	(uuid "b0893780-371f-4663-af68-eb784d6dcd48")
 	(paper "A4")
 	(lib_symbols
 		(symbol "1_tme:DG127A-5.08-06P-14-00AH"
@@ -1051,95 +1051,95 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 21.59) (xy 176.53 29.21)
+			(xy 53.34 19.05) (xy 53.34 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14b3c0b2-e43d-4811-857e-71d2d7e2a643")
+		(uuid "3474adb6-9e7e-4a4e-b362-900ff0c574b7")
 	)
 	(wire
 		(pts
-			(xy 143.51 36.83) (xy 158.75 36.83)
+			(xy 20.32 34.29) (xy 35.56 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "188f6385-fc05-4528-9635-9a6949d5c870")
+		(uuid "550b1b1a-c2c2-43e1-bfa2-3dc49a2e9fe0")
 	)
 	(wire
 		(pts
-			(xy 176.53 85.09) (xy 176.53 87.63)
+			(xy 170.18 20.32) (xy 170.18 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72d40e29-9e99-4926-8146-a9c7f9a8a769")
+		(uuid "73c6e802-a7e4-4065-8926-0e3e09d5eff4")
 	)
 	(wire
 		(pts
-			(xy 59.69 83.82) (xy 59.69 86.36)
+			(xy 26.67 36.83) (xy 35.56 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "782498e4-a7a4-4892-ac7b-d65273f7bbff")
+		(uuid "8bd3a085-5629-4087-b01e-b86afa566c4f")
 	)
 	(wire
 		(pts
-			(xy 26.67 35.56) (xy 41.91 35.56)
+			(xy 170.18 83.82) (xy 170.18 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af9da89c-eb7e-4add-9811-fc87f668aceb")
+		(uuid "ae563b17-d3e2-4e7e-8d76-a8057f79d807")
 	)
 	(wire
 		(pts
-			(xy 33.02 38.1) (xy 41.91 38.1)
+			(xy 143.51 38.1) (xy 152.4 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bcae814c-4ab0-42d3-8f21-e49b772f3ba4")
+		(uuid "b9b96c8f-ab0b-40e0-9b6e-5b757609efe0")
 	)
 	(wire
 		(pts
-			(xy 149.86 39.37) (xy 158.75 39.37)
+			(xy 53.34 82.55) (xy 53.34 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0987c4b-b7aa-4eca-94ab-b692e67ae0b7")
+		(uuid "bbc786cc-d132-4ae3-adb6-09632c5d6e6d")
 	)
 	(wire
 		(pts
-			(xy 59.69 20.32) (xy 59.69 27.94)
+			(xy 137.16 35.56) (xy 152.4 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4e2b549-3a4f-49d8-8285-9c907adecc5b")
+		(uuid "d3a3622d-d44b-470c-989c-2b2ddf212988")
 	)
-	(label "U8-GPA1"
-		(at 194.31 62.23 0)
+	(label "U4-GPB2"
+		(at 187.96 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "06f99f13-eb09-41ac-9d12-15bc0a5e4cff")
+		(uuid "03cbadbe-f75e-4263-9ae7-3c33021bb590")
 		(property "Netclass" "GPIO"
-			(at 204.47 62.23 0)
+			(at 197.866 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,17 +1149,17 @@
 			)
 		)
 	)
-	(label "U8-GPB3"
-		(at 194.31 44.45 0)
+	(label "U4-GPB4"
+		(at 187.96 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0b479733-5f61-4c3d-a274-0f2d7d204563")
+		(uuid "05e3bda9-4b78-4f54-9d7f-8f6723f6a536")
 		(property "Netclass" "GPIO"
-			(at 204.216 44.45 0)
+			(at 198.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1169,17 +1169,37 @@
 			)
 		)
 	)
-	(label "U7-GPA1"
-		(at 77.47 60.96 0)
+	(label "U4-GPB1"
+		(at 187.96 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "10450f49-b486-4af8-b728-aefb3de65365")
+		(uuid "06e63792-18b6-47f2-bafd-bc9578f547ba")
 		(property "Netclass" "GPIO"
-			(at 87.63 60.96 0)
+			(at 197.866 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U4-GPA4"
+		(at 187.96 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "073a7fe7-c33c-48d1-b0f0-27c0a9d6051c")
+		(property "Netclass" "GPIO"
+			(at 197.866 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1190,26 +1210,26 @@
 		)
 	)
 	(label "SCK"
-		(at 33.02 38.1 0)
+		(at 26.67 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2900b08e-0185-4274-b0f3-bc756d38892c")
+		(uuid "095e7da0-5539-4ab1-bbe4-e50ca3a07d91")
 	)
-	(label "U7-GPB2"
-		(at 77.47 40.64 0)
+	(label "U4-GPB5"
+		(at 187.96 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2912747b-1fac-45da-ae2e-b92c43d12270")
+		(uuid "0b7bf136-f2e7-41f0-b477-7383adaf366a")
 		(property "Netclass" "GPIO"
-			(at 87.376 40.64 0)
+			(at 197.866 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,17 +1239,17 @@
 			)
 		)
 	)
-	(label "U7-GPB1"
-		(at 77.47 38.1 0)
+	(label "U4-GPA0"
+		(at 187.96 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3ab5c6b0-9e53-411e-babe-caf80d47779c")
+		(uuid "25419f9d-b306-404e-85b2-fd9e7fd7817e")
 		(property "Netclass" "GPIO"
-			(at 87.376 38.1 0)
+			(at 198.12 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,17 +1259,287 @@
 			)
 		)
 	)
-	(label "U8-GPB4"
-		(at 194.31 46.99 0)
+	(label "U4-GPA5"
+		(at 187.96 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3f558979-1e40-40cc-8565-f9296509970e")
+		(uuid "280b96f3-221a-4413-9c6c-5c2933fdcf97")
 		(property "Netclass" "GPIO"
-			(at 204.47 46.99 0)
+			(at 197.866 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U3-GPA2"
+		(at 71.12 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d1253c6-d881-4387-8ec5-a774136e24fd")
+		(property "Netclass" "GPIO"
+			(at 81.026 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U3-GPB2"
+		(at 71.12 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bd2d26b-592d-47f3-b676-c71a448af99c")
+		(property "Netclass" "GPIO"
+			(at 81.026 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U3-GPA5"
+		(at 71.12 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "481017da-1e58-4952-b890-84e34e2fe261")
+		(property "Netclass" "GPIO"
+			(at 81.026 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U3-GPB0"
+		(at 71.12 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ff29542-2237-48cc-b09c-aedbd00ab5fe")
+		(property "Netclass" "GPIO"
+			(at 81.026 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U3-GPA7"
+		(at 71.12 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5608e696-8052-4500-a82f-ba9ee5c2ac5d")
+		(property "Netclass" "GPIO"
+			(at 81.026 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "SDA"
+		(at 26.67 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bc241c2-bb2d-4636-8558-8a6d2c99f952")
+	)
+	(label "U4-GPA2"
+		(at 187.96 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d352ddd-c953-400f-bea9-f0d2802be936")
+		(property "Netclass" "GPIO"
+			(at 197.866 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U4-GPB0"
+		(at 187.96 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69c3000e-53f9-4670-bc14-29bc912ae5e9")
+		(property "Netclass" "GPIO"
+			(at 197.866 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U3-GPB1"
+		(at 71.12 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73a830fb-6f55-4d53-8c6f-621df15c6421")
+		(property "Netclass" "GPIO"
+			(at 81.026 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U3-GPA3"
+		(at 71.12 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8382be0f-4132-44a2-b1a0-96c979a3e151")
+		(property "Netclass" "GPIO"
+			(at 81.026 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U4-GPA6"
+		(at 187.96 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "874d795e-f55e-4566-9bc0-a3aef1d8390e")
+		(property "Netclass" "GPIO"
+			(at 197.866 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U3-GPA4"
+		(at 71.12 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bce8afa-5a81-4a52-bc0d-5ced51bb7be3")
+		(property "Netclass" "GPIO"
+			(at 81.026 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U4-GPB3"
+		(at 187.96 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8edf69f5-ea97-4b93-a200-15190657fecd")
+		(property "Netclass" "GPIO"
+			(at 197.866 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "U4-GPB7"
+		(at 187.96 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fbb85c1-ca37-4ae9-a8d3-29c923671416")
+		(property "Netclass" "GPIO"
+			(at 197.866 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,26 +1550,26 @@
 		)
 	)
 	(label "SCK"
-		(at 149.86 39.37 0)
+		(at 143.51 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "440cccf2-409f-4589-9e2c-9f9c241742e1")
+		(uuid "9a339223-7ec2-4c50-a271-f0979e2352ba")
 	)
-	(label "U8-GPB5"
-		(at 194.31 49.53 0)
+	(label "U3-GPA6"
+		(at 71.12 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "518ecc52-d316-4f6a-8b8f-a7253be39b1d")
+		(uuid "9ce03929-f696-4f50-a02a-5e95f1e9235b")
 		(property "Netclass" "GPIO"
-			(at 204.216 49.53 0)
+			(at 81.026 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,17 +1579,17 @@
 			)
 		)
 	)
-	(label "U7-GPA0"
-		(at 77.47 58.42 0)
+	(label "U4-GPA3"
+		(at 187.96 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5faca651-5480-47ae-90e9-a033cd52526d")
+		(uuid "b1327337-c20b-43e8-a17f-f78f0d348491")
 		(property "Netclass" "GPIO"
-			(at 87.63 58.42 0)
+			(at 197.866 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,17 +1599,17 @@
 			)
 		)
 	)
-	(label "U7-GPB0"
-		(at 77.47 35.56 0)
+	(label "U4-GPA7"
+		(at 187.96 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "635d9dce-d2f7-46c1-b61a-7a75a79ca8d1")
+		(uuid "ba46252a-b1cc-46bc-ae19-e12f5449b683")
 		(property "Netclass" "GPIO"
-			(at 87.376 35.56 0)
+			(at 197.866 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,17 +1619,17 @@
 			)
 		)
 	)
-	(label "U8-GPA2"
-		(at 194.31 64.77 0)
+	(label "U3-GPA0"
+		(at 71.12 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "71b5d72e-1e4f-4a16-8a0c-39a32d52bb28")
+		(uuid "bd5ad691-f7b0-45ec-b09b-3e38bdeb5dfd")
 		(property "Netclass" "GPIO"
-			(at 204.216 64.77 0)
+			(at 81.28 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,327 +1639,17 @@
 			)
 		)
 	)
-	(label "SDA"
-		(at 33.02 35.56 0)
+	(label "U3-GPA1"
+		(at 71.12 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "73e9e396-0d2c-40ea-9cef-d2f87af2aab0")
-	)
-	(label "U7-GPA3"
-		(at 77.47 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e9942c6-73b6-4e5c-bf70-01b7501645ad")
+		(uuid "bda48381-09aa-4383-a23b-eca9da186587")
 		(property "Netclass" "GPIO"
-			(at 87.376 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U8-GPA3"
-		(at 194.31 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f69def3-48a8-490f-9767-aa26b7e8e15a")
-		(property "Netclass" "GPIO"
-			(at 204.216 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U7-GPA5"
-		(at 77.47 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f02b976-bf1a-471f-a486-52bfa906fc44")
-		(property "Netclass" "GPIO"
-			(at 87.376 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U8-GPB2"
-		(at 194.31 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9010b95a-0021-4d07-ad0c-983a7d8b063a")
-		(property "Netclass" "GPIO"
-			(at 204.216 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U7-GPA2"
-		(at 77.47 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "957f768f-ffce-4cd4-b320-dc64c731c37c")
-		(property "Netclass" "GPIO"
-			(at 87.376 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U8-GPB0"
-		(at 194.31 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95c18616-d984-4a72-8a01-638dfaf013fa")
-		(property "Netclass" "GPIO"
-			(at 204.216 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U8-GPA5"
-		(at 194.31 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c7b8c75-885a-4c5e-844a-b81ffeda9f70")
-		(property "Netclass" "GPIO"
-			(at 204.216 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U8-GPB1"
-		(at 194.31 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7df5b93-145c-4436-9a02-983d43efab9a")
-		(property "Netclass" "GPIO"
-			(at 204.216 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U7-GPA4"
-		(at 77.47 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b2a58eb2-3250-4148-8cb0-447df2b21ca1")
-		(property "Netclass" "GPIO"
-			(at 87.376 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U7-GPB3"
-		(at 77.47 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b86d43a9-72a0-4f9d-a240-774433768ced")
-		(property "Netclass" "GPIO"
-			(at 87.376 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U8-GPA7"
-		(at 194.31 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b906fee7-1548-4f47-b4be-8b13329097cb")
-		(property "Netclass" "GPIO"
-			(at 204.216 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U8-GPA6"
-		(at 194.31 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba0c4b0b-d7cd-4dd7-adb3-bedf71eaa59a")
-		(property "Netclass" "GPIO"
-			(at 204.216 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U7-GPA7"
-		(at 77.47 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba7f9b56-ebe3-4a3f-910c-3510880b6a7c")
-		(property "Netclass" "GPIO"
-			(at 87.376 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U8-GPA0"
-		(at 194.31 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c12aec45-7558-49c3-8374-35d69400f7fd")
-		(property "Netclass" "GPIO"
-			(at 204.47 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U8-GPB6"
-		(at 194.31 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9c92d34-1da2-41c0-ab13-8673d7d859fb")
-		(property "Netclass" "GPIO"
-			(at 204.216 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(label "U7-GPA6"
-		(at 77.47 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbf9a63c-c6b0-45cb-a458-920377da13cc")
-		(property "Netclass" "GPIO"
-			(at 87.376 73.66 0)
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,26 +1660,26 @@
 		)
 	)
 	(label "SDA"
-		(at 149.86 36.83 0)
+		(at 143.51 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "deeb8757-20b4-4351-9a85-bee5c3d9a4bb")
+		(uuid "bf05d8c1-12cd-4e27-abb6-4f694a2e6529")
 	)
-	(label "U8-GPB7"
-		(at 194.31 54.61 0)
+	(label "U4-GPA1"
+		(at 187.96 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "dff495aa-e9f3-4158-839f-b39a810e1808")
+		(uuid "c8f5607e-a32f-4096-a802-068e26fae8f7")
 		(property "Netclass" "GPIO"
-			(at 204.216 55.88 0)
+			(at 198.12 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,17 +1689,17 @@
 			)
 		)
 	)
-	(label "U8-GPA4"
-		(at 194.31 69.85 0)
+	(label "U3-GPB3"
+		(at 71.12 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "fd1c150f-c533-44d6-9d64-b0fed4e07a5e")
+		(uuid "e02bc10a-516e-44a1-972e-99e37a79374e")
 		(property "Netclass" "GPIO"
-			(at 204.216 69.85 0)
+			(at 81.026 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1729,41 +1709,29 @@
 			)
 		)
 	)
-	(global_label "U7-GPB7"
-		(shape input)
-		(at 77.47 53.34 0)
-		(fields_autoplaced yes)
+	(label "U4-GPB6"
+		(at 187.96 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "477081af-061a-4677-a32b-973378fe0f5c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.5871 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
+		(uuid "eac1eb97-5bdc-46a3-8933-361926e7c1fb")
 		(property "Netclass" "GPIO"
-			(at 77.47 55.5308 0)
+			(at 197.866 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 143.51 36.83 180)
+		(at 20.32 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1771,95 +1739,9 @@
 			)
 			(justify right)
 		)
-		(uuid "72d232f5-7cb4-4a9c-877d-cadfaac2fffd")
+		(uuid "03d4744c-468e-4066-8520-cabeb88598a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.9567 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "U7-GPB4"
-		(shape input)
-		(at 77.47 45.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9ff763ca-6c1a-4a2b-bb48-3999dba494ab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.5871 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Netclass" "GPIO"
-			(at 77.47 47.9108 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "U7-GPB5"
-		(shape input)
-		(at 77.47 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c5190e6d-5968-45db-a2d0-4904e1f5e8a0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.5871 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Netclass" "GPIO"
-			(at 77.47 50.4508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCK"
-		(shape input)
-		(at 149.86 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "eb71205d-584c-4f30-87e4-779e95f4bce2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.1253 39.37 0)
+			(at 13.7667 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1871,7 +1753,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 33.02 38.1 180)
+		(at 143.51 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1879,9 +1761,9 @@
 			)
 			(justify right)
 		)
-		(uuid "fafeaf37-6148-494f-b676-a7487ca3f74b")
+		(uuid "146399a8-e387-487a-bbb4-acc2810d5abc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.2853 38.1 0)
+			(at 136.7753 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,9 +1773,9 @@
 			)
 		)
 	)
-	(global_label "U7-GPB6"
-		(shape input)
-		(at 77.47 50.8 0)
+	(global_label "U3-GPB7"
+		(shape bidirectional)
+		(at 71.12 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1901,9 +1783,9 @@
 			)
 			(justify left)
 		)
-		(uuid "fd685d0d-9d57-4764-b734-b6fcf6888b76")
+		(uuid "6c255cf1-5ecc-4346-8d08-d42bcc8c290a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.5871 50.8 0)
+			(at 84.3484 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1912,8 +1794,86 @@
 				(hide yes)
 			)
 		)
-		(property "Netclass" "GPIO"
-			(at 77.47 52.9908 0)
+	)
+	(global_label "U3-GPB6"
+		(shape bidirectional)
+		(at 71.12 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9531dd2e-f627-40a4-96e8-05a0ae31cb44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.3484 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U3-GPB5"
+		(shape bidirectional)
+		(at 71.12 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bdf79843-9d8c-4a9c-bd74-e3cd38b374df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.3484 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 26.67 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c1a4fc28-e2b0-46d9-a512-a7527f569e0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.9353 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "U3-GPB4"
+		(shape bidirectional)
+		(at 71.12 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e91c58bc-a5b3-4f07-b0a4-930e7c579af1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.3484 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,7 +1885,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 26.67 35.56 180)
+		(at 137.16 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1933,9 +1893,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ff9d4fbb-c7c2-4f0b-9cc4-a9bb83a8ed74")
+		(uuid "f402e26c-cdce-400c-b7f5-3847b2392bbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 20.1167 35.56 0)
+			(at 130.6067 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,17 +1906,213 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_Expansion:MCP23017_SP")
-		(at 176.53 57.15 0)
+		(lib_id "power:+5VD")
+		(at 53.34 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04922452-94d9-49b4-84d2-dfa20d845ac2")
+		(property "Reference" "#PWR07"
+			(at 53.34 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 48.514 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 53.34 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a444ec17-dba1-4a08-abaa-c5cef57d29af")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/bcecc8eb-daf5-43c6-b239-64472c35daf3"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "05d4b734-8a6e-4876-9e94-01f32133c48c")
-		(property "Reference" "U8"
-			(at 178.6733 27.94 0)
+		(uuid "199a5870-4bc7-4ad1-96b3-a0beb47f449c")
+		(property "Reference" "#PWR010"
+			(at 170.18 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87d614c0-a046-43d0-a5e3-e060e64fe400")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/bcecc8eb-daf5-43c6-b239-64472c35daf3"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VD")
+		(at 170.18 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d103ed7-9c52-497f-a812-1a8186edeca7")
+		(property "Reference" "#PWR09"
+			(at 170.18 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 165.354 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 170.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ceaaee4-7fa6-4c76-9156-5680d525bd6e")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/bcecc8eb-daf5-43c6-b239-64472c35daf3"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:MCP23017_SP")
+		(at 53.34 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d71ec6d-2e1d-4514-b1e8-06204d941939")
+		(property "Reference" "U3"
+			(at 55.4833 25.4 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -1967,7 +2123,7 @@
 			)
 		)
 		(property "Value" "MCP23017_SP"
-			(at 178.6733 31.75 0)
+			(at 55.4833 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +2132,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
-			(at 181.61 82.55 0)
+			(at 58.42 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1986,7 +2142,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
-			(at 181.61 85.09 0)
+			(at 58.42 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +2152,7 @@
 			)
 		)
 		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
-			(at 176.53 57.15 0)
+			(at 53.34 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,93 +2161,159 @@
 			)
 		)
 		(pin "20"
-			(uuid "adbdf963-d679-472d-bb0f-886b91197fc7")
+			(uuid "56d7c30a-2a42-4687-9856-e835812dae26")
 		)
 		(pin "14"
-			(uuid "0899f60e-11b9-4737-8da6-208fb7da9d90")
+			(uuid "224d2ced-bcc4-4d18-b103-54603a94684b")
 		)
 		(pin "19"
-			(uuid "efe8a635-9a32-4bf6-a29b-8c6bf20d2d8d")
+			(uuid "3e44e1c2-202d-42a9-ba8d-abea5035c781")
 		)
 		(pin "26"
-			(uuid "f7379dd9-5219-4460-8750-44509fba32ab")
+			(uuid "c4549e4d-3eaf-489c-af6b-ef1d18aaec9c")
 		)
 		(pin "22"
-			(uuid "27d6b11e-ea95-4923-8128-3d639430203f")
+			(uuid "257dcfb7-544a-479a-9da4-9bc075a8b9ef")
 		)
 		(pin "7"
-			(uuid "f845c41f-a2fb-4967-8602-0fd54b8df153")
+			(uuid "3ca8051b-91ca-4b6b-9933-73aee1826d50")
 		)
 		(pin "4"
-			(uuid "e6b142d3-5bc6-46da-8b57-8a3979bb2cfb")
+			(uuid "399d7fdf-116b-4ae3-a314-141b99c4881e")
 		)
 		(pin "16"
-			(uuid "a97f7975-1917-4e00-a10a-41007a9b63dd")
+			(uuid "f07b95c2-8728-4c3d-a400-08f676e685c0")
 		)
 		(pin "17"
-			(uuid "fc89b190-34a5-46a7-a251-20dd51014ef8")
+			(uuid "3ef66f87-ff80-4f4f-a139-11fabe788dcb")
 		)
 		(pin "6"
-			(uuid "f025a821-e390-4e2d-8c6f-948b45faa1ea")
+			(uuid "143982b5-f977-4009-a93b-d16d937677e4")
 		)
 		(pin "13"
-			(uuid "f32fdc0a-78c5-41af-8f27-cbe6cd36a488")
+			(uuid "43491557-9adb-48bf-9349-16ac6ca49531")
 		)
 		(pin "9"
-			(uuid "0a38f9af-d2b0-4a8d-80a6-fb1e6ecf9cb3")
+			(uuid "ec1afc54-e269-4508-8b70-3477cd6bd4df")
 		)
 		(pin "2"
-			(uuid "13364463-f758-4d23-90de-cde52fa9ea85")
+			(uuid "fb0687b2-7b19-4a28-8cb9-91e2d4ec5969")
 		)
 		(pin "8"
-			(uuid "b326d18c-cfa8-4bd1-ba27-b28fc31e615e")
+			(uuid "3f06912b-bd47-4b1f-9f56-c82411195c17")
 		)
 		(pin "12"
-			(uuid "9efa337e-7c7f-4d74-bebf-21980bebc775")
+			(uuid "fcfde765-cd2a-4c7c-8c9b-5b20b58cf4fc")
 		)
 		(pin "23"
-			(uuid "fd6a37a0-ba3d-4bfb-92af-095f8da60e52")
+			(uuid "a6cd62fd-71af-4a28-80d7-eef13eb4bbf9")
 		)
 		(pin "24"
-			(uuid "bbd91f56-ca64-4dd2-8d95-bd5d93b119b6")
+			(uuid "6a159dfc-31a4-434c-88e4-1c107fc00d5b")
 		)
 		(pin "25"
-			(uuid "9aecc98d-98de-4bcf-a93e-0c9761db3ce7")
+			(uuid "99724246-e823-4f69-984f-d8a4ae64f92f")
 		)
 		(pin "27"
-			(uuid "8f6ed996-df4a-4c43-8e2d-686bc323cd91")
+			(uuid "277a9501-998b-4f03-a341-28187493bad1")
 		)
 		(pin "10"
-			(uuid "17a56abf-86d6-4fb5-8cd6-f6bf782acc2f")
+			(uuid "d87378c4-035c-4644-ad07-db71ac2a5f09")
 		)
 		(pin "1"
-			(uuid "aeb4d728-af3b-47bf-98e7-24e648f231e7")
+			(uuid "ac0f2f34-1238-4273-9614-ba380d445000")
 		)
 		(pin "3"
-			(uuid "57275758-680b-4b8d-a32e-8120ff848a49")
+			(uuid "ba87da76-9176-4bba-a563-b8e4068c104b")
 		)
 		(pin "18"
-			(uuid "a38e3d50-7fc8-4c06-b76d-becaba8ac97e")
+			(uuid "9105e1f7-cbae-4ad6-bbfd-366543a1e9b7")
 		)
 		(pin "11"
-			(uuid "9928d881-d527-43c0-b5b5-03c0a52825fa")
+			(uuid "8dc3fa1b-3ff3-4784-9634-5e3cc3e2fddf")
 		)
 		(pin "15"
-			(uuid "bedcbea0-d037-4665-bd70-a33a98be0385")
+			(uuid "f37f7059-67b3-425e-8d7d-09dea10f5eee")
 		)
 		(pin "5"
-			(uuid "2fef2670-a2cb-4f06-89de-ec80b326e39e")
+			(uuid "230f247a-3b70-48de-8aba-c202d9dbfc1d")
 		)
 		(pin "21"
-			(uuid "4bd85df3-453c-4b4f-ac42-612fdba7a311")
+			(uuid "b8d2ac43-d432-4f78-a6f4-11b995e72003")
 		)
 		(pin "28"
-			(uuid "014f83cf-cce6-4bb9-9970-b36b2be69274")
+			(uuid "fe85e10b-ece2-46c4-a6a8-b85471a8e7ee")
 		)
 		(instances
 			(project "espander_100x_i2c"
-				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
-					(reference "U8")
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/bcecc8eb-daf5-43c6-b239-64472c35daf3"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30dd625b-cebf-42aa-81d2-ecb99a802a3c")
+		(property "Reference" "#PWR08"
+			(at 53.34 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "801d20a3-e36d-44e6-9787-a4a883af539b")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/bcecc8eb-daf5-43c6-b239-64472c35daf3"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2099,16 +2321,16 @@
 	)
 	(symbol
 		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
-		(at 240.03 43.18 0)
+		(at 29.21 102.87 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0f6ccaaf-92b6-4bc7-839b-6108face1dd5")
-		(property "Reference" "J20"
-			(at 250.698 47.752 0)
+		(uuid "361e69a5-a7a4-48e8-b284-b302fb6e9ff7")
+		(property "Reference" "J8"
+			(at 39.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2116,15 +2338,16 @@
 			)
 		)
 		(property "Value" "DG127A-5.08-06P-14-00AH"
-			(at 250.698 31.496 0)
+			(at 39.37 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DG127A50806P1400AH"
-			(at 256.54 -51.74 0)
+			(at 45.72 7.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2134,7 +2357,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
-			(at 256.54 -151.74 0)
+			(at 45.72 -92.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2144,7 +2367,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
-			(at 240.03 43.18 0)
+			(at 29.21 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2153,7 +2376,7 @@
 			)
 		)
 		(property "Height" "19.41"
-			(at 256.54 -351.74 0)
+			(at 45.72 -292.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2386,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 256.54 -451.74 0)
+			(at 45.72 -392.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,7 +2396,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 256.54 -551.74 0)
+			(at 45.72 -492.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2183,7 +2406,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Degson"
-			(at 256.54 -651.74 0)
+			(at 45.72 -592.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +2416,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
-			(at 256.54 -751.74 0)
+			(at 45.72 -692.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,310 +2426,27 @@
 			)
 		)
 		(pin "4"
-			(uuid "535a3e7c-bbb0-4ac3-92ca-8171e754a9a8")
+			(uuid "8c369468-310f-4a9a-a9a6-a08c996e9008")
 		)
 		(pin "1"
-			(uuid "bed63ad3-6349-4fd5-a150-b9462031c021")
+			(uuid "f1039e00-ba50-47a2-a519-a1d14b844851")
 		)
 		(pin "5"
-			(uuid "237dcc4a-ad1e-4176-9e0e-a7bcfc78489b")
+			(uuid "58009906-b196-4b26-b3a4-97a76eed9282")
 		)
 		(pin "6"
-			(uuid "7f12f165-1234-4168-90ba-f6fd09f44930")
+			(uuid "0c76099a-a7e4-4b27-b915-9f75a1ec4ae3")
 		)
 		(pin "2"
-			(uuid "dce5ce06-0b77-4d36-85b7-f075a5b5674b")
+			(uuid "678fad7c-c0c8-44a4-a6f3-242126663dda")
 		)
 		(pin "3"
-			(uuid "28075a81-8133-4204-bcf8-ff965a8d7213")
+			(uuid "af0c111e-6d24-4e93-b695-5e6035501288")
 		)
 		(instances
 			(project "espander_100x_i2c"
-				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VD")
-		(at 59.69 20.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19cfecb3-eb5d-4398-8c63-c60267bf7609")
-		(property "Reference" "#PWR015"
-			(at 59.69 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 54.864 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 59.69 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b1a1d8e-b400-4f18-aa5e-855922566029")
-		)
-		(instances
-			(project "espander_100x_i2c"
-				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 176.53 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ddcb264-32e5-44c1-a500-0a02b9844ba9")
-		(property "Reference" "#PWR018"
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "104de2ed-59e5-4b54-8d4c-a27a383bfa1e")
-		)
-		(instances
-			(project "espander_100x_i2c"
-				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_Expansion:MCP23017_SP")
-		(at 59.69 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "56be22b7-d495-4efd-8702-d5248dfa5f7c")
-		(property "Reference" "U7"
-			(at 61.8333 26.67 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-					(thickness 0.508)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP23017_SP"
-			(at 61.8333 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
-			(at 64.77 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
-			(at 64.77 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
-			(at 59.69 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "20"
-			(uuid "dc660e13-f64d-44d6-bea2-c25b968b3d11")
-		)
-		(pin "14"
-			(uuid "4a229d6b-7599-405b-b0eb-331f29555de2")
-		)
-		(pin "19"
-			(uuid "8ce9cbca-1d2c-4cc1-9977-8a19f2d673c3")
-		)
-		(pin "26"
-			(uuid "47f599f2-92bd-4654-922f-d8e4ee3af68f")
-		)
-		(pin "22"
-			(uuid "ade26f2a-4f43-4860-97e8-a22035941716")
-		)
-		(pin "7"
-			(uuid "ee3c7278-6b01-45b4-afe3-e708895a34ec")
-		)
-		(pin "4"
-			(uuid "62626f7c-ef90-49e8-93c0-a5f9e729d723")
-		)
-		(pin "16"
-			(uuid "d098f490-994e-4b82-b767-69ee397d5494")
-		)
-		(pin "17"
-			(uuid "71e8e299-c3c3-4974-80fc-a79498bc63cd")
-		)
-		(pin "6"
-			(uuid "b7216341-6db7-469b-9380-e273ea665662")
-		)
-		(pin "13"
-			(uuid "39943870-0ccf-4ce9-bb03-ebfa31de0ada")
-		)
-		(pin "9"
-			(uuid "cc2083fc-b2eb-4db4-ad7e-66e31f5f0295")
-		)
-		(pin "2"
-			(uuid "cf761755-9cea-4510-8e2c-2eb612ca0478")
-		)
-		(pin "8"
-			(uuid "f9e48f20-0aba-41cc-9c64-435b8b1de664")
-		)
-		(pin "12"
-			(uuid "46c85cbd-d1a0-4a17-b1f9-b443872c77d0")
-		)
-		(pin "23"
-			(uuid "3ef95e5f-db4f-4c3c-88e4-22c01395ccea")
-		)
-		(pin "24"
-			(uuid "fb072350-c14c-43b6-9bd8-61dda8ff3380")
-		)
-		(pin "25"
-			(uuid "739b26ff-5e03-4deb-be87-00d83f256be1")
-		)
-		(pin "27"
-			(uuid "eac08474-ce37-4ffd-a0d0-ef21b230b3cb")
-		)
-		(pin "10"
-			(uuid "c57efa29-a988-423c-9df7-f2a1f98a541b")
-		)
-		(pin "1"
-			(uuid "bcef7707-b4e1-49b8-a236-f0d0b4a4d8a1")
-		)
-		(pin "3"
-			(uuid "0d081c97-83b2-40ed-b200-9248c3de950d")
-		)
-		(pin "18"
-			(uuid "96698751-7995-41f7-8c8f-ddaba1ef4baf")
-		)
-		(pin "11"
-			(uuid "6e6ac1f8-cba0-487e-8806-151f05c46749")
-		)
-		(pin "15"
-			(uuid "24baea88-4837-4fab-9981-47957557cf2b")
-		)
-		(pin "5"
-			(uuid "6bd1db88-2373-4d7d-bb61-ee0c38b542d1")
-		)
-		(pin "21"
-			(uuid "fa7c0f15-74e5-434a-944a-3798efbcd735")
-		)
-		(pin "28"
-			(uuid "52bd0d31-ddd1-453c-b0f0-47c867632f8c")
-		)
-		(instances
-			(project "espander_100x_i2c"
-				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
-					(reference "U7")
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/bcecc8eb-daf5-43c6-b239-64472c35daf3"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2514,16 +2454,16 @@
 	)
 	(symbol
 		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
-		(at 109.22 99.06 0)
+		(at 102.87 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6ae8f2e8-fd75-40db-af54-c9da35995aab")
-		(property "Reference" "J19"
-			(at 99.06 94.488 0)
+		(uuid "566b49ec-fbd1-4738-bc9d-7431f1d7ee4f")
+		(property "Reference" "J9"
+			(at 92.71 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2531,7 +2471,7 @@
 			)
 		)
 		(property "Value" "DG127A-5.08-06P-14-00AH"
-			(at 99.06 93.98 0)
+			(at 92.71 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,7 +2480,7 @@
 			)
 		)
 		(property "Footprint" "DG127A50806P1400AH"
-			(at 92.71 193.98 0)
+			(at 86.36 192.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,7 +2490,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
-			(at 92.71 293.98 0)
+			(at 86.36 292.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2560,7 +2500,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
-			(at 109.22 99.06 0)
+			(at 102.87 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2569,7 +2509,7 @@
 			)
 		)
 		(property "Height" "19.41"
-			(at 92.71 493.98 0)
+			(at 86.36 492.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2519,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 92.71 593.98 0)
+			(at 86.36 592.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2529,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 92.71 693.98 0)
+			(at 86.36 692.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,7 +2539,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Degson"
-			(at 92.71 793.98 0)
+			(at 86.36 792.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +2549,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
-			(at 92.71 893.98 0)
+			(at 86.36 892.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,44 +2559,348 @@
 			)
 		)
 		(pin "4"
-			(uuid "ba60eb6b-6bfe-476d-b8cd-4d4a12589d1b")
+			(uuid "212f8cd2-fb6a-4626-9ad2-4abbe58aafce")
 		)
 		(pin "1"
-			(uuid "5328de41-0916-4fff-867e-3fbd2df4aca2")
+			(uuid "f829cc61-327c-48d3-865a-fa5fed66d482")
 		)
 		(pin "5"
-			(uuid "8bb5cb95-39bd-4f78-9a91-5241d5849a56")
+			(uuid "d9361096-7b13-4165-aaa4-b4e0521f4262")
 		)
 		(pin "6"
-			(uuid "0584e949-6390-4dcb-aa93-0b0e309637a7")
+			(uuid "2daeeb73-9068-408e-8e2a-0c0b2debfbec")
 		)
 		(pin "2"
-			(uuid "35c0e842-9f2c-4c7c-8c8b-02fe251444a0")
+			(uuid "30650c5e-0aed-43e0-9e35-932720e1a6c1")
 		)
 		(pin "3"
-			(uuid "d0e06457-61b5-41f1-95af-1f7b966effa4")
+			(uuid "ef341166-d4d4-4ee6-a0d7-bc2563b46cfa")
 		)
 		(instances
 			(project "espander_100x_i2c"
-				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
-					(reference "J19")
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/bcecc8eb-daf5-43c6-b239-64472c35daf3"
+					(reference "J9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 59.69 86.36 0)
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 233.68 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63728f4d-5bb4-4ec8-a124-85a572eedba7")
+		(property "Reference" "J11"
+			(at 244.348 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 244.348 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 250.19 -25.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 250.19 -125.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 250.19 -325.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 250.19 -425.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 250.19 -525.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 250.19 -625.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 250.19 -725.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "bc5f01b7-7256-4f1a-b756-bea996ed82c5")
+		)
+		(pin "1"
+			(uuid "06409648-ace4-4c82-9741-c310db6d377e")
+		)
+		(pin "5"
+			(uuid "9f809cba-fbd0-497e-bb8e-35767f2adf10")
+		)
+		(pin "6"
+			(uuid "5ff586a7-7740-4daf-af0c-4478e7245eee")
+		)
+		(pin "2"
+			(uuid "e817042e-7a7b-4e24-9604-4e99ef0e1a52")
+		)
+		(pin "3"
+			(uuid "ae7c4d5f-8097-4632-b135-c2871454ff6b")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/bcecc8eb-daf5-43c6-b239-64472c35daf3"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
+		(at 233.68 41.91 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85fcce4b-0959-44c2-a5bd-7800e2b58a45")
+		(property "Reference" "J10"
+			(at 244.348 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DG127A-5.08-06P-14-00AH"
+			(at 244.348 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DG127A50806P1400AH"
+			(at 250.19 -53.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
+			(at 250.19 -153.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
+			(at 233.68 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.41"
+			(at 250.19 -353.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Part Number" ""
+			(at 250.19 -453.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "TME Electronic Components Price/Stock" ""
+			(at 250.19 -553.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Degson"
+			(at 250.19 -653.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
+			(at 250.19 -753.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5e26e654-b8ec-4c5f-94cc-6958db0c6f2a")
+		)
+		(pin "1"
+			(uuid "df5e2749-a988-4b49-a7da-21e32d654d0e")
+		)
+		(pin "5"
+			(uuid "c80cebda-80e7-4b63-adb2-e82c760210fd")
+		)
+		(pin "6"
+			(uuid "ec3aa747-9dd0-4d91-ae11-a198b7330d93")
+		)
+		(pin "2"
+			(uuid "0b1d024f-c93c-4396-890a-16f5f9f5291e")
+		)
+		(pin "3"
+			(uuid "99249623-6b23-4fa9-9ca8-723eff8b836f")
+		)
+		(instances
+			(project "espander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/bcecc8eb-daf5-43c6-b239-64472c35daf3"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Interface_Expansion:MCP23017_SP")
+		(at 170.18 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "713b9b40-d989-4a5e-b271-9c9364421535")
-		(property "Reference" "#PWR016"
-			(at 59.69 92.71 0)
+		(uuid "ef013592-eb3c-4b6d-82f9-03c4fb93e62e")
+		(property "Reference" "U4"
+			(at 172.3233 26.67 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+					(thickness 0.508)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MCP23017_SP"
+			(at 172.3233 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-28_W7.62mm"
+			(at 175.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP23017-Data-Sheet-DS20001952.pdf"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "16-bit I/O expander, I2C, interrupts, w pull-ups, SPDIP-28"
+			(at 170.18 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2664,378 +2908,94 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 59.69 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "20"
+			(uuid "8afe2f5a-4db7-42b1-a2f1-8cef015fa00e")
 		)
-		(property "Footprint" ""
-			(at 59.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "14"
+			(uuid "ad89846b-25d4-4ae5-860c-8ecbf342756a")
 		)
-		(property "Datasheet" ""
-			(at 59.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "19"
+			(uuid "bfa8c228-0ad6-41aa-b123-9b99d6f54241")
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "26"
+			(uuid "e04752a4-4e7b-4d4a-a3c0-2cff93c1ea72")
 		)
-		(pin "1"
-			(uuid "f2432914-045b-436b-af11-b0571d28f5b1")
+		(pin "22"
+			(uuid "7902bcf4-2dcd-4cae-b1af-b16c128ff984")
 		)
-		(instances
-			(project "espander_100x_i2c"
-				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VD")
-		(at 176.53 21.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ccdaabe3-ec30-476c-a3b0-af101179b728")
-		(property "Reference" "#PWR017"
-			(at 176.53 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 171.704 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 176.53 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 176.53 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a101bbb9-0fa3-47ab-a86a-adfdd027ca8c")
-		)
-		(instances
-			(project "espander_100x_i2c"
-				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
-		(at 35.56 104.14 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f42d4ec8-0478-4c47-8aa2-fa509b1a7261")
-		(property "Reference" "J18"
-			(at 45.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DG127A-5.08-06P-14-00AH"
-			(at 45.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "DG127A50806P1400AH"
-			(at 52.07 9.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
-			(at 52.07 -90.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
-			(at 35.56 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "19.41"
-			(at 52.07 -290.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at 52.07 -390.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 52.07 -490.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Degson"
-			(at 52.07 -590.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
-			(at 52.07 -690.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
+		(pin "7"
+			(uuid "0f443684-cd0d-4c17-9869-b5a2603298f2")
 		)
 		(pin "4"
-			(uuid "7fe9d7ff-cd27-4764-84eb-ffec500c3732")
+			(uuid "0fdca3ac-df6d-45fe-bd46-0b002f72a474")
 		)
-		(pin "1"
-			(uuid "affb41c8-6764-4422-9e53-91d4c59e918f")
+		(pin "16"
+			(uuid "20e16bb0-e58f-44db-bed6-d1c0a946739a")
 		)
-		(pin "5"
-			(uuid "2d0670ca-5d44-4b47-9701-844c8f4715cd")
+		(pin "17"
+			(uuid "22216bec-c36d-4b89-8338-5158a9071fa6")
 		)
 		(pin "6"
-			(uuid "946e6733-73d0-4497-ae69-6f61a66da16c")
+			(uuid "20f982af-94bb-4c92-a3bf-4b591894791c")
+		)
+		(pin "13"
+			(uuid "728e5a87-7832-4035-8f72-50ab7912f1b4")
+		)
+		(pin "9"
+			(uuid "916cfd85-6961-4576-84d9-a2a5110c5866")
 		)
 		(pin "2"
-			(uuid "446338d6-ff26-41c9-81bd-53509504a930")
+			(uuid "90248899-b370-41dc-9fa9-1844ae9b9ca9")
+		)
+		(pin "8"
+			(uuid "a8cd26e9-77ff-430e-b936-da6a469ff6f5")
+		)
+		(pin "12"
+			(uuid "016ed0af-a4af-4025-b307-82bdf43cc6ee")
+		)
+		(pin "23"
+			(uuid "9e000732-2d18-4001-88e1-bb1642cf86f8")
+		)
+		(pin "24"
+			(uuid "72f25e63-982c-4460-a8bd-e5ba7b8740a0")
+		)
+		(pin "25"
+			(uuid "8493eca0-36d6-48fd-8948-d2145df8bb9c")
+		)
+		(pin "27"
+			(uuid "39de8a6e-67b8-4672-bba6-f0de8fe6b83c")
+		)
+		(pin "10"
+			(uuid "15c7b0e7-e148-404a-85a3-da493e11add8")
+		)
+		(pin "1"
+			(uuid "6983d89c-7956-46b5-a5b2-a24f0e1446f8")
 		)
 		(pin "3"
-			(uuid "9c25778a-314a-46c8-9e0c-149747216f7b")
+			(uuid "83bafc93-b6c2-48d3-b646-ef60a2db3f9c")
+		)
+		(pin "18"
+			(uuid "36e4c640-4532-4ab4-b121-9cc805b0466f")
+		)
+		(pin "11"
+			(uuid "3efec747-52e6-4b3f-afb2-1d18bb39eb8c")
+		)
+		(pin "15"
+			(uuid "184ebe40-fc30-4ff8-a0ab-83c8be21a834")
+		)
+		(pin "5"
+			(uuid "492e2ee0-ab8b-46e0-8f45-e57ec91d953a")
+		)
+		(pin "21"
+			(uuid "6f855b8b-e927-4a88-836a-87ae777215da")
+		)
+		(pin "28"
+			(uuid "fa662afa-5e30-4bf1-9296-28f685f03e71")
 		)
 		(instances
 			(project "espander_100x_i2c"
-				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
-					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
-		(at 240.03 71.12 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb769c7d-016b-4373-82e8-3ef9bc01b8b4")
-		(property "Reference" "J21"
-			(at 250.698 75.692 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DG127A-5.08-06P-14-00AH"
-			(at 250.698 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DG127A50806P1400AH"
-			(at 256.54 -23.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
-			(at 256.54 -123.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
-			(at 240.03 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "19.41"
-			(at 256.54 -323.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Part Number" ""
-			(at 256.54 -423.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "TME Electronic Components Price/Stock" ""
-			(at 256.54 -523.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Degson"
-			(at 256.54 -623.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
-			(at 256.54 -723.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "ebd23e0e-d1c4-4199-abc0-c9d8ee8db8c4")
-		)
-		(pin "1"
-			(uuid "7fdb442e-f12a-4c0f-8420-5aa20294482f")
-		)
-		(pin "5"
-			(uuid "88b541af-20a7-4ca1-8ca2-36d854925c4f")
-		)
-		(pin "6"
-			(uuid "d7d95a70-f0d6-4104-8c6f-df3cf009d1d1")
-		)
-		(pin "2"
-			(uuid "3b792c37-1496-4898-921f-794cf0de2082")
-		)
-		(pin "3"
-			(uuid "b15fb533-efe2-4172-9333-3c10306d5695")
-		)
-		(instances
-			(project "espander_100x_i2c"
-				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
-					(reference "J21")
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/bcecc8eb-daf5-43c6-b239-64472c35daf3"
+					(reference "U4")
 					(unit 1)
 				)
 			)

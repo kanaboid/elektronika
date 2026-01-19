@@ -1,4 +1,4 @@
-27222553771729446
+27224322606728965
 1_tme
 DG127A50806P1400AH
 DG127A-5.08-06P-14-00AH-3
@@ -13,6 +13,13 @@ Integrated Circuit
 0
 49
 49
+1_tme
+RDEC71H106K3P1H03B
+RDEC71H106K3P1H03B-1
+Capacitor
+0
+2
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

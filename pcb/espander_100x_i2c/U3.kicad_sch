@@ -1923,7 +1923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD"
+		(property "Value" "+3V3"
 			(at 48.514 17.78 0)
 			(effects
 				(font
@@ -2054,7 +2054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VD"
+		(property "Value" "+3V3"
 			(at 165.354 19.05 0)
 			(effects
 				(font
