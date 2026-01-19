@@ -10881,7 +10881,7 @@
 		(property "Reference" "U12"
 			(at 0 -7.35 90)
 			(layer "F.SilkS")
-			(uuid "d5da345b-a044-4473-a003-b61a0aaa3fcd")
+			(uuid "53bc53c9-5125-48fe-92a0-b2f26ce29c0e")
 			(effects
 				(font
 					(size 1 1)
@@ -10892,7 +10892,7 @@
 		(property "Value" "ITS716G"
 			(at 0 7.35 90)
 			(layer "F.Fab")
-			(uuid "4d6ed560-4a55-4c68-a008-552ae33eb0be")
+			(uuid "9a0e3da1-1abd-4665-88cc-f80eded2b6f5")
 			(effects
 				(font
 					(size 1 1)
@@ -10904,7 +10904,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "afb85f53-ddba-44bb-aad7-337439e5498f")
+			(uuid "afc1fe5e-f013-4176-bf46-c3c5e17ea491")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10916,7 +10916,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e0cc7c1-d030-4ab3-abec-91799cbd0ca7")
+			(uuid "19bf6ca1-914e-4928-b954-22f09af3b79a")
 			(effects
 				(font
 					(size 1.27 1.27)
