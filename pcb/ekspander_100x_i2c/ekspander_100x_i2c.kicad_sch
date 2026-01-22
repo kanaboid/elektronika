@@ -7459,7 +7459,7 @@
 			)
 		)
 		(instances
-			(project "espander_100x_i2c"
+			(project "ekspander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
 					(page "8")
 				)
@@ -7501,7 +7501,7 @@
 			)
 		)
 		(instances
-			(project "espander_100x_i2c"
+			(project "ekspander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
 					(page "2")
 				)
@@ -7543,7 +7543,7 @@
 			)
 		)
 		(instances
-			(project "espander_100x_i2c"
+			(project "ekspander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
 					(page "7")
 				)
@@ -7585,7 +7585,7 @@
 			)
 		)
 		(instances
-			(project "espander_100x_i2c"
+			(project "ekspander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
 					(page "4")
 				)
@@ -7627,7 +7627,7 @@
 			)
 		)
 		(instances
-			(project "espander_100x_i2c"
+			(project "ekspander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
 					(page "5")
 				)
@@ -7669,7 +7669,7 @@
 			)
 		)
 		(instances
-			(project "espander_100x_i2c"
+			(project "ekspander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
 					(page "6")
 				)
@@ -7711,7 +7711,7 @@
 			)
 		)
 		(instances
-			(project "espander_100x_i2c"
+			(project "ekspander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926"
 					(page "3")
 				)
