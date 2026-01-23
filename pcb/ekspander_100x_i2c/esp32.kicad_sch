@@ -2736,25 +2736,49 @@
 			)
 		)
 	)
-	(label "SCK"
-		(at 137.16 66.04 0)
+	(global_label "SDA"
+		(shape input)
+		(at 137.16 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "7aa687c8-f22e-4297-b054-c1890eecc8e1")
+		(uuid "21a32dfb-b589-4422-b910-12c43a06433f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.6067 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "SDA"
-		(at 137.16 63.5 0)
+	(global_label "SCK"
+		(shape input)
+		(at 137.16 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "ee51cec7-afb1-4756-975b-97ffea0d67b5")
+		(uuid "3515fbcd-394e-4a08-934d-9ce4255c45c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.4253 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2781,7 +2805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1_tme:RDEC71H226MWK1H03B"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 138.43 34.5948 0)
 			(effects
 				(font
@@ -2831,10 +2855,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2a25f3e9-fd99-471b-8466-30cc9a4be778")
 		(property "Reference" "C7"
-			(at 133.35 67.3099 0)
+			(at 123.698 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2843,7 +2866,7 @@
 			)
 		)
 		(property "Value" "1uF_50V"
-			(at 133.35 69.8499 0)
+			(at 119.126 70.866 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,7 +2874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 130.5052 72.39 0)
 			(effects
 				(font
@@ -2921,7 +2944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1_tme:RDEC71H106K3P1H03B"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 40.3352 80.01 0)
 			(effects
 				(font
@@ -3255,7 +3278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1_tme:RESAD1520W50L600D230"
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 127.762 53.34 90)
 			(effects
 				(font
@@ -3325,7 +3348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1_tme:RDEC71H226MWK1H03B"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 94.9452 86.36 0)
 			(effects
 				(font
@@ -3802,7 +3825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 77.1652 67.31 0)
 			(effects
 				(font
@@ -4197,7 +4220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1_tme:RDEC71H226MWK1H03B"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 88.5952 86.36 0)
 			(effects
 				(font
@@ -4330,7 +4353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "1_tme:RDEC71H226MWK1H03B"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 138.43 28.2448 0)
 			(effects
 				(font

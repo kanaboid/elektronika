@@ -671,6 +671,42 @@
       "/U2/U2-GPB7": [
         "GPIO"
       ],
+      "/U2/ZC61_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U2/ZC61_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U2/ZC62_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U2/ZC62_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U2/ZC63_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U2/ZC63_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U2/ZC64_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U2/ZC64_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U3 - U4/U2-GPA0": [
+        "GPIO"
+      ],
+      "/U3 - U4/U2-GPA1": [
+        "GPIO"
+      ],
+      "/U3 - U4/U2-GPA2": [
+        "GPIO"
+      ],
+      "/U3 - U4/U2-GPA3": [
+        "GPIO"
+      ],
       "/U3 - U4/U3-GPA0": [
         "GPIO"
       ],
@@ -766,6 +802,30 @@
       ],
       "/U3 - U4/U4-GPB7": [
         "GPIO"
+      ],
+      "/U3 - U4/ZC65_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U3 - U4/ZC65_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U3 - U4/ZC66_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U3 - U4/ZC66_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U3 - U4/ZC67_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U3 - U4/ZC67_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U3 - U4/ZC68_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U3 - U4/ZC68_OPEN_MOTOR": [
+        "+24V"
       ],
       "/U5/U5-GPA0": [
         "GPIO"

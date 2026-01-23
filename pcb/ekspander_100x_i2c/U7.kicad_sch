@@ -229,6 +229,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Interface_Expansion:MCP23017_SP"
 			(pin_names
 				(offset 1.016)
@@ -1049,9 +1188,21 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 176.53 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e56b446c-ae4d-441f-9f65-17602dafb50b")
+	)
+	(junction
+		(at 59.69 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc487741-1112-4381-9657-027e2421ccf8")
+	)
 	(wire
 		(pts
-			(xy 176.53 21.59) (xy 176.53 29.21)
+			(xy 176.53 21.59) (xy 176.53 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1068,6 +1219,26 @@
 			(type default)
 		)
 		(uuid "188f6385-fc05-4528-9635-9a6949d5c870")
+	)
+	(wire
+		(pts
+			(xy 71.12 21.59) (xy 67.31 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e425bf7-d2b5-43d7-a4ff-2bb4b4ce9e37")
+	)
+	(wire
+		(pts
+			(xy 59.69 21.59) (xy 59.69 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57233275-9cd7-4910-ba4f-88a6c537966c")
 	)
 	(wire
 		(pts
@@ -1121,7 +1292,27 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 20.32) (xy 59.69 27.94)
+			(xy 176.53 24.13) (xy 176.53 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4602855-7ba5-4e7f-b06b-3829fe520921")
+	)
+	(wire
+		(pts
+			(xy 187.96 24.13) (xy 184.15 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f407884e-6634-46f3-b05e-a18417e6f9ad")
+	)
+	(wire
+		(pts
+			(xy 59.69 20.32) (xy 59.69 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2230,6 +2421,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 180.34 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1187ec2b-3caf-4eb0-94d2-68816e7f60cc")
+		(property "Reference" "C16"
+			(at 180.34 19.304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 180.34 28.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 184.15 23.1648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 180.34 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ed7e5d4b-2270-41c9-8446-623c2328d625")
+		)
+		(pin "1"
+			(uuid "1e8d5435-dc71-4b59-aa20-ebd6a7524cbe")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VD")
 		(at 59.69 20.32 0)
 		(unit 1)
@@ -2355,6 +2613,72 @@
 			(project "espander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 187.96 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ce41eaf-e1c6-426a-87e8-b13a13193070")
+		(property "Reference" "#PWR043"
+			(at 187.96 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 187.96 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 187.96 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03278cde-3021-4f31-8cc5-bcd289f4f317")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -2712,6 +3036,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 71.12 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aaa75bdb-97fb-4485-a2eb-3fa3ae7e99dd")
+		(property "Reference" "#PWR042"
+			(at 71.12 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 71.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b887930-6a4a-4f72-845e-cd748f52b135")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VD")
 		(at 176.53 21.59 0)
 		(unit 1)
@@ -2771,6 +3161,73 @@
 			(project "espander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 63.5 21.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da179f26-2aa6-4c48-b435-ebfefe74e003")
+		(property "Reference" "C15"
+			(at 63.5 16.764 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 63.5 26.162 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 67.31 20.6248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 63.5 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ce6025c-fe59-4895-883b-eddbbe613a35")
+		)
+		(pin "1"
+			(uuid "f8ed4da6-c98d-4ace-891f-acefd9a0e024")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
+					(reference "C15")
 					(unit 1)
 				)
 			)
