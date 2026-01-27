@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "espander_100x_i2c.kicad_prl",
+    "filename": "ekspander_100x_i2c.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {

@@ -695,18 +695,6 @@
       "/U2/ZC64_OPEN_MOTOR": [
         "+24V"
       ],
-      "/U3 - U4/U2-GPA0": [
-        "GPIO"
-      ],
-      "/U3 - U4/U2-GPA1": [
-        "GPIO"
-      ],
-      "/U3 - U4/U2-GPA2": [
-        "GPIO"
-      ],
-      "/U3 - U4/U2-GPA3": [
-        "GPIO"
-      ],
       "/U3 - U4/U3-GPA0": [
         "GPIO"
       ],
@@ -827,6 +815,18 @@
       "/U3 - U4/ZC68_OPEN_MOTOR": [
         "+24V"
       ],
+      "/U3 - U4/ZC69_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U3 - U4/ZC69_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U3 - U4/ZC70_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U3 - U4/ZC70_OPEN_MOTOR": [
+        "+24V"
+      ],
       "/U5/U5-GPA0": [
         "GPIO"
       ],
@@ -874,6 +874,24 @@
       ],
       "/U5/U5-GPB7": [
         "GPIO"
+      ],
+      "/U5/ZC73_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U5/ZC73_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U5/ZC74_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U5/ZC74_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U5/ZC75_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U5/ZC75_OPEN_MOTOR": [
+        "+24V"
       ],
       "/U6/U6-GPA0": [
         "GPIO"
@@ -925,6 +943,30 @@
       ],
       "/U6/U7-GPB7": [
         "GPIO"
+      ],
+      "/U6/ZC77_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U6/ZC77_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U6/ZC78_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U6/ZC78_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U6/ZC79_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U6/ZC79_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U6/ZC80_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U6/ZC80_OPEN_MOTOR": [
+        "+24V"
       ],
       "/U7 - U8/U7-GPA0": [
         "GPIO"
@@ -1069,6 +1111,24 @@
       ],
       "U7-GPB7": [
         "GPIO"
+      ],
+      "ZC71_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "ZC71_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "ZC72_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "ZC72_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "ZC76_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "ZC76_OPEN_MOTOR": [
+        "+24V"
       ]
     },
     "netclass_patterns": [
