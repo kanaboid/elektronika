@@ -368,6 +368,130 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Driver_FET:ITS716G"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2291,6 +2415,12 @@
 		)
 	)
 	(junction
+		(at 49.53 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19709eb9-37b0-445c-8913-0bbd327a42c0")
+	)
+	(junction
 		(at 49.53 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2416,16 +2546,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 40.64) (xy 31.75 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06e03dc7-34fb-41af-b223-e536044cf0dd")
-	)
-	(wire
-		(pts
 			(xy 198.12 119.38) (xy 201.93 119.38)
 		)
 		(stroke
@@ -2443,6 +2563,16 @@
 			(type default)
 		)
 		(uuid "0a7c03d2-1535-4dac-9d52-e77134046677")
+	)
+	(wire
+		(pts
+			(xy 46.99 27.94) (xy 49.53 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b501197-7ad8-484a-9dbb-91e96d7220e2")
 	)
 	(wire
 		(pts
@@ -2613,6 +2743,16 @@
 			(type default)
 		)
 		(uuid "41de973f-4a37-40f9-b81d-45d50b5957b8")
+	)
+	(wire
+		(pts
+			(xy 49.53 27.94) (xy 49.53 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43241d8e-9076-44ed-9d49-611e177e96fb")
 	)
 	(wire
 		(pts
@@ -2866,6 +3006,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 27.94) (xy 39.37 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d0b4bf-877e-4ecd-9961-56b56411ee88")
+	)
+	(wire
+		(pts
 			(xy 195.58 21.59) (xy 170.18 21.59)
 		)
 		(stroke
@@ -3016,16 +3166,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 38.1) (xy 31.75 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "909a8dec-aea5-44a0-8a70-0404c8b56f01")
-	)
-	(wire
-		(pts
 			(xy 245.11 104.14) (xy 245.11 119.38)
 		)
 		(stroke
@@ -3066,7 +3206,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 25.4) (xy 49.53 30.48)
+			(xy 49.53 25.4) (xy 49.53 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3344,16 +3484,6 @@
 		)
 		(uuid "faee4403-021e-4dd9-9b08-9b3cf6598f36")
 	)
-	(label "SCK"
-		(at 29.21 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05b74c38-560a-4a59-aedd-8c9b448ed2c6")
-	)
 	(label "ZC75_OPEN_MOTOR"
 		(at 264.16 30.48 0)
 		(fields_autoplaced yes)
@@ -3623,16 +3753,6 @@
 				(justify left)
 			)
 		)
-	)
-	(label "SDA"
-		(at 29.21 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55e9eaf8-02b3-473d-98b4-e0959ca7f22f")
 	)
 	(label "U5-GPB1"
 		(at 205.74 114.3 0)
@@ -4435,6 +4555,28 @@
 			)
 		)
 	)
+	(global_label "SCK"
+		(shape input)
+		(at 31.75 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "444061c0-ec56-4525-be3d-ae65e1f1efee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0153 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ZC76_CLOSE_LED"
 		(shape input)
 		(at 242.57 129.54 180)
@@ -4666,6 +4808,50 @@
 			)
 		)
 	)
+	(global_label "RESET_U5"
+		(shape input)
+		(at 38.1 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae2ca590-1611-4b77-b1a1-b60f0d9e1230")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.8621 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 31.75 38.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7539395-7a61-42c9-b7f0-24807acdfb51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.1967 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ZC75_CLOSE_LED"
 		(shape input)
 		(at 242.57 114.3 180)
@@ -4804,6 +4990,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET_U5"
+		(shape input)
+		(at 31.75 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8503f27-ae3d-4451-9d38-604909cb3da1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.5121 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -5455,6 +5663,74 @@
 			(project "ekspander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/89399d0f-8527-42f7-9857-a43fca03c974"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 43.18 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39af2c61-71ab-4557-bfcb-8c590f462673")
+		(property "Reference" "R6"
+			(at 43.18 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 43.18 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 43.18 29.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 43.18 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c9ae849-4c23-4a3b-9de6-0ce53c3855cc")
+		)
+		(pin "1"
+			(uuid "d3163015-469e-4132-9e87-1ac1342b078d")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/89399d0f-8527-42f7-9857-a43fca03c974"
+					(reference "R6")
 					(unit 1)
 				)
 			)

@@ -1064,6 +1064,54 @@
       "/U7 - U8/U8-GPB7": [
         "GPIO"
       ],
+      "/U7 - U8/ZC81_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZC81_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX01_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX01_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX02_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX02_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX03_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX03_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX04_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX04_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX05_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX05_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX06_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX06_OPEN_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX07_CLOSE_MOTOR": [
+        "+24V"
+      ],
+      "/U7 - U8/ZCX07_OPEN_MOTOR": [
+        "+24V"
+      ],
       "/ZC57_CLOSE_MOTOR": [
         "+24V"
       ],
