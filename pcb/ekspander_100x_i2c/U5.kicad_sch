@@ -3878,7 +3878,7 @@
 		)
 	)
 	(label "U5-GPB5"
-		(at 69.85 50.8 0)
+		(at 69.85 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3887,7 +3887,7 @@
 		)
 		(uuid "86c54b8a-6133-4854-b71c-46f39c47cc31")
 		(property "Netclass" "GPIO"
-			(at 79.756 50.8 0)
+			(at 79.756 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,7 +3898,7 @@
 		)
 	)
 	(label "U5-GPB7"
-		(at 69.85 55.88 0)
+		(at 69.85 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3907,7 +3907,7 @@
 		)
 		(uuid "88e80d64-8b2f-45eb-a25c-de317f3f8a19")
 		(property "Netclass" "GPIO"
-			(at 79.756 55.88 0)
+			(at 79.756 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +4139,7 @@
 		)
 	)
 	(label "U5-GPB4"
-		(at 69.85 48.26 0)
+		(at 69.85 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4148,7 +4148,7 @@
 		)
 		(uuid "c680fe27-e4e3-43be-8a06-64152a754456")
 		(property "Netclass" "GPIO"
-			(at 80.01 48.26 0)
+			(at 80.01 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4221,7 @@
 		)
 	)
 	(label "U5-GPB6"
-		(at 69.85 53.34 0)
+		(at 69.85 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4230,7 +4230,7 @@
 		)
 		(uuid "d0955eb9-a4e1-4083-b452-366d8ed13cdd")
 		(property "Netclass" "GPIO"
-			(at 79.756 53.34 0)
+			(at 79.756 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4404,22 +4404,22 @@
 	)
 	(global_label "ZC76_CLOSE_LED"
 		(shape input)
-		(at 111.76 69.85 180)
+		(at 132.08 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "22793fe8-9242-4962-a679-c90660f76dd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.5069 69.85 0)
+			(at 151.3331 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4481,22 +4481,22 @@
 	)
 	(global_label "ZC75_OPEN_LED"
 		(shape input)
-		(at 111.76 67.31 180)
+		(at 132.08 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "333bc63d-2858-4a14-a75c-b911f77974b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.414 67.31 0)
+			(at 150.426 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4733,22 +4733,22 @@
 	)
 	(global_label "ZC75_CLOSE_LED"
 		(shape input)
-		(at 132.08 67.31 0)
+		(at 111.76 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "96a22964-3174-4a0c-9144-69cf2ea7a7eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.3331 67.31 0)
+			(at 92.5069 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4876,22 +4876,22 @@
 	)
 	(global_label "ZC76_OPEN_LED"
 		(shape input)
-		(at 132.08 69.85 0)
+		(at 111.76 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bd1cf40b-9c48-4828-943a-7903b4eac5b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.426 69.85 0)
+			(at 93.414 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)

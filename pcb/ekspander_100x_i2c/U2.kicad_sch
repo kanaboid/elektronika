@@ -3762,7 +3762,7 @@
 		)
 	)
 	(label "ZC64_OPEN_LED"
-		(at 179.07 119.38 180)
+		(at 179.07 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3822,12 +3822,12 @@
 		(uuid "15584d46-fbc2-4591-bb0b-a062933c496f")
 	)
 	(label "ZC64_OPEN_LED"
-		(at 40.64 139.7 180)
+		(at 60.96 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "1a238ecf-92b3-4b32-98b9-2720a0305065")
 	)
@@ -3893,17 +3893,17 @@
 		)
 	)
 	(label "ZC63_CLOSE_LED"
-		(at 60.96 142.24 0)
+		(at 40.64 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "312d3541-8648-4eab-95fb-e50bf075baf1")
 	)
 	(label "U2-GPA6"
-		(at 69.85 83.82 0)
+		(at 69.85 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3912,7 +3912,7 @@
 		)
 		(uuid "3a152175-cc94-4aaa-9d7f-034febb9989b")
 		(property "Netclass" "GPIO"
-			(at 79.756 83.82 0)
+			(at 79.756 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,12 +4065,12 @@
 		)
 	)
 	(label "ZC64_CLOSE_LED"
-		(at 60.96 139.7 0)
+		(at 40.64 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "57515f2e-e242-407e-af09-0cbe0b5798d5")
 	)
@@ -4125,12 +4125,12 @@
 		(uuid "60b60d3f-f21a-405a-b4cf-cf6db1e0a56b")
 	)
 	(label "ZC63_OPEN_LED"
-		(at 40.64 142.24 180)
+		(at 60.96 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "6ab28b17-f4f9-4fd8-9995-adef86c493ce")
 	)
@@ -4278,7 +4278,7 @@
 		)
 	)
 	(label "U2-GPA5"
-		(at 69.85 81.28 0)
+		(at 69.85 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4287,7 +4287,7 @@
 		)
 		(uuid "90137413-10bb-4ac9-ab24-c52c491a8a1e")
 		(property "Netclass" "GPIO"
-			(at 79.756 81.28 0)
+			(at 79.756 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4308,7 @@
 		(uuid "91dcd4af-7405-4cf7-a733-64dc824acb23")
 	)
 	(label "U2-GPA4"
-		(at 69.85 78.74 0)
+		(at 69.85 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4317,7 +4317,7 @@
 		)
 		(uuid "98f6a916-cfef-4bee-a548-c4fbbcc577fb")
 		(property "Netclass" "GPIO"
-			(at 79.756 78.74 0)
+			(at 79.756 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4369,7 @@
 		)
 	)
 	(label "ZC63_CLOSE_LED"
-		(at 179.07 73.66 180)
+		(at 179.07 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4379,7 +4379,7 @@
 		(uuid "aacd7094-0d28-4f6c-8796-1aa65c6261ad")
 	)
 	(label "U2-GPA7"
-		(at 69.85 86.36 0)
+		(at 69.85 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4388,7 +4388,7 @@
 		)
 		(uuid "b33ed9da-db2e-4c34-b426-0d7a1b9b9d34")
 		(property "Netclass" "GPIO"
-			(at 79.756 86.36 0)
+			(at 79.756 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4460,7 +4460,7 @@
 		)
 	)
 	(label "ZC64_CLOSE_LED"
-		(at 179.07 104.14 180)
+		(at 179.07 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4620,7 +4620,7 @@
 		)
 	)
 	(label "ZC63_OPEN_LED"
-		(at 179.07 88.9 180)
+		(at 179.07 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)

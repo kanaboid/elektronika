@@ -3395,7 +3395,7 @@
 		)
 	)
 	(label "U6-GPB5"
-		(at 72.39 45.72 0)
+		(at 72.39 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3404,7 +3404,7 @@
 		)
 		(uuid "1c685279-e6c4-4c7e-8243-c54b6ce36dc4")
 		(property "Netclass" "GPIO"
-			(at 82.296 45.72 0)
+			(at 82.296 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3476,7 @@
 		)
 	)
 	(label "U6-GPB4"
-		(at 72.39 43.18 0)
+		(at 72.39 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3485,7 +3485,7 @@
 		)
 		(uuid "3d79d205-b8f0-425e-b89f-ab49ee8938b8")
 		(property "Netclass" "GPIO"
-			(at 82.55 43.18 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4262,7 @@
 	)
 	(global_label "U6-GPB7"
 		(shape output)
-		(at 73.66 50.8 0)
+		(at 72.39 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4272,7 +4272,7 @@
 		)
 		(uuid "052b9fe5-bfeb-46e0-b1c5-6d26d1bd086a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.7771 50.8 0)
+			(at 84.5071 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4306,7 +4306,7 @@
 	)
 	(global_label "ZC77_OPEN_LED"
 		(shape input)
-		(at 177.8 99.06 180)
+		(at 177.8 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4316,7 +4316,7 @@
 		)
 		(uuid "193dd7a6-79de-4301-b0e7-5b60a778f5ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.454 99.06 0)
+			(at 159.454 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,22 +4328,22 @@
 	)
 	(global_label "ZC80_CLOSE_LED"
 		(shape input)
-		(at 41.91 148.59 180)
+		(at 62.23 148.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1bd18c05-2e4c-41fc-88c4-b0a08b7a2f1f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.6569 148.59 0)
+			(at 80.576 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4394,7 +4394,7 @@
 	)
 	(global_label "ZC78_CLOSE_LED"
 		(shape input)
-		(at 177.8 129.54 180)
+		(at 177.8 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4404,7 +4404,7 @@
 		)
 		(uuid "227794e5-7b58-479c-b3ed-e094da8c39a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.5469 129.54 0)
+			(at 158.5469 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4438,7 @@
 	)
 	(global_label "ZC80_CLOSE_LED"
 		(shape input)
-		(at 241.3 129.54 180)
+		(at 241.3 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4448,7 +4448,7 @@
 		)
 		(uuid "2c8b477c-2288-40b3-ae06-226ee690da91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.0469 129.54 0)
+			(at 222.954 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4504,7 @@
 	)
 	(global_label "ZC79_OPEN_LED"
 		(shape input)
-		(at 241.3 99.06 180)
+		(at 241.3 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4514,7 +4514,7 @@
 		)
 		(uuid "611568fa-4f4a-4c20-99d5-99eda85f2679")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.954 99.06 0)
+			(at 222.0469 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4526,7 +4526,7 @@
 	)
 	(global_label "ZC80_OPEN_LED"
 		(shape input)
-		(at 241.3 144.78 180)
+		(at 241.3 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4536,7 +4536,7 @@
 		)
 		(uuid "65b87a4b-a675-4bd9-9104-b100c9e2bf0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.954 144.78 0)
+			(at 222.0469 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,7 +4570,7 @@
 	)
 	(global_label "ZC79_CLOSE_LED"
 		(shape input)
-		(at 241.3 114.3 180)
+		(at 241.3 144.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4580,7 +4580,7 @@
 		)
 		(uuid "7a0ed401-3de2-4ab3-b360-12f6f80e2f79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.0469 114.3 0)
+			(at 222.954 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4625,7 @@
 	)
 	(global_label "ZC77_CLOSE_LED"
 		(shape input)
-		(at 177.8 114.3 180)
+		(at 177.8 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4635,7 +4635,7 @@
 		)
 		(uuid "8c37661f-93d8-436c-82f4-9a1952aaf687")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.5469 114.3 0)
+			(at 158.5469 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4669,7 @@
 	)
 	(global_label "U6-GPB6"
 		(shape bidirectional)
-		(at 72.39 48.26 0)
+		(at 72.39 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4679,7 +4679,7 @@
 		)
 		(uuid "a5a83196-6038-4dee-b97a-35fa3690a3a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.6184 48.26 0)
+			(at 85.6184 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,22 +4691,22 @@
 	)
 	(global_label "ZC80_OPEN_LED"
 		(shape input)
-		(at 62.23 148.59 0)
+		(at 41.91 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ac0b1926-d8a2-43c3-b40c-f222d1135e8a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.576 148.59 0)
+			(at 22.6569 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4735,7 +4735,7 @@
 	)
 	(global_label "ZC78_OPEN_LED"
 		(shape input)
-		(at 177.8 144.78 180)
+		(at 177.8 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4745,7 +4745,7 @@
 		)
 		(uuid "cbc32ae7-eceb-4d74-9b21-17c5ca60a7c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.454 144.78 0)
+			(at 159.454 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
