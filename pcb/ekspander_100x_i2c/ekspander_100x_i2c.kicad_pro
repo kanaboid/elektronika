@@ -1335,6 +1335,18 @@
           "label": "Manufacturer_Part_Number",
           "name": "Manufacturer_Part_Number",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Cena",
+          "name": "Cena",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": false
         }
       ],
       "filter_string": "",

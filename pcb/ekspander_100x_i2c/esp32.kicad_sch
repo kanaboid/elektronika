@@ -3262,7 +3262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.tme.eu/Document/3e9c82fa3e4673c31af8686f4595edf5/LSXN.pdf"
 			(at 86.36 71.12 0)
 			(effects
 				(font
@@ -3273,6 +3273,15 @@
 		)
 		(property "Description" "Inductor"
 			(at 86.36 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.tme.eu/pl/details/lsxnd6060yel4r7nmg/dlawiki/taiyo-yuden/"
+			(at 86.36 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,6 +3490,15 @@
 				(hide yes)
 			)
 		)
+		(property "Cena" "0,04"
+			(at 129.54 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5f6d760-0186-4529-990d-316c14243f35")
 		)
@@ -3668,6 +3686,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Cena" "24"
+			(at 143.51 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
