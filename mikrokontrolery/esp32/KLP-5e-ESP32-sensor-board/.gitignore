@@ -1,0 +1,48 @@
+ESP32 sensor board-backups/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+._*
+.Spotlight-V100
+.Trashes
+*.DS_Store
+
+# Git-related files
+.git/
+*.orig
+*auto_saved_files*
+
+# Other files
+node_modules/
+*.log
+*.tmp
+*.bak
+*.cache
+
+# KiCad backup and temporary files
+*.bak
+*.b#?
+*.kicad_pcb-bak
+*.autosave
+*.tmp
+*.lock
+*.lck
+KiCad project/*autosave*
+
+# Simulation data
+*.raw
+*.spice
+*.plt
+
+# User-specific settings
+*.kicad_prl
+
+# Symbol and footprint library cache
+sym-lib-table
+fp-lib-table
+*.dcm
+
+# Generated output folders
+fabrication/
+manufacturing/

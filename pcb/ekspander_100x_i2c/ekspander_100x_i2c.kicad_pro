@@ -1223,7 +1223,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ekspander_100x_i2c.step",
       "svg": "",
       "vrml": ""
     },

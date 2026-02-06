@@ -5356,7 +5356,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 44.704 21.59 0)
+			(at 48.006 18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5676,10 +5676,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "39af2c61-71ab-4557-bfcb-8c590f462673")
 		(property "Reference" "R6"
-			(at 43.18 21.59 90)
+			(at 40.132 21.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,10 +5875,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4596ecc2-0b13-44d7-a688-e15719f35223")
 		(property "Reference" "U5"
-			(at 51.6733 30.48 0)
+			(at 43.18 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
