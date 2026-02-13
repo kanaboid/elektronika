@@ -1,4 +1,4 @@
-47437893210728840
+47439664154569760
 1_tme
 DG127A50806P1400AH
 DG127A-5.08-06P-14-00AH-3
@@ -41,6 +41,13 @@ Resistor
 0
 2
 2
+1_tme
+USB4145030230C
+USB4145-03-0230-C-2
+Connector
+0
+20
+20
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

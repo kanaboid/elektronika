@@ -494,7 +494,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.254,
+        "clearance": 0.2,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
@@ -522,7 +522,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.254,
+        "clearance": 0.25,
         "name": "+5VD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
@@ -532,12 +532,12 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.254,
+        "clearance": 0.25,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.508,
+        "track_width": 0.5,
         "wire_width": 6
       },
       {
@@ -552,22 +552,22 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.254,
+        "clearance": 0.25,
         "name": "SCK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.25,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.254,
+        "clearance": 0.25,
         "name": "SDA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.25,
         "wire_width": 6
       }
     ],
