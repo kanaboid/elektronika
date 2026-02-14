@@ -2415,6 +2415,12 @@
 		)
 	)
 	(junction
+		(at 95.25 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "008101f2-1847-4d6f-a27b-a9bf0f01aa60")
+	)
+	(junction
 		(at 124.46 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2541,6 +2547,12 @@
 		(uuid "8fa9c3b1-1f5f-4949-b1ba-1d48b8cbdd53")
 	)
 	(junction
+		(at 52.07 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f073232-1207-448a-a14a-4a13c38555ee")
+	)
+	(junction
 		(at 184.15 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2605,6 +2617,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e84799bd-57c0-4e2c-aefb-e8b2e942da7a")
+	)
+	(junction
+		(at 19.05 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb049f53-330f-435b-bda4-d645f35305a3")
 	)
 	(junction
 		(at 36.83 168.91)
@@ -2700,6 +2718,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 69.85) (xy 22.86 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d86874-5973-4226-a434-2b60837716f6")
+	)
+	(wire
+		(pts
 			(xy 53.34 100.33) (xy 53.34 97.79)
 		)
 		(stroke
@@ -2707,6 +2735,16 @@
 			(type default)
 		)
 		(uuid "0d1efdd8-fb95-4816-a640-75d89412149e")
+	)
+	(wire
+		(pts
+			(xy 95.25 68.58) (xy 95.25 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb7d0c0-e57d-4bc3-b875-a50ec4efb2ba")
 	)
 	(wire
 		(pts
@@ -2787,6 +2825,26 @@
 			(type default)
 		)
 		(uuid "29ac506e-fdd4-4925-b851-e52fbd33e9a1")
+	)
+	(wire
+		(pts
+			(xy 31.75 72.39) (xy 31.75 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ea739b-e8f9-4305-9526-5a93c9281ab4")
+	)
+	(wire
+		(pts
+			(xy 13.97 81.28) (xy 19.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ddd3f71-b2a0-49ae-b448-7f1853098d54")
 	)
 	(wire
 		(pts
@@ -2880,6 +2938,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 81.28) (xy 19.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e6c339-89ee-4f74-b21c-ab201c5f232e")
+	)
+	(wire
+		(pts
 			(xy 261.62 107.95) (xy 265.43 107.95)
 		)
 		(stroke
@@ -2960,6 +3028,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 80.01) (xy 104.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "494d9079-03ee-4e88-886b-3daecccbd8d1")
+	)
+	(wire
+		(pts
 			(xy 185.42 91.44) (xy 186.69 91.44)
 		)
 		(stroke
@@ -2967,6 +3045,16 @@
 			(type default)
 		)
 		(uuid "4b196e73-d011-45a1-a23f-174c6feda7c4")
+	)
+	(wire
+		(pts
+			(xy 34.29 67.31) (xy 13.97 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4be7bb8b-8b62-4a98-8a52-7a85eee0cd55")
 	)
 	(wire
 		(pts
@@ -3007,6 +3095,26 @@
 			(type default)
 		)
 		(uuid "54dc75c9-b8b1-4559-b2ef-1d0f43ae7e6e")
+	)
+	(wire
+		(pts
+			(xy 52.07 81.28) (xy 52.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55cec5ea-5325-47a0-bf18-b38d87908fe0")
+	)
+	(wire
+		(pts
+			(xy 34.29 72.39) (xy 31.75 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5650ac3f-c9ad-4b85-a7e4-19bc05b97f53")
 	)
 	(wire
 		(pts
@@ -3100,6 +3208,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 68.58) (xy 95.25 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "687c008e-ec1a-4ba1-a332-bfa865ac327a")
+	)
+	(wire
+		(pts
 			(xy 186.69 90.17) (xy 186.69 91.44)
 		)
 		(stroke
@@ -3127,6 +3245,16 @@
 			(type default)
 		)
 		(uuid "6fd5491a-f9f7-4203-9c1e-fb392513234e")
+	)
+	(wire
+		(pts
+			(xy 86.36 80.01) (xy 95.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70ba4dc4-ae35-4a96-8436-e1bca4106798")
 	)
 	(wire
 		(pts
@@ -3170,6 +3298,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 66.04) (xy 86.36 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "731be419-6a4f-4e00-8312-df4da7dadca3")
+	)
+	(wire
+		(pts
 			(xy 261.62 153.67) (xy 265.43 153.67)
 		)
 		(stroke
@@ -3180,13 +3318,23 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 80.01) (xy 52.07 82.55)
+			(xy 52.07 80.01) (xy 52.07 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "782498e4-a7a4-4892-ac7b-d65273f7bbff")
+	)
+	(wire
+		(pts
+			(xy 31.75 81.28) (xy 52.07 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c2154b-a7c8-4b57-b359-009c60ca1559")
 	)
 	(wire
 		(pts
@@ -3290,6 +3438,16 @@
 	)
 	(wire
 		(pts
+			(xy 19.05 81.28) (xy 22.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fbe0711-18e9-466f-8460-c40487ec5f04")
+	)
+	(wire
+		(pts
 			(xy 170.18 50.8) (xy 193.04 50.8)
 		)
 		(stroke
@@ -3367,6 +3525,16 @@
 			(type default)
 		)
 		(uuid "a04fa106-1b61-4c9c-92de-1a2248c4e2d3")
+	)
+	(wire
+		(pts
+			(xy 106.68 71.12) (xy 104.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0965ab4-846c-4e24-b6ab-ca8d6791c20e")
 	)
 	(wire
 		(pts
@@ -3540,6 +3708,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 66.04) (xy 86.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b842a88b-eeeb-4056-92af-a0eb5fdbdc8f")
+	)
+	(wire
+		(pts
 			(xy 198.12 123.19) (xy 201.93 123.19)
 		)
 		(stroke
@@ -3557,6 +3735,16 @@
 			(type default)
 		)
 		(uuid "bae42e4b-df7d-42f1-8642-09332813ebdd")
+	)
+	(wire
+		(pts
+			(xy 104.14 71.12) (xy 104.14 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4cfe68-48fe-46ff-a09d-c20816b0543c")
 	)
 	(wire
 		(pts
@@ -3670,6 +3858,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 69.85) (xy 22.86 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9fd74e-5cf1-4e4e-bd5b-188fffc8259c")
+	)
+	(wire
+		(pts
 			(xy 228.6 177.8) (xy 229.87 177.8)
 		)
 		(stroke
@@ -3727,6 +3925,16 @@
 			(type default)
 		)
 		(uuid "d96235b8-f1f6-455f-ab0f-139248b4f302")
+	)
+	(wire
+		(pts
+			(xy 95.25 80.01) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c335fa-2a24-4ee5-a701-1bfb979b088f")
 	)
 	(wire
 		(pts
@@ -3967,6 +4175,16 @@
 			(type default)
 		)
 		(uuid "fb2690c7-a7ad-481c-a2be-e72f64f8290d")
+	)
+	(wire
+		(pts
+			(xy 13.97 67.31) (xy 13.97 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc18d87a-70f4-462a-b44a-473f922cc5bf")
 	)
 	(wire
 		(pts
@@ -6738,6 +6956,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 31.75 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06459564-2896-4002-b95d-8b99650b18ac")
+		(property "Reference" "R41"
+			(at 34.29 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 34.29 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 33.528 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 31.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ac440f8-b616-4987-b1d4-8572ea03c4d4")
+		)
+		(pin "1"
+			(uuid "3e24211d-d527-43ef-90ec-6695453956fd")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 245.11 160.02 0)
 		(unit 1)
@@ -7356,6 +7644,71 @@
 			(project "ekspander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VD")
+		(at 95.25 81.28 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "28498d49-54da-44fc-b000-7735cb18a4c2")
+		(property "Reference" "#PWR0130"
+			(at 95.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 100.076 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 95.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64df2ebd-0fbe-4b31-946a-fae170f210e4")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -8126,6 +8479,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VD")
+		(at 19.05 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fa79d36-82af-4f6d-96bd-cb58c72bc25d")
+		(property "Reference" "#PWR0129"
+			(at 19.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 23.876 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 19.05 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c370a7ac-2b12-4f32-83be-e1b67b33bc2d")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator:LTV-847")
 		(at 190.5 120.65 0)
 		(unit 2)
@@ -8384,6 +8802,75 @@
 			(project "espander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 22.86 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "577ba01c-0f7b-4384-95ab-08be8660d910")
+		(property "Reference" "R40"
+			(at 25.654 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 25.4 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 24.638 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 22.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68416df0-9f69-481c-9bb8-600ee2a8ce74")
+		)
+		(pin "1"
+			(uuid "4c2b4668-9d3d-4f39-a39e-e243fe664483")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -10037,6 +10524,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 95.25 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3eb46de-d895-45d9-87ad-ab71a0cce3af")
+		(property "Reference" "R43"
+			(at 98.044 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 97.79 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 97.028 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3356004-b5d1-42e7-9d87-1089b465d1ad")
+		)
+		(pin "1"
+			(uuid "199a04d0-7ab0-4f6b-bcc9-0143dab68b47")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 13.97 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6728725-694e-4512-85f1-6d43803b5f4c")
+		(property "Reference" "R39"
+			(at 16.764 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 16.51 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 15.748 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 13.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 13.97 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10f1b38a-ff49-4130-a850-5bf62f6a3ebb")
+		)
+		(pin "1"
+			(uuid "de5e9671-eed0-498f-a7c8-dfca6f436923")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Isolator:LTV-847")
 		(at 45.72 151.13 0)
 		(unit 2)
@@ -10275,6 +10900,75 @@
 			(project "espander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d205b343-fe43-4dae-9607-73ef2d4bffcf")
+		(property "Reference" "R42"
+			(at 89.154 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 88.9 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 88.138 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b6b5fb0-63b7-45c9-b285-aff3c37c1632")
+		)
+		(pin "1"
+			(uuid "5bfe913c-9820-4362-9cb9-0eb70cd89a92")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -11258,6 +11952,76 @@
 			(project "ekspander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
 					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 104.14 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fec8e0b2-008b-450f-891d-af084f1de402")
+		(property "Reference" "R44"
+			(at 106.68 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 106.68 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 105.918 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7576b7df-4c86-4fdc-942f-d79231d66030")
+		)
+		(pin "1"
+			(uuid "dc5ae241-497d-4ea1-a61b-ab9eeddaaf7b")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/9001afb0-babe-4a20-8145-9e37070672bc"
+					(reference "R44")
 					(unit 1)
 				)
 			)
