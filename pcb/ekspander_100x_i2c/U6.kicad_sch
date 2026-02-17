@@ -2062,6 +2062,266 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "LTST-C170KRKT:LTST-C170KRKT"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "LTST-C170KRKT"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "LEDC2012X120N"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Lite-On"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LTST-C170KRKT"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "859-LTST-C170KRKT"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "LTST-C170KRKT"
+				(at 12.7 -893.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170krkt/lite-on-technology?utm_currency=USD&region=nac"
+				(at 12.7 -993.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "LTST-C170KRKT_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 2.54) (xy 6.35 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+24V"
 			(power)
 			(pin_numbers
@@ -2421,10 +2681,28 @@
 		(uuid "00dbf107-841d-481e-b7e2-7a0322e60e85")
 	)
 	(junction
+		(at 252.73 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a246abf-70c8-442b-86a5-1fd7525df31c")
+	)
+	(junction
+		(at 97.79 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1630ce2b-e9f5-41eb-9d58-ff3209446f57")
+	)
+	(junction
 		(at 180.34 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1711fdf3-1899-43ec-a512-50bb3148bc33")
+	)
+	(junction
+		(at 198.12 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26ad7681-2b69-4840-be5b-5e2f2d0e5b55")
 	)
 	(junction
 		(at 250.19 52.07)
@@ -2457,7 +2735,7 @@
 		(uuid "7b6a49a4-7082-4d04-b553-45a9e1453604")
 	)
 	(junction
-		(at 193.04 52.07)
+		(at 152.4 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84c5de3c-8616-40e3-b606-c2a6187256fe")
@@ -2469,7 +2747,7 @@
 		(uuid "b25c0e77-b631-4178-b66b-56a60bf3716e")
 	)
 	(junction
-		(at 191.77 52.07)
+		(at 151.13 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4f33255-a272-4dab-90f5-69a9c0014a20")
@@ -2481,10 +2759,16 @@
 		(uuid "b7990882-7f56-4cba-bc92-6cd0765befea")
 	)
 	(junction
-		(at 194.31 21.59)
+		(at 153.67 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8f2c613-dad1-44cd-b1af-e52763014663")
+	)
+	(junction
+		(at 153.67 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3a34f52-08cd-482c-a9e6-ddb3f1e2697c")
 	)
 	(junction
 		(at 264.16 119.38)
@@ -2546,13 +2830,43 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 21.59) (xy 168.91 21.59)
+			(xy 121.92 27.94) (xy 143.51 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "070af646-9e8a-42fa-96aa-cb4d27817fd6")
+	)
+	(wire
+		(pts
+			(xy 153.67 26.67) (xy 128.27 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a2c5f6f-e7ca-44ac-9440-4fb3838ea222")
+	)
+	(wire
+		(pts
+			(xy 139.7 21.59) (xy 139.7 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a53f706-d1a8-472e-9c70-cee0a2301451")
+	)
+	(wire
+		(pts
+			(xy 139.7 25.4) (xy 153.67 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b18b40a-4feb-42f5-addb-40ec34693c01")
 	)
 	(wire
 		(pts
@@ -2626,13 +2940,23 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 17.78) (xy 194.31 21.59)
+			(xy 153.67 22.86) (xy 153.67 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2b2ca978-5604-4670-93e9-fb2bf1ddae06")
+	)
+	(wire
+		(pts
+			(xy 121.92 29.21) (xy 121.92 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b95e3d1-3cda-4371-b877-258f4896233b")
 	)
 	(wire
 		(pts
@@ -2676,7 +3000,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 52.07) (xy 194.31 52.07)
+			(xy 152.4 57.15) (xy 153.67 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2703,6 +3027,26 @@
 			(type default)
 		)
 		(uuid "3fbce4d2-ee56-42c0-9504-67db2f0b3aa3")
+	)
+	(wire
+		(pts
+			(xy 220.98 31.75) (xy 242.57 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b64b1a-5e82-461c-b4df-f3fe41349e3e")
+	)
+	(wire
+		(pts
+			(xy 120.65 40.64) (xy 143.51 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42db813b-8872-4e77-965e-1f975914a56c")
 	)
 	(wire
 		(pts
@@ -2736,6 +3080,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 29.21) (xy 121.92 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b459e43-0586-4989-b5a2-4f7a123424c4")
+	)
+	(wire
+		(pts
 			(xy 21.59 33.02) (xy 36.83 33.02)
 		)
 		(stroke
@@ -2756,7 +3110,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 50.8) (xy 191.77 52.07)
+			(xy 151.13 55.88) (xy 151.13 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2783,6 +3137,16 @@
 			(type default)
 		)
 		(uuid "53c4c96d-92d6-4491-8a39-32207fa9c998")
+	)
+	(wire
+		(pts
+			(xy 238.76 17.78) (xy 238.76 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "541510e6-f5b8-4f7e-b004-8834bc932523")
 	)
 	(wire
 		(pts
@@ -2826,13 +3190,23 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 52.07) (xy 191.77 52.07)
+			(xy 128.27 57.15) (xy 151.13 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "629fec06-3ac0-41db-8b75-0fc951fde464")
+	)
+	(wire
+		(pts
+			(xy 97.79 29.21) (xy 97.79 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fe2fc7-9c5a-49ee-b05b-f03fc8fa40fa")
 	)
 	(wire
 		(pts
@@ -2856,6 +3230,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 27.94) (xy 143.51 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2874a0-aa3a-4232-817c-b3b62856de19")
+	)
+	(wire
+		(pts
 			(xy 250.19 52.07) (xy 251.46 52.07)
 		)
 		(stroke
@@ -2863,6 +3247,16 @@
 			(type default)
 		)
 		(uuid "6bec68b5-84d8-4baa-92e4-1a64f0568b95")
+	)
+	(wire
+		(pts
+			(xy 195.58 17.78) (xy 238.76 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c39ab1e-8bc0-4916-a6ac-b107873d978c")
 	)
 	(wire
 		(pts
@@ -2876,6 +3270,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 21.59) (xy 139.7 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e781248-9eb5-4eb4-869a-d3ea9457c224")
+	)
+	(wire
+		(pts
 			(xy 181.61 119.38) (xy 180.34 119.38)
 		)
 		(stroke
@@ -2883,6 +3287,16 @@
 			(type default)
 		)
 		(uuid "6fbd8b2b-e774-4988-9f1f-d5f263672974")
+	)
+	(wire
+		(pts
+			(xy 198.12 25.4) (xy 198.12 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "706ca48c-267c-4104-a306-02ae6e510b00")
 	)
 	(wire
 		(pts
@@ -2903,6 +3317,16 @@
 			(type default)
 		)
 		(uuid "711861b3-b34b-4a83-8a54-55c62f1382d3")
+	)
+	(wire
+		(pts
+			(xy 143.51 40.64) (xy 143.51 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f8b570-12d3-468c-a4c4-715aae0564e3")
 	)
 	(wire
 		(pts
@@ -2936,7 +3360,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 31.75) (xy 168.91 52.07)
+			(xy 128.27 36.83) (xy 128.27 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2986,6 +3410,26 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 31.75) (xy 242.57 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f338768-de60-434d-98d6-2cd0c7a47225")
+	)
+	(wire
+		(pts
+			(xy 242.57 33.02) (xy 224.79 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926234ea-61f8-497a-9015-9fe562e4632d")
+	)
+	(wire
+		(pts
 			(xy 260.35 134.62) (xy 264.16 134.62)
 		)
 		(stroke
@@ -2996,7 +3440,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 21.59) (xy 168.91 24.13)
+			(xy 198.12 30.48) (xy 198.12 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b465b5-effe-44b6-9dd5-183d88d5b645")
+	)
+	(wire
+		(pts
+			(xy 128.27 26.67) (xy 128.27 29.21)
 		)
 		(stroke
 			(width 0)
@@ -3126,7 +3580,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 17.78) (xy 252.73 21.59)
+			(xy 252.73 17.78) (xy 252.73 19.05)
 		)
 		(stroke
 			(width 0)
@@ -3226,13 +3680,43 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 52.07) (xy 193.04 52.07)
+			(xy 195.58 30.48) (xy 195.58 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f451b4-9380-4546-b4a7-313cf8d8ba1c")
+	)
+	(wire
+		(pts
+			(xy 151.13 57.15) (xy 152.4 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c1e32b13-33cb-436e-ad8a-a04ba86e49d8")
+	)
+	(wire
+		(pts
+			(xy 224.79 33.02) (xy 224.79 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d89361-9911-4514-bfc2-0c60d94245f2")
+	)
+	(wire
+		(pts
+			(xy 96.52 34.29) (xy 96.52 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5774cd0-d200-4782-b3f4-1dc44320df22")
 	)
 	(wire
 		(pts
@@ -3246,6 +3730,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 25.4) (xy 153.67 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca3f6086-bb37-4106-8477-2c7b227235b7")
+	)
+	(wire
+		(pts
 			(xy 180.34 134.62) (xy 180.34 149.86)
 		)
 		(stroke
@@ -3256,7 +3750,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 21.59) (xy 194.31 25.4)
+			(xy 153.67 26.67) (xy 153.67 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3286,6 +3780,36 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 25.4) (xy 220.98 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2477730-78b8-4cfd-b1cf-21250ae88087")
+	)
+	(wire
+		(pts
+			(xy 198.12 30.48) (xy 195.58 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6cd80e0-3968-438b-8b5a-7568190f9e53")
+	)
+	(wire
+		(pts
+			(xy 97.79 34.29) (xy 97.79 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8be01a4-cc05-4335-bdf4-c19f42589afd")
+	)
+	(wire
+		(pts
 			(xy 260.35 119.38) (xy 264.16 119.38)
 		)
 		(stroke
@@ -3303,6 +3827,16 @@
 			(type default)
 		)
 		(uuid "da1b815d-c7d9-4bc9-8f10-30acb96218cd")
+	)
+	(wire
+		(pts
+			(xy 238.76 19.05) (xy 252.73 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db524158-7365-46c5-896a-5cf304a500df")
 	)
 	(wire
 		(pts
@@ -3346,6 +3880,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 34.29) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e62067e7-59d6-4b69-986e-16467f17ee96")
+	)
+	(wire
+		(pts
 			(xy 54.61 19.05) (xy 54.61 22.86)
 		)
 		(stroke
@@ -3376,6 +3920,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 19.05) (xy 252.73 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f38b3d96-1387-4ba6-ac27-81ea8ad437e8")
+	)
+	(wire
+		(pts
 			(xy 227.33 52.07) (xy 250.19 52.07)
 		)
 		(stroke
@@ -3386,7 +3940,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 50.8) (xy 194.31 52.07)
+			(xy 224.79 36.83) (xy 220.98 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa107e6b-9461-4136-8cf8-f6f2a881bff8")
+	)
+	(wire
+		(pts
+			(xy 153.67 55.88) (xy 153.67 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3556,7 +4120,7 @@
 		)
 	)
 	(label "ZC78_OPEN_MOTOR"
-		(at 204.47 40.64 0)
+		(at 163.83 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3566,7 +4130,7 @@
 		)
 		(uuid "40762973-c6c6-4ef0-8963-8c9b53747a0e")
 		(property "Netclass" "+24V"
-			(at 204.47 41.91 0)
+			(at 163.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3904,7 +4468,7 @@
 		)
 	)
 	(label "U6-GPB4"
-		(at 184.15 38.1 180)
+		(at 143.51 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3913,7 +4477,7 @@
 		)
 		(uuid "aa639166-4b25-45a0-8aeb-a7c097e5cc23")
 		(property "Netclass" "GPIO"
-			(at 173.99 38.1 0)
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3925,7 +4489,7 @@
 		)
 	)
 	(label "U6-GPB5"
-		(at 184.15 40.64 180)
+		(at 143.51 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3934,7 +4498,7 @@
 		)
 		(uuid "aabf03e3-066a-4ad5-8dfd-0f2426e64646")
 		(property "Netclass" "GPIO"
-			(at 174.244 40.64 0)
+			(at 133.604 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4010,7 +4574,7 @@
 		)
 	)
 	(label "ZC77_CLOSE_MOTOR"
-		(at 204.47 35.56 0)
+		(at 163.83 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4020,7 +4584,7 @@
 		)
 		(uuid "b63d5f45-d15e-4b86-880c-303adc0cc45f")
 		(property "Netclass" "+24V"
-			(at 204.47 36.83 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +4595,7 @@
 		)
 	)
 	(label "ZC77_OPEN_MOTOR"
-		(at 204.47 30.48 0)
+		(at 163.83 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4041,7 +4605,7 @@
 		)
 		(uuid "b9cdd9a3-49c4-40ad-9c4e-a7c059a77451")
 		(property "Netclass" "+24V"
-			(at 204.47 31.75 0)
+			(at 163.83 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +4740,7 @@
 		)
 	)
 	(label "ZC78_CLOSE_MOTOR"
-		(at 204.47 45.72 0)
+		(at 163.83 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4186,7 +4750,7 @@
 		)
 		(uuid "d941ce2b-311e-47cb-9b7c-8382bdee95dc")
 		(property "Netclass" "+24V"
-			(at 204.47 46.99 0)
+			(at 163.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4996,7 @@
 	)
 	(global_label "U6-GPB7"
 		(shape output)
-		(at 184.15 45.72 180)
+		(at 143.51 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4442,7 +5006,7 @@
 		)
 		(uuid "222087e2-53c0-4f37-93bd-525f7c58732b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.0329 45.72 0)
+			(at 131.3929 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +5084,7 @@
 	)
 	(global_label "U6-GPB6"
 		(shape bidirectional)
-		(at 184.15 43.18 180)
+		(at 143.51 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4530,7 +5094,7 @@
 		)
 		(uuid "438996ae-5bd3-44e0-876a-3adf68d3f86d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.9216 43.18 0)
+			(at 130.2816 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4910,6 +5474,192 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LTST-C170KRKT:LTST-C170KRKT")
+		(at 120.65 29.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a7ddd48-0896-46ff-8e16-80179e070ab5")
+		(property "Reference" "D25"
+			(at 123.19 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Red"
+			(at 119.38 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1_tme:LEDC2012X120N"
+			(at 107.95 -64.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf"
+			(at 107.95 -164.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+			(at 120.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-17976"
+			(at 120.65 24.638 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMax" ""
+			(at 120.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VDrop" ""
+			(at 120.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VMax" ""
+			(at 120.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 120.65 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 107.95 -364.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 107.95 -464.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KRKT"
+			(at 107.95 -564.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KRKT"
+			(at 107.95 -664.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"
+			(at 107.95 -764.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LTST-C170KRKT"
+			(at 107.95 -864.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170krkt/lite-on-technology?utm_currency=USD&region=nac"
+			(at 107.95 -964.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81d6154b-816d-4ea2-b669-ae5db686614b")
+		)
+		(pin "1"
+			(uuid "aa8bfaad-b66b-4bcf-a2d3-21a2e4fd612d")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/8bfbd7d0-83f8-4b04-af03-9d1fd88c9002"
+					(reference "D25")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5472,6 +6222,192 @@
 		)
 	)
 	(symbol
+		(lib_id "LTST-C170KRKT:LTST-C170KRKT")
+		(at 220.98 36.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "227fa392-582c-4697-8376-4e7387a3bdce")
+		(property "Reference" "D28"
+			(at 223.52 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Red"
+			(at 219.71 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1_tme:LEDC2012X120N"
+			(at 208.28 -56.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf"
+			(at 208.28 -156.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-17976"
+			(at 220.98 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMax" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VDrop" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VMax" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 220.98 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 208.28 -356.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 208.28 -456.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KRKT"
+			(at 208.28 -556.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KRKT"
+			(at 208.28 -656.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"
+			(at 208.28 -756.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LTST-C170KRKT"
+			(at 208.28 -856.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170krkt/lite-on-technology?utm_currency=USD&region=nac"
+			(at 208.28 -956.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e33a783c-f680-4cd6-bec0-00eeb0f71de8")
+		)
+		(pin "1"
+			(uuid "283ddd88-027b-43cc-bbc4-9c554c4227ba")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/8bfbd7d0-83f8-4b04-af03-9d1fd88c9002"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 156.21 0)
 		(unit 1)
@@ -5873,7 +6809,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 194.31 17.78 0)
+		(at 153.67 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5881,7 +6817,7 @@
 		(dnp no)
 		(uuid "51e68ab8-43f0-4291-96c6-9544b69aa156")
 		(property "Reference" "#PWR078"
-			(at 194.31 21.59 0)
+			(at 153.67 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5890,7 +6826,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 189.738 17.018 0)
+			(at 149.098 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5898,7 +6834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 17.78 0)
+			(at 153.67 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5907,7 +6843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 17.78 0)
+			(at 153.67 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5916,7 +6852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 194.31 17.78 0)
+			(at 153.67 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +8020,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 52.07 0)
+		(at 152.4 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7093,7 +8029,7 @@
 		(fields_autoplaced yes)
 		(uuid "acc237c9-58e5-4f46-8310-7af17df43bdb")
 		(property "Reference" "#PWR077"
-			(at 193.04 58.42 0)
+			(at 152.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7102,7 +8038,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 57.15 0)
+			(at 152.4 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7110,7 +8046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 52.07 0)
+			(at 152.4 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7119,7 +8055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 52.07 0)
+			(at 152.4 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7128,7 +8064,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 52.07 0)
+			(at 152.4 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7216,7 +8152,7 @@
 	)
 	(symbol
 		(lib_id "Driver_FET:ITS716G")
-		(at 194.31 38.1 0)
+		(at 153.67 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7225,7 +8161,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9bf53a8-944a-4549-bc57-3e7abb6b8235")
 		(property "Reference" "U31"
-			(at 196.4533 22.86 0)
+			(at 155.8133 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7234,7 +8170,7 @@
 			)
 		)
 		(property "Value" "ITS716G"
-			(at 196.4533 25.4 0)
+			(at 155.8133 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,7 +8179,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
-			(at 194.31 48.26 0)
+			(at 153.67 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7252,7 +8188,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ITS716G-DS-v01_01-en.pdf?fileId=db3a304412b407950112b428c2cf3e6d"
-			(at 194.31 38.1 0)
+			(at 153.67 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7261,7 +8197,7 @@
 			)
 		)
 		(property "Description" "Smart High-Side Power Switch for Industrial Applications, Four Channels, Rds 140mΩ, SOIC-20W"
-			(at 194.31 38.1 0)
+			(at 153.67 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7453,7 +8389,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 168.91 27.94 0)
+		(at 128.27 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7461,7 +8397,7 @@
 		(dnp no)
 		(uuid "bfba7135-517a-4c80-8057-e1239cd9b2e9")
 		(property "Reference" "C25"
-			(at 173.736 27.94 90)
+			(at 133.096 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7469,7 +8405,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 167.64 23.622 90)
+			(at 127 28.702 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7477,7 +8413,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 169.8752 31.75 0)
+			(at 129.2352 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7486,7 +8422,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 27.94 0)
+			(at 128.27 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7495,7 +8431,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 168.91 27.94 0)
+			(at 128.27 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7513,6 +8449,378 @@
 			(project "ekspander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/8bfbd7d0-83f8-4b04-af03-9d1fd88c9002"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LTST-C170KRKT:LTST-C170KRKT")
+		(at 220.98 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb02c21d-c962-4524-9009-6587a7bdada7")
+		(property "Reference" "D27"
+			(at 223.52 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Red"
+			(at 219.71 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1_tme:LEDC2012X120N"
+			(at 208.28 -68.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf"
+			(at 208.28 -168.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-17976"
+			(at 220.98 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMax" ""
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VDrop" ""
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VMax" ""
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 208.28 -368.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 208.28 -468.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KRKT"
+			(at 208.28 -568.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KRKT"
+			(at 208.28 -668.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"
+			(at 208.28 -768.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LTST-C170KRKT"
+			(at 208.28 -868.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170krkt/lite-on-technology?utm_currency=USD&region=nac"
+			(at 208.28 -968.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96fc89ab-ca3f-4170-a8d5-7410960e21dd")
+		)
+		(pin "1"
+			(uuid "dab372be-75c4-40e6-b9ec-e4210479a055")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/8bfbd7d0-83f8-4b04-af03-9d1fd88c9002"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LTST-C170KRKT:LTST-C170KRKT")
+		(at 120.65 40.64 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1863a3c-7c59-410c-b012-5ef32909d322")
+		(property "Reference" "D26"
+			(at 123.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Red"
+			(at 119.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1_tme:LEDC2012X120N"
+			(at 107.95 -53.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LTST-C170KRKT.pdf"
+			(at 107.95 -153.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Standard LEDs - SMD Red Clear 631nm"
+			(at 120.65 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-17976"
+			(at 120.65 36.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "IMax" ""
+			(at 120.65 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VDrop" ""
+			(at 120.65 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VMax" ""
+			(at 120.65 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Comments" ""
+			(at 120.65 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 107.95 -353.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Lite-On"
+			(at 107.95 -453.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LTST-C170KRKT"
+			(at 107.95 -553.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "859-LTST-C170KRKT"
+			(at 107.95 -653.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KRKT?qs=NUb82WqeCyrVOID%2Fxt4rgA%3D%3D"
+			(at 107.95 -753.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LTST-C170KRKT"
+			(at 107.95 -853.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ltst-c170krkt/lite-on-technology?utm_currency=USD&region=nac"
+			(at 107.95 -953.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6d0ff22-45d4-44f1-987b-e3b9d946355d")
+		)
+		(pin "1"
+			(uuid "15ba6ede-3bf1-44c3-b81a-dda6afce88fb")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/8bfbd7d0-83f8-4b04-af03-9d1fd88c9002"
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -7829,6 +9137,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 201.93 25.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9257a70-ec1e-4367-8d27-e34edf2c96ee")
+		(property "Reference" "R67"
+			(at 200.66 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 203.2 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 201.93 23.622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62e88c8f-b3a8-49d7-8123-b483643eb25f")
+		)
+		(pin "1"
+			(uuid "a72502ca-6cca-49d3-be7a-18ba7ef0a3fc")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/8bfbd7d0-83f8-4b04-af03-9d1fd88c9002"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 66.04 19.05 0)
 		(unit 1)
@@ -7889,6 +9266,213 @@
 			(project "ekspander_100x_i2c"
 				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/8bfbd7d0-83f8-4b04-af03-9d1fd88c9002"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1612fe3-e3a5-4a8b-87fa-be6386a1756e")
+		(property "Reference" "R68"
+			(at 200.406 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 202.946 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 201.93 35.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b83b9217-64d9-44dc-a355-b3f9324921e1")
+		)
+		(pin "1"
+			(uuid "7815e6ed-68b9-4b5b-8029-9e04cd3b51d8")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/8bfbd7d0-83f8-4b04-af03-9d1fd88c9002"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 29.21 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f613a9da-601b-48b7-86ab-7b8aa06cd699")
+		(property "Reference" "R65"
+			(at 100.33 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 102.87 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 101.6 27.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b1bd1b8-c372-4dfc-a1c5-4a0058e440c7")
+		)
+		(pin "1"
+			(uuid "b69e0009-127a-428a-b98f-274c8c005869")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/8bfbd7d0-83f8-4b04-af03-9d1fd88c9002"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f87e65e8-b457-46f0-9be4-cc0a5181ebc0")
+		(property "Reference" "R66"
+			(at 100.076 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 102.616 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 101.6 38.862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d80e0c41-8784-4050-9bf3-af1f08fec85b")
+		)
+		(pin "1"
+			(uuid "2408bb6e-86fb-4236-97c7-e92e59994570")
+		)
+		(instances
+			(project "ekspander_100x_i2c"
+				(path "/824ceec5-564f-405b-8bea-e5a9f7aa2926/8bfbd7d0-83f8-4b04-af03-9d1fd88c9002"
+					(reference "R66")
 					(unit 1)
 				)
 			)
