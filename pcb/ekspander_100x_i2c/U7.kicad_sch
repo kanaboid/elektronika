@@ -5259,28 +5259,6 @@
 			)
 		)
 	)
-	(label "ZCX06_OPEN_MOTOR"
-		(at 105.41 187.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61e77e5d-6802-4421-95cc-d98062fd975d")
-		(property "Netclass" "+24V"
-			(at 105.41 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(label "U7-GPB0"
 		(at 69.85 31.75 0)
 		(effects
@@ -6107,28 +6085,6 @@
 			)
 		)
 	)
-	(label "ZCX06_CLOSE_MOTOR"
-		(at 85.09 187.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d5097a6b-de6d-4841-9c1e-dab673e50002")
-		(property "Netclass" "+24V"
-			(at 85.09 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(label "U7-GPA1"
 		(at 269.24 133.35 0)
 		(effects
@@ -6478,28 +6434,6 @@
 			)
 		)
 	)
-	(global_label "ZCX07_OPEN_LED"
-		(shape input)
-		(at 85.09 190.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "02d48652-9a72-4c75-8684-0bf2ea1207a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.6274 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ZCX01_OPEN_LED"
 		(shape input)
 		(at 179.07 148.59 180)
@@ -6616,6 +6550,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RS485{slash}A"
+		(shape input)
+		(at 105.41 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "354d7613-16b7-4243-922c-052459b1296d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.1037 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -6882,28 +6838,6 @@
 			)
 		)
 	)
-	(global_label "ZCX07_CLOSE_LED"
-		(shape input)
-		(at 105.41 190.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "911ae36f-089c-464a-a146-c640d259c4ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.9655 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "U7-GPB6"
 		(shape input)
 		(at 243.84 41.91 180)
@@ -6932,28 +6866,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ZCX06_OPEN_LED"
-		(shape input)
-		(at 105.41 193.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "928ba3fc-13ae-4871-8fb4-9899bf5f2164")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.9655 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -7110,6 +7022,28 @@
 			)
 		)
 	)
+	(global_label "RS485{slash}B"
+		(shape input)
+		(at 85.09 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b37e92dc-a6a8-498c-81d5-0799f4f36ce5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 73.5777 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ZCX02_CLOSE_LED"
 		(shape input)
 		(at 53.34 114.3 0)
@@ -7243,28 +7177,6 @@
 		(uuid "e51c489c-bea5-402c-b2c9-8ee389540936")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 14.7345 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ZCX06_CLOSE_LED"
-		(shape input)
-		(at 85.09 193.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e6392deb-f0c6-435c-8a80-56a8fdd2e085")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.6274 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10044,7 +9956,7 @@
 	)
 	(symbol
 		(lib_id "1_tme:DG127A-5.08-06P-14-00AH")
-		(at 85.09 193.04 0)
+		(at 85.09 191.77 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10053,7 +9965,7 @@
 		(dnp no)
 		(uuid "5b9b5133-2f8a-4697-be40-4dc4e78f8ed5")
 		(property "Reference" "J22"
-			(at 95.758 197.612 0)
+			(at 95.758 196.342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10061,7 +9973,7 @@
 			)
 		)
 		(property "Value" "DG127A-5.08-06P-14-00AH"
-			(at 95.758 181.356 0)
+			(at 95.758 180.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10070,7 +9982,7 @@
 			)
 		)
 		(property "Footprint" "DG127A50806P1400AH"
-			(at 101.6 98.12 0)
+			(at 101.6 96.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10080,7 +9992,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.degson.com/index.php?a=downloadFile&id=1094971&name=%27ZmlsZTQ=%27&lang=en"
-			(at 101.6 -1.88 0)
+			(at 101.6 -3.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10090,7 +10002,7 @@
 			)
 		)
 		(property "Description" "PCB terminal block; angled 90; 5.08mm; ways: 6; on PCBs; terminal"
-			(at 85.09 193.04 0)
+			(at 85.09 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10099,7 +10011,7 @@
 			)
 		)
 		(property "Height" "19.41"
-			(at 101.6 -201.88 0)
+			(at 101.6 -203.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10109,7 +10021,7 @@
 			)
 		)
 		(property "TME Electronic Components Part Number" ""
-			(at 101.6 -301.88 0)
+			(at 101.6 -303.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10119,7 +10031,7 @@
 			)
 		)
 		(property "TME Electronic Components Price/Stock" ""
-			(at 101.6 -401.88 0)
+			(at 101.6 -403.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10129,7 +10041,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Degson"
-			(at 101.6 -501.88 0)
+			(at 101.6 -503.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10139,7 +10051,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DG127A-5.08-06P-14-00AH"
-			(at 101.6 -601.88 0)
+			(at 101.6 -603.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
