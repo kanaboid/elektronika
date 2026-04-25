@@ -1,0 +1,15 @@
+menu "Wi-Fi app configuration"
+
+config WIFI_STA_SSID
+    string "Wi-Fi SSID"
+    default "SPIDERNET_114"
+    help
+        SSID of the access point used by station mode.
+
+config WIFI_STA_PASSWORD
+    string "Wi-Fi Password"
+    default "1234554321"
+    help
+        Password of the access point used by station mode.
+
+endmenu
