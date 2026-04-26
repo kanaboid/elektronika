@@ -14,3 +14,15 @@ config WIFI_STA_PASSWORD
         Leave empty for an open network (no encryption).
 
 endmenu
+
+menu "DS18B20 (1-Wire)"
+
+config DS18B20_GPIO_NUM
+    int "DS18B20 data GPIO"
+    default 4
+    range 0 48
+    help
+        Data line to the sensor (VDD, GND, and typically 4.7k to 3.3 V).
+        This project defaults to IO4; change if you use another pin.
+
+endmenu

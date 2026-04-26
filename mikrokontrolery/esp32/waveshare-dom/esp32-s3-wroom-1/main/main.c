@@ -1,5 +1,6 @@
 #include "freertos/FreeRTOS.h"
 #include "esp_log.h"
+#include "ds18b20_app.h"
 #include "led_status.h"
 #include "web_ui.h"
 #include "wifi_app.h"
@@ -14,6 +15,10 @@ void app_main(void)
     ESP_LOGI(TAG, "Initializing LED status module on GPIO38");
     ESP_ERROR_CHECK(led_status_init(RGB_LED_GPIO, RGB_LED_COUNT));
     ESP_ERROR_CHECK(led_status_set(LED_STATUS_BOOT));
+
+    if (ds18b20_app_start() != ESP_OK) {
+        ESP_LOGW(TAG, "DS18B20 init failed (wiring on configured GPIO or pull-up?)");
+    }
 
     ESP_LOGI(TAG, "Starting Wi-Fi station");
     ESP_ERROR_CHECK(wifi_app_start());
