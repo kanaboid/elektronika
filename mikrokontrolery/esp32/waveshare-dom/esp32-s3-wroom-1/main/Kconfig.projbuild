@@ -11,5 +11,6 @@ config WIFI_STA_PASSWORD
     default "1234554321"
     help
         Password of the access point used by station mode.
+        Leave empty for an open network (no encryption).
 
 endmenu

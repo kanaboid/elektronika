@@ -5,15 +5,12 @@
 #include "esp_check.h"
 #include "esp_event.h"
 #include "esp_log.h"
-#include "esp_mac.h"
 #include "esp_wifi.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/semphr.h"
 #include "led_status.h"
 #include "nvs_flash.h"
 
-#define WIFI_SSID "SPIDERNET_114"
-#define WIFI_PASSWORD "1234554321"
 #define WIFI_MAX_RETRY 10
 
 static const char *TAG = "wifi_app";
@@ -26,7 +23,7 @@ static int s_retry_count;
 static void wifi_event_handler(void *arg, esp_event_base_t event_base, int32_t event_id, void *event_data)
 {
     if (event_base == WIFI_EVENT && event_id == WIFI_EVENT_STA_START) {
-        ESP_LOGI(TAG, "Wi-Fi start, connecting to %s", WIFI_SSID);
+        ESP_LOGI(TAG, "Wi-Fi start, connecting to %s", CONFIG_WIFI_STA_SSID);
         led_status_set(LED_STATUS_WIFI_CONNECTING);
         esp_wifi_connect();
         return;
@@ -62,7 +59,7 @@ static void wifi_event_handler(void *arg, esp_event_base_t event_base, int32_t e
             s_status.connected = true;
             s_status.ip = event->ip_info.ip;
             s_status.rssi = (ap_err == ESP_OK) ? ap_info.rssi : 0;
-            strlcpy(s_status.ssid, WIFI_SSID, sizeof(s_status.ssid));
+            strlcpy(s_status.ssid, CONFIG_WIFI_STA_SSID, sizeof(s_status.ssid));
             xSemaphoreGive(s_state_lock);
         }
 
@@ -97,16 +94,19 @@ esp_err_t wifi_app_start(void)
     }
 
     memset(&s_status, 0, sizeof(s_status));
-    strlcpy(s_status.ssid, WIFI_SSID, sizeof(s_status.ssid));
+    strlcpy(s_status.ssid, CONFIG_WIFI_STA_SSID, sizeof(s_status.ssid));
 
     wifi_init_config_t cfg = WIFI_INIT_CONFIG_DEFAULT();
     ESP_RETURN_ON_ERROR(esp_wifi_init(&cfg), TAG, "esp_wifi_init failed");
     ESP_RETURN_ON_ERROR(esp_event_handler_register(WIFI_EVENT, ESP_EVENT_ANY_ID, &wifi_event_handler, NULL), TAG, "register WIFI_EVENT failed");
     ESP_RETURN_ON_ERROR(esp_event_handler_register(IP_EVENT, IP_EVENT_STA_GOT_IP, &wifi_event_handler, NULL), TAG, "register IP_EVENT failed");
 
+    const bool open_network = (CONFIG_WIFI_STA_PASSWORD[0] == '\0');
+
     wifi_config_t wifi_config = {
         .sta = {
-            .threshold.authmode = WIFI_AUTH_WPA2_PSK,
+            /* Open AP: must allow WIFI_AUTH_OPEN; secured AP: require at least WPA2-PSK */
+            .threshold.authmode = open_network ? WIFI_AUTH_OPEN : WIFI_AUTH_WPA2_PSK,
             .pmf_cfg = {
                 .capable = true,
                 .required = false,
@@ -114,8 +114,18 @@ esp_err_t wifi_app_start(void)
         },
     };
 
-    strlcpy((char *)wifi_config.sta.ssid, WIFI_SSID, sizeof(wifi_config.sta.ssid));
-    strlcpy((char *)wifi_config.sta.password, WIFI_PASSWORD, sizeof(wifi_config.sta.password));
+    strlcpy((char *)wifi_config.sta.ssid, CONFIG_WIFI_STA_SSID, sizeof(wifi_config.sta.ssid));
+    strlcpy((char *)wifi_config.sta.password, CONFIG_WIFI_STA_PASSWORD, sizeof(wifi_config.sta.password));
+
+    if (wifi_config.sta.ssid[0] == '\0') {
+        ESP_LOGE(TAG, "Wi-Fi SSID is empty — set CONFIG_WIFI_STA_SSID in menuconfig (Wi-Fi app configuration)");
+        return ESP_ERR_INVALID_ARG;
+    }
+
+    ESP_LOGI(TAG, "Using Kconfig Wi-Fi: SSID='%s' %s password_len=%u",
+             CONFIG_WIFI_STA_SSID,
+             open_network ? "(open network)" : "(secured)",
+             (unsigned)strlen(CONFIG_WIFI_STA_PASSWORD));
 
     ESP_RETURN_ON_ERROR(esp_wifi_set_mode(WIFI_MODE_STA), TAG, "esp_wifi_set_mode failed");
     ESP_RETURN_ON_ERROR(esp_wifi_set_config(WIFI_IF_STA, &wifi_config), TAG, "esp_wifi_set_config failed");
