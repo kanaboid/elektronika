@@ -1,5 +1,6 @@
 #include "freertos/FreeRTOS.h"
 #include "esp_log.h"
+#include "a01nyub_app.h"
 #include "ds18b20_app.h"
 #include "led_status.h"
 #include "web_ui.h"
@@ -18,6 +19,10 @@ void app_main(void)
 
     if (ds18b20_app_start() != ESP_OK) {
         ESP_LOGW(TAG, "DS18B20 init failed (wiring on configured GPIO or pull-up?)");
+    }
+
+    if (a01nyub_app_start() != ESP_OK) {
+        ESP_LOGW(TAG, "A01NYUB init failed (check UART wiring/pins)");
     }
 
     ESP_LOGI(TAG, "Starting Wi-Fi station");

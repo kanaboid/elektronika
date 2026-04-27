@@ -15,6 +15,60 @@ config WIFI_STA_PASSWORD
 
 endmenu
 
+menu "A01NYUB (UART distance sensor)"
+
+config A01NYUB_UART_PORT
+    int "UART port number"
+    default 1
+    range 0 2
+    help
+        UART peripheral index used by A01NYUB.
+
+config A01NYUB_UART_RX_GPIO
+    int "UART RX GPIO"
+    default 18
+    range 0 48
+    help
+        ESP32 RX pin connected to A01NYUB TX data output.
+
+config A01NYUB_MODE_GPIO
+    int "Mode GPIO connected to sensor RX (-1 disabled)"
+    default -1
+    range -1 48
+    help
+        Optional dedicated GPIO wired to A01NYUB RX pin.
+        -1 means mode is not controlled by firmware.
+
+config A01NYUB_MODE_REALTIME_DEFAULT
+    bool "Default mode: realtime (LOW on mode pin)"
+    default n
+    help
+        If enabled, firmware drives mode pin LOW (realtime).
+        If disabled, firmware drives mode pin HIGH (stable/smoothed).
+
+config A01NYUB_POLL_MS
+    int "Read loop interval [ms]"
+    default 100
+    range 20 1000
+    help
+        Task delay between UART polling cycles.
+
+config A01NYUB_FRAME_TIMEOUT_MS
+    int "Single frame timeout [ms]"
+    default 150
+    range 20 1000
+    help
+        UART timeout used when waiting for bytes of one frame.
+
+config A01NYUB_STALE_MS
+    int "Mark reading stale after [ms]"
+    default 3000
+    range 200 30000
+    help
+        If no valid frame appears for longer than this, reading is reported as stale.
+
+endmenu
+
 menu "DS18B20 (1-Wire)"
 
 config DS18B20_GPIO_NUM
