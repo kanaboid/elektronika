@@ -48,7 +48,7 @@ unsigned long nextStatusTime = 0;
 #ifdef RGB_BUILTIN
 #undef RGB_BUILTIN
 #endif
-#define RGB_BUILTIN 10
+#define RGB_BUILTIN 38
 
 void handleClient() {
   WiFiClient client = server.available();

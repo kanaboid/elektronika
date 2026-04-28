@@ -1,0 +1,31 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ESP32-C3 JTAG Attach (No Flash)",
+      "type": "cppdbg",
+      "request": "launch",
+      "MIMode": "gdb",
+      "miDebuggerPath": "riscv32-esp-elf-gdb",
+      "program": "${workspaceFolder}/build/hello_world.elf",
+      "cwd": "${workspaceFolder}",
+      "miDebuggerServerAddress": "localhost:3333",
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "text": "set remotetimeout 20"
+        },
+        {
+          "text": "monitor reset halt"
+        },
+        {
+          "text": "thb app_main"
+        },
+        {
+          "text": "continue"
+        }
+      ]
+    }
+  ]
+}
