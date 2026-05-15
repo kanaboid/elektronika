@@ -1,0 +1,5 @@
+# XIAO ESP32-C3: 4 MB external flash (Seeed wiki)
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+
+# Single USB-C cable: ROM download + log + (optional) JTAG via USB Serial/JTAG
+CONFIG_ESP_CONSOLE_USB_SERIAL_JTAG=y

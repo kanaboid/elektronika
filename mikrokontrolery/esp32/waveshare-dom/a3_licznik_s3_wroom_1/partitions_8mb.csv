@@ -1,0 +1,6 @@
+# Tabela partycji dla 8 MB flash (Waveshare N8R8)
+# Name,   Type, SubType, Offset,  Size, Flags
+nvs,      data, nvs,     ,        0x6000,
+phy_init, data, phy,     ,        0x1000,
+factory,  app,  factory, ,        4M,
+storage,  data, spiffs,  ,        4000K,
