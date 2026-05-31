@@ -16,3 +16,7 @@ CONFIG_SPIRAM_USE_MALLOC=y
 
 # Konsola na UART0 (CH343 na Waveshare) — 115200, port COM w PuTTY
 CONFIG_ESP_CONSOLE_UART_DEFAULT=y
+
+# WiFi + NTP (SSID/haslo: idf.py menuconfig -> A3 Cluster — siec i czas)
+CONFIG_A3_WIFI_ENABLE=y
+CONFIG_A3_NTP_SERVER="pool.ntp.org"

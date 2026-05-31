@@ -1,0 +1,31 @@
+menu "A3 Cluster — siec i czas"
+
+    config A3_WIFI_ENABLE
+        bool "Wlacz WiFi (STA)"
+        default y
+        help
+            Laczenie z siecia domowa. SSID i haslo ustaw ponizej
+            (idf.py menuconfig -> A3 Cluster — siec i czas).
+
+    config A3_WIFI_SSID
+        string "WiFi SSID"
+        default ""
+        depends on A3_WIFI_ENABLE
+        help
+            Nazwa sieci WiFi (2.4 GHz).
+
+    config A3_WIFI_PASSWORD
+        string "WiFi haslo"
+        default ""
+        depends on A3_WIFI_ENABLE
+        help
+            Haslo WPA2 do sieci WiFi.
+
+    config A3_NTP_SERVER
+        string "Serwer NTP"
+        default "pool.ntp.org"
+        depends on A3_WIFI_ENABLE
+        help
+            Adres serwera NTP (synchronizacja zegara po polaczeniu WiFi).
+
+endmenu
